@@ -9,79 +9,123 @@
       font-family: Arial, sans-serif;
       background: #0f172a;
       color: #e2e8f0;
-      text-align: center;
-      padding: 40px;
       margin: 0;
+      padding: 30px 20px;
+      line-height: 1.5;
     }
     h1 { 
+      text-align: center; 
       color: #60a5fa; 
-      margin-bottom: 50px; 
-      font-size: 2.2em;
+      margin-bottom: 40px; 
     }
-    .group {
-      margin: 40px auto;
-      max-width: 900px;
-      text-align: left;
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
+      max-width: 1400px;
+      margin: 0 auto;
     }
-    .group h2 {
+    .section {
+      background: #1e2937;
+      padding: 24px;
+      border-radius: 16px;
+      transition: transform 0.2s;
+    }
+    .section:hover {
+      transform: translateY(-4px);
+    }
+    .section h2 {
       color: #93c5fd;
+      margin-top: 0;
       border-bottom: 2px solid #334155;
-      padding-bottom: 12px;
-      margin-bottom: 20px;
-      font-size: 1.5em;
+      padding-bottom: 10px;
     }
     a {
+      display: block;
+      padding: 14px 18px;
+      margin: 10px 0;
+      background: #334155;
       color: #bae6fd;
       text-decoration: none;
-      font-size: 1.2em;
-      display: block;
-      padding: 16px 20px;
-      margin: 10px 0;
-      background: #1e2937;
-      border-radius: 12px;
+      border-radius: 10px;
       transition: all 0.3s;
     }
     a:hover {
-      background: #334155;
+      background: #475569;
       color: white;
-      transform: translateX(12px);
-      box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+      transform: translateX(8px);
+    }
+    /* Mobile: Stack nicely */
+    @media (max-width: 768px) {
+      .grid { gap: 16px; }
+      .section { padding: 20px; }
     }
   </style>
 </head>
 <body>
   <h1>My API Dashboard</h1>
 
-  <!-- API USAGE & BILLING - Main Focus -->
-  <div class="group">
-    <h2>🔥 API Usage & Billing</h2>
-    <a href="https://platform.openai.com/usage">🔵 OpenAI Usage & Billing</a>
-    <a href="https://console.anthropic.com/settings/plans">🌟 Anthropic (Claude) Billing</a>
-    <a href="https://console.groq.com/keys">⚡ Groq Usage & Keys</a>
-    <a href="https://ai.google.dev/">🟡 Google Gemini / Vertex AI</a>
-    <a href="https://x.ai/">𝕏 xAI / Grok API</a>
-    <a href="https://platform.midjourney.com/account">🎨 Midjourney Subscription</a>
-    <a href="https://replicate.com/account">🔄 Replicate Usage</a>
-    <a href="https://stability.ai/account">🌌 Stability AI Billing</a>
-  </div>
+  <div class="grid">
 
-  <!-- Daily Essentials -->
-  <div class="group">
-    <h2>📌 Daily Essentials</h2>
-    <a href="https://mail.google.com">✉️ Gmail</a>
-    <a href="https://drive.google.com">📁 Google Drive</a>
-    <a href="https://github.com">🐙 GitHub</a>
-    <a href="https://chatgpt.com">🤖 ChatGPT</a>
-  </div>
+    <!-- Row 1: 2 Sections -->
+    <div class="section">
+      <h2>🔵 Major LLMs</h2>
+      <a href="https://platform.openai.com/usage">OpenAI Usage & Billing</a>
+      <a href="https://console.anthropic.com/settings/plans">Anthropic (Claude)</a>
+      <a href="https://console.groq.com/keys">Groq Usage</a>
+    </div>
 
-  <!-- Social & Entertainment -->
-  <div class="group">
-    <h2>🌐 Social & Entertainment</h2>
-    <a href="https://youtube.com">📺 YouTube</a>
-    <a href="https://reddit.com">🔴 Reddit</a>
-    <a href="https://x.com">𝕏 X (Twitter)</a>
-    <a href="https://netflix.com">🎬 Netflix</a>
-  </div>
+    <div class="section">
+      <h2>🌟 xAI & Others</h2>
+      <a href="https://x.ai/">xAI / Grok API</a>
+      <a href="https://ai.google.dev/">Google Gemini</a>
+      <a href="https://platform.deepseek.com/">DeepSeek</a>
+    </div>
 
+    <!-- Row 2: 3 Sections -->
+    <div class="section">
+      <h2>🎨 Image Generation</h2>
+      <a href="https://platform.midjourney.com/account">Midjourney</a>
+      <a href="https://replicate.com/account">Replicate</a>
+      <a href="https://stability.ai/account">Stability AI</a>
+    </div>
+
+    <div class="section">
+      <h2>📝 Writing & Productivity</h2>
+      <a href="https://claude.ai/">Claude.ai</a>
+      <a href="https://chatgpt.com/">ChatGPT</a>
+      <a href="https://perplexity.ai/">Perplexity</a>
+    </div>
+
+    <div class="section">
+      <h2>💻 Coding Tools</h2>
+      <a href="https://github.com/">GitHub</a>
+      <a href="https://cursor.com/">Cursor</a>
+      <a href="https://continue.dev/">Continue.dev</a>
+    </div>
+
+    <!-- Row 3: 3 Sections -->
+    <div class="section">
+      <h2>📌 Daily Essentials</h2>
+      <a href="https://mail.google.com">✉️ Gmail</a>
+      <a href="https://drive.google.com">📁 Google Drive</a>
+      <a href="https://notion.so">Notion</a>
+    </div>
+
+    <div class="section">
+      <h2>🌐 Social & Entertainment</h2>
+      <a href="https://youtube.com">📺 YouTube</a>
+      <a href="https://reddit.com">🔴 Reddit</a>
+      <a href="https://x.com">𝕏 X (Twitter)</a>
+    </div>
+
+    <div class="section">
+      <h2>🛠 Utilities</h2>
+      <a href="https://netflix.com">🎬 Netflix</a>
+      <a href="https://dashboard.cloudflare.com">☁️ Cloudflare</a>
+      <a href="https://my.umbrel.com/">Umbrel Dashboard</a>
+    </div>
+
+  </div>
 </body>
 </html>
