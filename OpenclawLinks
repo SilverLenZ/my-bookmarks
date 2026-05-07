@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Bookmarks</title>
+  <style>
+    body { 
+      font-family: Arial, sans-serif; 
+      background: #0f172a; 
+      color: #e2e8f0; 
+      text-align: center; 
+      padding: 40px; 
+      margin: 0;
+    }
+    h1 { color: #60a5fa; margin-bottom: 40px; }
+    .group { 
+      margin: 30px auto; 
+      max-width: 900px; 
+      text-align: left; 
+    }
+    .group h2 { 
+      color: #93c5fd; 
+      border-bottom: 2px solid #334155; 
+      padding-bottom: 10px; 
+    }
+    a { 
+      color: #bae6fd; 
+      text-decoration: none; 
+      font-size: 1.2em; 
+      display: block; 
+      padding: 14px 20px; 
+      margin: 8px 0; 
+      background: #1e2937; 
+      border-radius: 10px; 
+      transition: all 0.2s;
+    }
+    a:hover { 
+      background: #334155; 
+      color: white; 
+      transform: translateX(10px); 
+    }
+  </style>
+</head>
+<body>
+  <h1>My Personal Bookmarks</h1>
+
+  <div class="group">
+    <h2>Daily Essentials</h2>
+    <a href="https://mail.google.com">✉️ Gmail</a>
+    <a href="https://drive.google.com">📁 Google Drive</a>
+    <a href="https://github.com">🐙 GitHub</a>
+    <a href="https://chatgpt.com">🤖 ChatGPT</a>
+  </div>
+
+  <div class="group">
+    <h2>Social & Entertainment</h2>
+    <a href="https://youtube.com">📺 YouTube</a>
+    <a href="https://reddit.com">🔴 Reddit</a>
+    <a href="https://x.com">𝕏 X (Twitter)</a>
+    <a href="https://netflix.com">🎬 Netflix</a>
+  </div>
+
+  <!-- Add more groups and links here easily -->
+</body>
+</html>
