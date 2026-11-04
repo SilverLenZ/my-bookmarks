@@ -150,6 +150,22 @@
     .usage-meta { margin: auto 0 0; padding-top: 10px; color: var(--muted); font-size: 12px; }
     .usage-meta.error { color: #e0a79b; }
     .usage-scope { margin: -4px 0 8px; font-size: 10.5px; line-height: 1.35; color: var(--muted); }
+    .calls-panel { margin: -10px 0 26px; padding: 16px 23px 18px; border: 1px solid var(--section-border); border-radius: 20px; background: var(--surface); box-shadow: var(--shadow); }
+    .calls-head { display: flex; align-items: center; justify-content: space-between; gap: 14px; margin-bottom: 12px; }
+    .calls-head h2 { margin: 0; font-size: 14px; font-weight: 750; letter-spacing: .1em; text-transform: uppercase; white-space: nowrap; }
+    .calls-age { color: var(--muted); font-size: 11.5px; white-space: nowrap; }
+    .calls-rows { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; }
+    .call-row { padding: 11px 14px; border: 1px solid var(--border); border-radius: 13px; background: var(--surface-raised); min-width: 0; }
+    .call-row-head { display: flex; align-items: center; gap: 7px; margin-bottom: 5px; }
+    .call-dot { flex: none; width: 8px; height: 8px; border-radius: 50%; background: var(--muted); }
+    .call-dot.fresh { background: #7fb069; }
+    .call-dot.warm { background: #d9a05b; }
+    .call-name { font-size: 12.5px; font-weight: 700; color: var(--accent-strong); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    .call-model { font-size: 12.5px; font-weight: 600; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    .call-stats { margin-top: 2px; color: var(--muted); font-size: 11.5px; }
+    .call-pending { color: var(--muted); font-size: 12px; }
+    @media (max-width: 900px) { .calls-rows { grid-template-columns: 1fr; } }
+    @media (max-width: 620px) { .calls-panel { padding: 12px 13px 13px; } }
     @media (max-width: 620px) {
       .usage-card h3 { white-space: normal; overflow: visible; text-overflow: clip; }
       .usage-row { gap: 6px; }
@@ -205,6 +221,18 @@
           <div class="usage-rows" id="rows-grok"></div>
           <p class="usage-meta" id="meta-grok">Loading…</p>
         </article>
+      </div>
+    </section>
+
+    <section class="calls-panel" id="calls-panel" aria-label="OmniRoute model call activity">
+      <div class="calls-head">
+        <h2>Model calls</h2>
+        <span class="calls-age" id="calls-age"></span>
+      </div>
+      <div class="calls-rows" id="calls-rows">
+        <div class="call-row" data-combo="thoth-main"><div class="call-row-head"><span class="call-dot" id="dot-thoth-main"></span><span class="call-name">thoth-main</span></div><div class="call-pending" id="row-thoth-main">Waiting for first reading</div></div>
+        <div class="call-row" data-combo="zumbrel-main"><div class="call-row-head"><span class="call-dot" id="dot-zumbrel-main"></span><span class="call-name">zumbrel-main</span></div><div class="call-pending" id="row-zumbrel-main">Waiting for first reading</div></div>
+        <div class="call-row" data-combo="maat-main"><div class="call-row-head"><span class="call-dot" id="dot-maat-main"></span><span class="call-name">maat-main</span></div><div class="call-pending" id="row-maat-main">Waiting for first reading</div></div>
       </div>
     </section>
 
@@ -375,6 +403,40 @@
         meta.textContent = text;
         meta.classList.remove('error');
       }
+      const CALLS_URL = 'https://raw.githubusercontent.com/SilverLenZ/my-bookmarks/main/omniroute-calls.json';
+      const CALL_COMBOS = ['thoth-main', 'zumbrel-main', 'maat-main'];
+      function renderCalls(data) {
+        const ageEl = document.getElementById('calls-age');
+        if (ageEl && data && data.produced_at) {
+          ageEl.textContent = 'data updated ' + (ago(data.produced_at) || 'just now');
+        }
+        CALL_COMBOS.forEach(function (combo) {
+          const row = document.getElementById('row-' + combo);
+          const dot = document.getElementById('dot-' + combo);
+          if (!row) return;
+          const c = data && data.combos && data.combos[combo];
+          if (!c || !c.last_call_at) {
+            row.className = 'call-pending';
+            row.textContent = 'Waiting for first reading';
+            return;
+          }
+          const mins = (Date.now() - new Date(c.last_call_at).getTime()) / 60000;
+          if (dot) dot.className = 'call-dot ' + (mins < 15 ? 'fresh' : (mins < 60 ? 'warm' : ''));
+          row.className = '';
+          row.innerHTML = '';
+          const model = document.createElement('div'); model.className = 'call-model';
+          model.textContent = c.last_model || 'unknown model';
+          const stats = document.createElement('div'); stats.className = 'call-stats';
+          let s = (c.calls_60m || 0) + ' calls last hr \u00b7 last call ' + (ago(c.last_call_at) || 'just now');
+          if (c.errors_60m) s += ' \u00b7 ' + c.errors_60m + ' err';
+          stats.textContent = s;
+          row.appendChild(model); row.appendChild(stats);
+        });
+      }
+      fetch(CALLS_URL, { cache: 'no-store' })
+        .then(function (r) { if (!r.ok) throw new Error('missing'); return r.json(); })
+        .then(renderCalls)
+        .catch(function () { /* rows keep their pending state */ });
       fetch('ollama-usage.json', { cache: 'no-store' })
         .then(function (r) { if (!r.ok) throw new Error('missing'); return r.json(); })
         .then(function (data) { ACCTS.forEach(function (a) { render(a, data[a]); }); })
