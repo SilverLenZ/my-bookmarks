@@ -1,4 +1,4 @@
 {
-  "paid": { "session_used_pct": null, "weekly_used_pct": null, "checked_at": null, "status": "pending", "message": "Waiting for first reading" },
-  "free": { "monthly_used_pct": null, "checked_at": null, "status": "pending", "message": "Waiting for first reading" }
+  "paid": { "session_used_pct": 12.5, "weekly_used_pct": 11.1, "checked_at": "2026-11-04T05:45:00Z", "status": "ok" },
+  "free": { "monthly_used_pct": 71.9, "checked_at": "2026-11-04T05:46:00Z", "status": "ok" }
 }
