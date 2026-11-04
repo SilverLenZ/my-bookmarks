@@ -30,8 +30,9 @@
         "used_pct": 16
       }
     ],
-    "checked_at": "2026-11-04T15:13:00Z",
-    "status": "ok"
+    "checked_at": "2026-11-04T15:42:00Z",
+    "status": "ok",
+    "scope": "Codex, Work, agents & Excel - not chats"
   },
   "grok": {
     "metrics": [
