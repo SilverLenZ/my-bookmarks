@@ -428,7 +428,6 @@
           model.textContent = c.last_model || 'unknown model';
           const stats = document.createElement('div'); stats.className = 'call-stats';
           let s = (c.calls_60m || 0) + ' calls last hr \u00b7 last call ' + (ago(c.last_call_at) || 'just now');
-          if (c.errors_60m) s += ' \u00b7 ' + c.errors_60m + ' err';
           stats.textContent = s;
           row.appendChild(model); row.appendChild(stats);
         });
