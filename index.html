@@ -149,9 +149,11 @@
     .usage-bar span.critical { background: #d96b5b; }
     .usage-meta { margin: auto 0 0; padding-top: 10px; color: var(--muted); font-size: 12px; }
     .usage-meta.error { color: #e0a79b; }
+    .usage-scope { margin: -4px 0 8px; font-size: 10.5px; line-height: 1.35; color: var(--muted); }
     @media (max-width: 620px) {
       .usage-card h3 { white-space: normal; overflow: visible; text-overflow: clip; }
       .usage-row { gap: 6px; }
+      .usage-scope { font-size: 9.5px; margin: -2px 0 6px; }
     }
   </style>
 </head>
@@ -194,6 +196,7 @@
         </article>
         <article class="usage-card">
           <div class="usage-card-head"><h3>ChatGPT Go</h3><a class="usage-card-link" href="https://chatgpt.com/settings/usage" target="_blank" rel="noopener noreferrer" aria-label="Open ChatGPT usage settings">↗</a></div>
+          <p class="usage-scope" id="scope-chatgpt"></p>
           <div class="usage-rows" id="rows-chatgpt"></div>
           <p class="usage-meta" id="meta-chatgpt">Loading…</p>
         </article>
@@ -343,6 +346,8 @@
         const meta = document.getElementById('meta-' + acct);
         if (!rows || !meta) return;
         rows.innerHTML = '';
+        const scope = document.getElementById('scope-' + acct);
+        if (scope) scope.textContent = (data && data.scope) || '';
         if (!data || data.status !== 'ok' || !Array.isArray(data.metrics) || !data.metrics.length) {
           meta.textContent = (data && data.message) ? data.message : 'No reading yet';
           meta.classList.toggle('error', !!(data && data.status === 'error'));
