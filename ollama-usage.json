@@ -36,12 +36,15 @@
   "grok": {
     "metrics": [
       {
-        "label": "Usage",
-        "used_pct": null
+        "label": "Weekly limit",
+        "used_pct": 13
+      },
+      {
+        "label": "Bot weekly limit",
+        "used_pct": 1
       }
     ],
-    "checked_at": null,
-    "status": "pending",
-    "message": "Waiting for first reading"
+    "checked_at": "2026-11-04T15:23:00Z",
+    "status": "ok"
   }
 }
