@@ -149,6 +149,10 @@
     .usage-bar span.critical { background: #d96b5b; }
     .usage-meta { margin: auto 0 0; padding-top: 10px; color: var(--muted); font-size: 12px; }
     .usage-meta.error { color: #e0a79b; }
+    @media (max-width: 620px) {
+      .usage-card h3 { white-space: normal; overflow: visible; text-overflow: clip; }
+      .usage-row { gap: 6px; }
+    }
   </style>
 </head>
 <body>
