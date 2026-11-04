@@ -1,4 +1,13 @@
 {
-  "paid": { "session_used_pct": 0, "weekly_used_pct": 11.1, "checked_at": "2026-11-04T08:32:00Z", "status": "ok" },
-  "free": { "monthly_used_pct": 75.9, "checked_at": "2026-11-04T08:32:00Z", "status": "ok" }
+  "paid": {
+    "session_used_pct": 0,
+    "weekly_used_pct": 11.1,
+    "checked_at": "2026-11-04T11:32:00Z",
+    "status": "ok"
+  },
+  "free": {
+    "monthly_used_pct": 80.7,
+    "checked_at": "2026-11-04T11:32:00Z",
+    "status": "ok"
+  }
 }
