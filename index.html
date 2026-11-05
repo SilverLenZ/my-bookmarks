@@ -479,10 +479,12 @@
               .catch(function () { callsApiFailed = true; callsApiBlockedUntil = Date.now() + 15 * 60000; return rawData; });
           })
           .then(function (data) {
-            renderCalls(data);
             const ms = callsProdMs(data);
             const prev = callsProducedAt ? new Date(callsProducedAt).getTime() : 0;
-            if (ms > prev) { callsProducedAt = data.produced_at; callsApiFailed = false; }
+            if (ms >= prev) {
+              renderCalls(data);
+              if (ms > prev) { callsProducedAt = data.produced_at; callsApiFailed = false; }
+            }
           })
           .catch(function () { /* rows keep their pending state */ });
       }
