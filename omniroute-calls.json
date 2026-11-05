@@ -3,7 +3,7 @@
     "maat-main": {
       "calls_15m": 0,
       "calls_24h": 1341,
-      "calls_60m": 42,
+      "calls_60m": 0,
       "errors_60m": 0,
       "last_call_at": "2026-11-05T22:34:18.633Z",
       "last_model": "kimi-k2.7-code",
@@ -11,7 +11,7 @@
     },
     "thoth-main": {
       "calls_15m": 0,
-      "calls_24h": 2163,
+      "calls_24h": 2102,
       "calls_60m": 0,
       "errors_60m": 0,
       "last_call_at": "2026-11-05T21:00:57.699Z",
@@ -20,7 +20,7 @@
     },
     "zumbrel-main": {
       "calls_15m": 0,
-      "calls_24h": 2556,
+      "calls_24h": 2466,
       "calls_60m": 16,
       "errors_60m": 0,
       "last_call_at": "2026-11-05T22:58:55.067Z",
@@ -28,5 +28,5 @@
       "provider": "ollama-cloud"
     }
   },
-  "produced_at": "2026-11-05T23:30:13.386Z"
+  "produced_at": "2026-11-05T23:35:03.381Z"
 }
