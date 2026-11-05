@@ -3,14 +3,14 @@
     "maat-main": {
       "calls_15m": 0,
       "calls_24h": 2187,
-      "calls_60m": 132,
+      "calls_60m": 115,
       "errors_60m": 0,
       "last_call_at": "2026-11-05T01:10:53.891Z",
       "last_model": "deepseek-v4.1-flash",
       "provider": "ollama-cloud"
     },
     "thoth-main": {
-      "calls_15m": 60,
+      "calls_15m": 27,
       "calls_24h": 2618,
       "calls_60m": 230,
       "errors_60m": 0,
@@ -19,7 +19,7 @@
       "provider": "ollama-cloud"
     },
     "zumbrel-main": {
-      "calls_15m": 2,
+      "calls_15m": 0,
       "calls_24h": 1889,
       "calls_60m": 158,
       "errors_60m": 0,
@@ -28,5 +28,5 @@
       "provider": "codex"
     }
   },
-  "produced_at": "2026-11-05T01:35:03.373Z"
+  "produced_at": "2026-11-05T01:40:13.365Z"
 }
