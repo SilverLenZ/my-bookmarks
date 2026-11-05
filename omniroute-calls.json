@@ -21,12 +21,12 @@
     "zumbrel-main": {
       "calls_15m": 0,
       "calls_24h": 3198,
-      "calls_60m": 67,
+      "calls_60m": 48,
       "errors_60m": 0,
       "last_call_at": "2026-11-05T16:47:21.438Z",
       "last_model": "deepseek-v4.1-flash",
       "provider": "ollama-cloud"
     }
   },
-  "produced_at": "2026-11-05T17:05:13.372Z"
+  "produced_at": "2026-11-05T17:10:15.933Z"
 }
