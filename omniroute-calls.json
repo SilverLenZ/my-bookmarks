@@ -11,7 +11,7 @@
     },
     "thoth-main": {
       "calls_15m": 0,
-      "calls_24h": 2530,
+      "calls_24h": 2516,
       "calls_60m": 18,
       "errors_60m": 0,
       "last_call_at": "2026-11-05T15:35:28.572Z",
@@ -19,14 +19,14 @@
       "provider": "codex"
     },
     "zumbrel-main": {
-      "calls_15m": 27,
-      "calls_24h": 3164,
-      "calls_60m": 52,
+      "calls_15m": 47,
+      "calls_24h": 3211,
+      "calls_60m": 99,
       "errors_60m": 0,
-      "last_call_at": "2026-11-05T15:54:10.045Z",
+      "last_call_at": "2026-11-05T16:11:59.274Z",
       "last_model": "beam",
       "provider": "ollama-cloud"
     }
   },
-  "produced_at": "2026-11-05T16:05:16.430Z"
+  "produced_at": "2026-11-05T16:20:13.396Z"
 }
