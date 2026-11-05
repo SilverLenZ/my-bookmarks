@@ -447,6 +447,7 @@
         });
       }
       const CALLS_INTERVAL_MS = 5 * 60 * 1000;
+      const CALLS_STALE_MIN = 15;
       let callsProducedAt = null;
       let callsLastTry = 0;
       function fmtCountdown(ms) {
@@ -465,7 +466,11 @@
       function tickCalls() {
         const el = document.getElementById('calls-cadence');
         const ageEl = document.getElementById('calls-age');
-        if (ageEl && callsProducedAt) ageEl.textContent = 'data updated ' + (ago(callsProducedAt) || 'just now');
+        if (ageEl && callsProducedAt) {
+          let t = 'data updated ' + (ago(callsProducedAt) || 'just now');
+          if ((Date.now() - new Date(callsProducedAt).getTime()) / 60000 > CALLS_STALE_MIN) t += ' (stale)';
+          ageEl.textContent = t;
+        }
         if (!el) return;
         if (!callsProducedAt) { el.textContent = 'updates every ~5 min'; return; }
         const remain = new Date(callsProducedAt).getTime() + CALLS_INTERVAL_MS - Date.now();
@@ -479,6 +484,12 @@
       }
       loadCalls().then(function () { callsLastTry = Date.now(); tickCalls(); });
       setInterval(tickCalls, 1000);
+      document.addEventListener('visibilitychange', function () {
+        if (document.hidden || !callsProducedAt) return;
+        tickCalls();
+        const overdue = Date.now() > new Date(callsProducedAt).getTime() + CALLS_INTERVAL_MS;
+        if (overdue && Date.now() - callsLastTry > 30000) { callsLastTry = Date.now(); loadCalls(); }
+      });
       const API_STALE_MIN = 15;
       const BALANCE_URL = new URLSearchParams(location.search).get('balance_url') || 'https://raw.githubusercontent.com/SilverLenZ/my-bookmarks/main/ollama-balance.json';
       function apiAcct(balance, conn, labels) {
