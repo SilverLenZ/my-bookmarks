@@ -457,6 +457,7 @@
       const CALLS_API_URL = 'https://api.github.com/repos/SilverLenZ/my-bookmarks/contents/omniroute-calls.json';
       let callsApiLastTry = 0;
       let callsApiBlockedUntil = 0;
+      let callsApiFailed = false;
       function callsProdMs(data) {
         const t = data && data.produced_at ? new Date(data.produced_at).getTime() : 0;
         return isNaN(t) ? 0 : t;
@@ -475,13 +476,13 @@
             callsApiLastTry = Date.now();
             return fetchCallsJson(CALLS_API_URL, { 'Accept': 'application/vnd.github.raw' })
               .then(function (apiData) { return callsProdMs(apiData) > rawMs ? apiData : rawData; })
-              .catch(function () { callsApiBlockedUntil = Date.now() + 15 * 60000; return rawData; });
+              .catch(function () { callsApiFailed = true; callsApiBlockedUntil = Date.now() + 15 * 60000; return rawData; });
           })
           .then(function (data) {
             renderCalls(data);
             const ms = callsProdMs(data);
             const prev = callsProducedAt ? new Date(callsProducedAt).getTime() : 0;
-            if (ms > prev) callsProducedAt = data.produced_at;
+            if (ms > prev) { callsProducedAt = data.produced_at; callsApiFailed = false; }
           })
           .catch(function () { /* rows keep their pending state */ });
       }
@@ -499,7 +500,12 @@
         if (remain > 0) {
           el.textContent = 'updates every ~5 min · next in ' + fmtCountdown(remain);
         } else {
-          el.textContent = 'checking for new data\u2026';
+          const ageMin = (Date.now() - new Date(callsProducedAt).getTime()) / 60000;
+          if (callsApiFailed || ageMin > 9) {
+            el.textContent = 'update delayed \u00b7 last data ' + (ago(callsProducedAt) || 'unknown') + ' \u00b7 still trying';
+          } else {
+            el.textContent = 'checking for new data\u2026';
+          }
           const now = Date.now();
           if (now - callsLastTry > 30000) { callsLastTry = now; loadCalls(); }
         }
