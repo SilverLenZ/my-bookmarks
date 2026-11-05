@@ -370,7 +370,7 @@
         const mins = Math.round((Date.now() - t.getTime()) / 60000);
         if (mins < 1) return 'just now';
         if (mins < 60) return mins + ' min ago';
-        const h = Math.floor(mins / 60);
+        const h = Math.round(mins / 60);
         if (h < 48) return h + (h === 1 ? ' hr ago' : ' hrs ago');
         return Math.floor(h / 24) + ' days ago';
       }
@@ -471,7 +471,7 @@
           .then(function (rawData) {
             const rawMs = callsProdMs(rawData);
             const behind = !rawMs || (Date.now() - rawMs > CALLS_INTERVAL_MS + 90000);
-            const mayUseApi = behind && Date.now() >= callsApiBlockedUntil && Date.now() - callsApiLastTry > 120000;
+            const mayUseApi = Date.now() >= callsApiBlockedUntil && Date.now() - callsApiLastTry > 120000;
             if (!mayUseApi) return rawData;
             callsApiLastTry = Date.now();
             return fetchCallsJson(CALLS_API_URL, { 'Accept': 'application/vnd.github.raw' })
