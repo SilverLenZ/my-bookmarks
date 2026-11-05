@@ -380,7 +380,7 @@
         if (title && opts.title) title.textContent = opts.title;
         const scope = document.getElementById('scope-' + acct);
         if (scope) scope.textContent = (data && data.scope) || '';
-        if (!data || data.status !== 'ok' || !Array.isArray(data.metrics) || !data.metrics.length) {
+        if (!data || !Array.isArray(data.metrics) || !data.metrics.length || (data.status !== 'ok' && !opts.errorCode)) {
           meta.textContent = (data && data.message) ? data.message : 'No reading yet';
           meta.classList.toggle('error', !!(data && data.status === 'error'));
           return;
