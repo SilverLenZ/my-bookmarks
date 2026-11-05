@@ -155,6 +155,8 @@
     .calls-head { display: flex; align-items: center; justify-content: space-between; gap: 14px; margin-bottom: 12px; }
     .calls-head h2 { margin: 0; font-size: 14px; font-weight: 750; letter-spacing: .1em; text-transform: uppercase; white-space: nowrap; }
     .calls-age { color: var(--muted); font-size: 13.5px; white-space: nowrap; }
+    .calls-cadence { color: var(--muted); font-size: 12px; white-space: nowrap; }
+    .usage-cadence { color: var(--muted); font-size: 12px; white-space: nowrap; }
     .calls-rows { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; }
     .call-row { padding: 14px 18px; border: 1px solid var(--border); border-radius: 13px; background: var(--surface-raised); min-width: 0; }
     .call-row-head { display: flex; align-items: center; gap: 9px; margin-bottom: 7px; }
@@ -199,6 +201,7 @@
     <section class="usage-panel" id="usage-panel" aria-label="Fleet token usage">
       <div class="usage-head">
         <h2>Fleet tokens</h2>
+        <span class="usage-cadence">Ollama ~5 min · ChatGPT &amp; Grok ~hourly · reload for latest</span>
       </div>
       <div class="usage-cards">
         <article class="usage-card">
@@ -228,6 +231,7 @@
     <section class="calls-panel" id="calls-panel" aria-label="OmniRoute model call activity">
       <div class="calls-head">
         <h2>Model calls</h2>
+        <span class="calls-cadence" id="calls-cadence">updates every ~5 min</span>
         <span class="calls-age" id="calls-age"></span>
       </div>
       <div class="calls-rows" id="calls-rows">
@@ -442,10 +446,39 @@
           row.appendChild(model); row.appendChild(stats);
         });
       }
-      fetch(CALLS_URL, { cache: 'no-store' })
-        .then(function (r) { if (!r.ok) throw new Error('missing'); return r.json(); })
-        .then(renderCalls)
-        .catch(function () { /* rows keep their pending state */ });
+      const CALLS_INTERVAL_MS = 5 * 60 * 1000;
+      let callsProducedAt = null;
+      let callsLastTry = 0;
+      function fmtCountdown(ms) {
+        const s = Math.max(0, Math.ceil(ms / 1000));
+        return Math.floor(s / 60) + ':' + ('0' + (s % 60)).slice(-2);
+      }
+      function loadCalls() {
+        return fetch(CALLS_URL + '?t=' + Date.now(), { cache: 'no-store' })
+          .then(function (r) { if (!r.ok) throw new Error('missing'); return r.json(); })
+          .then(function (data) {
+            renderCalls(data);
+            if (data && data.produced_at) callsProducedAt = data.produced_at;
+          })
+          .catch(function () { /* rows keep their pending state */ });
+      }
+      function tickCalls() {
+        const el = document.getElementById('calls-cadence');
+        const ageEl = document.getElementById('calls-age');
+        if (ageEl && callsProducedAt) ageEl.textContent = 'data updated ' + (ago(callsProducedAt) || 'just now');
+        if (!el) return;
+        if (!callsProducedAt) { el.textContent = 'updates every ~5 min'; return; }
+        const remain = new Date(callsProducedAt).getTime() + CALLS_INTERVAL_MS - Date.now();
+        if (remain > 0) {
+          el.textContent = 'updates every ~5 min · next in ' + fmtCountdown(remain);
+        } else {
+          el.textContent = 'checking for new data\u2026';
+          const now = Date.now();
+          if (now - callsLastTry > 30000) { callsLastTry = now; loadCalls(); }
+        }
+      }
+      loadCalls().then(function () { callsLastTry = Date.now(); tickCalls(); });
+      setInterval(tickCalls, 1000);
       const API_STALE_MIN = 15;
       const BALANCE_URL = new URLSearchParams(location.search).get('balance_url') || 'https://raw.githubusercontent.com/SilverLenZ/my-bookmarks/main/ollama-balance.json';
       function apiAcct(balance, conn, labels) {
