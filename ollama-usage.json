@@ -27,10 +27,10 @@
     "metrics": [
       {
         "label": "Monthly limit",
-        "used_pct": 83
+        "used_pct": 85
       }
     ],
-    "checked_at": "2026-11-05T13:51:13Z",
+    "checked_at": "2026-11-05T14:51:56Z",
     "status": "ok",
     "scope": "Codex, Work, agents & Excel - not chats"
   },
