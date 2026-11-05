@@ -435,7 +435,7 @@
           row.className = '';
           row.innerHTML = '';
           const model = document.createElement('div'); model.className = 'call-model';
-          model.textContent = c.last_model || 'unknown model';
+          model.textContent = 'last used: ' + (c.last_model || 'unknown model');
           const stats = document.createElement('div'); stats.className = 'call-stats';
           let s = (c.calls_60m || 0) + ' calls last hr \u00b7 last call ' + (ago(c.last_call_at) || 'just now');
           stats.textContent = s;
@@ -501,4 +501,3 @@
   </script>
 </body>
 </html>
-
