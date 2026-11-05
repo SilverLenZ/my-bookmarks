@@ -2,7 +2,7 @@
   "combos": {
     "maat-main": {
       "calls_15m": 0,
-      "calls_24h": 1902,
+      "calls_24h": 1845,
       "calls_60m": 0,
       "errors_60m": 0,
       "last_call_at": "2026-11-05T09:01:48.563Z",
@@ -11,7 +11,7 @@
     },
     "thoth-main": {
       "calls_15m": 0,
-      "calls_24h": 2575,
+      "calls_24h": 2559,
       "calls_60m": 0,
       "errors_60m": 0,
       "last_call_at": "2026-11-05T10:00:27.182Z",
@@ -28,5 +28,5 @@
       "provider": "ollama-cloud"
     }
   },
-  "produced_at": "2026-11-05T11:10:13.380Z"
+  "produced_at": "2026-11-05T11:15:04.067Z"
 }
