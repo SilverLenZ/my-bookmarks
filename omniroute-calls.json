@@ -12,21 +12,21 @@
     "thoth-main": {
       "calls_15m": 28,
       "calls_24h": 2544,
-      "calls_60m": 135,
+      "calls_60m": 134,
       "errors_60m": 0,
       "last_call_at": "2026-11-05T14:20:26.136Z",
       "last_model": "deepseek-v4.1-flash",
       "provider": "ollama-cloud"
     },
     "zumbrel-main": {
-      "calls_15m": 129,
+      "calls_15m": 74,
       "calls_24h": 3481,
-      "calls_60m": 545,
+      "calls_60m": 490,
       "errors_60m": 0,
       "last_call_at": "2026-11-05T14:24:51.307Z",
       "last_model": "deepseek-v4.1-flash",
       "provider": "ollama-cloud"
     }
   },
-  "produced_at": "2026-11-05T14:25:13.371Z"
+  "produced_at": "2026-11-05T14:30:15.166Z"
 }
