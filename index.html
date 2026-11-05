@@ -202,12 +202,12 @@
       </div>
       <div class="usage-cards">
         <article class="usage-card">
-          <div class="usage-card-head"><h3>Ollama Paid · grandfathered</h3><a class="usage-card-link" href="https://ollama.com/settings" target="_blank" rel="noopener noreferrer" aria-label="Open Ollama settings">↗</a></div>
+          <div class="usage-card-head"><h3 id="title-paid">Ollama Paid · grandfathered</h3><a class="usage-card-link" href="https://ollama.com/settings" target="_blank" rel="noopener noreferrer" aria-label="Open Ollama settings">↗</a></div>
           <div class="usage-rows" id="rows-paid"></div>
           <p class="usage-meta" id="meta-paid">Loading…</p>
         </article>
         <article class="usage-card">
-          <div class="usage-card-head"><h3>Ollama Free tier</h3><a class="usage-card-link" href="https://ollama.com/settings" target="_blank" rel="noopener noreferrer" aria-label="Open Ollama settings">↗</a></div>
+          <div class="usage-card-head"><h3 id="title-free">Ollama Free tier</h3><a class="usage-card-link" href="https://ollama.com/settings" target="_blank" rel="noopener noreferrer" aria-label="Open Ollama settings">↗</a></div>
           <div class="usage-rows" id="rows-free"></div>
           <p class="usage-meta" id="meta-free">Loading…</p>
         </article>
@@ -370,11 +370,14 @@
         if (h < 48) return h + (h === 1 ? ' hr ago' : ' hrs ago');
         return Math.floor(h / 24) + ' days ago';
       }
-      function render(acct, data) {
+      function render(acct, data, opts) {
+        opts = opts || {};
         const rows = document.getElementById('rows-' + acct);
         const meta = document.getElementById('meta-' + acct);
         if (!rows || !meta) return;
         rows.innerHTML = '';
+        const title = document.getElementById('title-' + acct);
+        if (title && opts.title) title.textContent = opts.title;
         const scope = document.getElementById('scope-' + acct);
         if (scope) scope.textContent = (data && data.scope) || '';
         if (!data || data.status !== 'ok' || !Array.isArray(data.metrics) || !data.metrics.length) {
@@ -398,11 +401,17 @@
         });
         let text = 'Checked ' + (ago(data.checked_at) || 'recently');
         if (data.checked_at) {
-          const ageH = (Date.now() - new Date(data.checked_at).getTime()) / 3600000;
-          if (ageH > STALE_HOURS) text += ' (stale)';
+          const ageM = (Date.now() - new Date(data.checked_at).getTime()) / 60000;
+          if (ageM > (opts.staleMin || STALE_HOURS * 60)) text += ' (stale)';
+        }
+        if (opts.source) text += ' · ' + opts.source;
+        if (opts.errorCode) {
+          text = 'Ollama API error ' + opts.errorCode + (opts.attemptAgo ? ' ' + opts.attemptAgo : '') + ' · last good: ' + text;
+          meta.classList.add('error');
+        } else {
+          meta.classList.remove('error');
         }
         meta.textContent = text;
-        meta.classList.remove('error');
       }
       const CALLS_URL = 'https://raw.githubusercontent.com/SilverLenZ/my-bookmarks/main/omniroute-calls.json';
       const CALL_COMBOS = ['thoth-main', 'zumbrel-main', 'maat-main'];
@@ -437,15 +446,57 @@
         .then(function (r) { if (!r.ok) throw new Error('missing'); return r.json(); })
         .then(renderCalls)
         .catch(function () { /* rows keep their pending state */ });
-      fetch('ollama-usage.json', { cache: 'no-store' })
-        .then(function (r) { if (!r.ok) throw new Error('missing'); return r.json(); })
-        .then(function (data) { ACCTS.forEach(function (a) { render(a, data[a]); }); })
-        .catch(function () {
-          ACCTS.forEach(function (a) {
-            const m = document.getElementById('meta-' + a);
-            if (m) { m.textContent = 'Usage data unavailable'; m.classList.add('error'); }
-          });
-        });
+      const API_STALE_MIN = 15;
+      const BALANCE_URL = new URLSearchParams(location.search).get('balance_url') || 'https://raw.githubusercontent.com/SilverLenZ/my-bookmarks/main/ollama-balance.json';
+      function apiAcct(balance, conn, labels) {
+        const c = balance && balance.connections && balance.connections[conn];
+        if (!c || !c.checked_at) return null;
+        const metrics = [];
+        if (labels.length === 2) {
+          if (c.session && c.session.used_pct !== null && c.session.used_pct !== undefined) metrics.push({ label: labels[0], used_pct: c.session.used_pct });
+          if (c.weekly && c.weekly.used_pct !== null && c.weekly.used_pct !== undefined) metrics.push({ label: labels[1], used_pct: c.weekly.used_pct });
+        } else if (c.monthly && c.monthly.used_pct !== null && c.monthly.used_pct !== undefined) {
+          metrics.push({ label: labels[0], used_pct: c.monthly.used_pct });
+        }
+        return { metrics: metrics, checked_at: c.checked_at, status: c.status || 'ok', error_code: c.error_code, last_attempt_at: c.last_attempt_at };
+      }
+      function pickOllama(api, browser) {
+        if (api && api.metrics.length) {
+          const apiAgeM = (Date.now() - new Date(api.checked_at).getTime()) / 60000;
+          const browserNewer = browser && browser.status === 'ok' && browser.checked_at && new Date(browser.checked_at) > new Date(api.checked_at);
+          if (api.status === 'ok') {
+            if (apiAgeM <= API_STALE_MIN || !browserNewer) return { d: api, src: 'api' };
+            return { d: browser, src: 'browser' };
+          }
+          if (browserNewer) return { d: browser, src: 'browser' };
+          return { d: api, src: 'api-error' };
+        }
+        return { d: browser, src: 'browser' };
+      }
+      function renderOllama(acct, conn, labels, apiTitle, browserTitle, browserData, balance) {
+        const pick = pickOllama(apiAcct(balance, conn, labels), browserData);
+        const opts = {};
+        if (pick.src === 'api') {
+          opts.title = apiTitle; opts.source = 'Ollama API'; opts.staleMin = API_STALE_MIN;
+        } else if (pick.src === 'api-error') {
+          opts.title = apiTitle; opts.source = 'Ollama API'; opts.staleMin = API_STALE_MIN;
+          opts.errorCode = pick.d.error_code || 'unknown';
+          opts.attemptAgo = pick.d.last_attempt_at ? 'at last check ' + (ago(pick.d.last_attempt_at) || 'recently') : '';
+        } else {
+          opts.title = browserTitle; opts.source = 'ollama.com page';
+        }
+        render(acct, pick.d, opts);
+      }
+      Promise.all([
+        fetch('ollama-usage.json', { cache: 'no-store' }).then(function (r) { if (!r.ok) throw new Error('missing'); return r.json(); }).catch(function () { return null; }),
+        fetch(BALANCE_URL, { cache: 'no-store' }).then(function (r) { if (!r.ok) throw new Error('missing'); return r.json(); }).catch(function () { return null; })
+      ]).then(function (res) {
+        const usage = res[0], balance = res[1];
+        render('chatgpt', usage && usage.chatgpt, {});
+        render('grok', usage && usage.grok, {});
+        renderOllama('paid', 'main-paid', ['Session limit', 'Weekly limit'], 'Ollama main-paid', 'Ollama Paid · grandfathered', usage && usage.paid, balance);
+        renderOllama('free', 'main', ['Monthly limit'], 'Ollama main', 'Ollama Free tier', usage && usage.free, balance);
+      });
     })();
   </script>
 </body>
