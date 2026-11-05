@@ -454,12 +454,34 @@
         const s = Math.max(0, Math.ceil(ms / 1000));
         return Math.floor(s / 60) + ':' + ('0' + (s % 60)).slice(-2);
       }
+      const CALLS_API_URL = 'https://api.github.com/repos/SilverLenZ/my-bookmarks/contents/omniroute-calls.json';
+      let callsApiLastTry = 0;
+      let callsApiBlockedUntil = 0;
+      function callsProdMs(data) {
+        const t = data && data.produced_at ? new Date(data.produced_at).getTime() : 0;
+        return isNaN(t) ? 0 : t;
+      }
+      function fetchCallsJson(url, headers) {
+        return fetch(url, { cache: 'no-store', headers: headers || {} })
+          .then(function (r) { if (!r.ok) throw new Error('http ' + r.status); return r.json(); });
+      }
       function loadCalls() {
-        return fetch(CALLS_URL + '?t=' + Date.now(), { cache: 'no-store' })
-          .then(function (r) { if (!r.ok) throw new Error('missing'); return r.json(); })
+        return fetchCallsJson(CALLS_URL + '?t=' + Date.now())
+          .then(function (rawData) {
+            const rawMs = callsProdMs(rawData);
+            const behind = !rawMs || (Date.now() - rawMs > CALLS_INTERVAL_MS + 90000);
+            const mayUseApi = behind && Date.now() >= callsApiBlockedUntil && Date.now() - callsApiLastTry > 120000;
+            if (!mayUseApi) return rawData;
+            callsApiLastTry = Date.now();
+            return fetchCallsJson(CALLS_API_URL, { 'Accept': 'application/vnd.github.raw' })
+              .then(function (apiData) { return callsProdMs(apiData) > rawMs ? apiData : rawData; })
+              .catch(function () { callsApiBlockedUntil = Date.now() + 15 * 60000; return rawData; });
+          })
           .then(function (data) {
             renderCalls(data);
-            if (data && data.produced_at) callsProducedAt = data.produced_at;
+            const ms = callsProdMs(data);
+            const prev = callsProducedAt ? new Date(callsProducedAt).getTime() : 0;
+            if (ms > prev) callsProducedAt = data.produced_at;
           })
           .catch(function () { /* rows keep their pending state */ });
       }
