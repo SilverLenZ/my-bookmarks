@@ -3,14 +3,14 @@
     "metrics": [
       {
         "label": "Session limit",
-        "used_pct": 13.4
+        "used_pct": 7.8
       },
       {
         "label": "Weekly limit",
-        "used_pct": 15.9
+        "used_pct": 23
       }
     ],
-    "checked_at": "2026-11-04T23:33:45Z",
+    "checked_at": "2026-11-05T02:39:07Z",
     "status": "ok"
   },
   "free": {
@@ -20,7 +20,7 @@
         "used_pct": 88.3
       }
     ],
-    "checked_at": "2026-11-04T23:33:45Z",
+    "checked_at": "2026-11-05T02:39:07Z",
     "status": "ok"
   },
   "chatgpt": {
@@ -45,7 +45,7 @@
         "used_pct": 4
       }
     ],
-    "checked_at": "2026-11-04T23:33:45Z",
+    "checked_at": "2026-11-05T02:39:07Z",
     "status": "ok"
   }
 }
