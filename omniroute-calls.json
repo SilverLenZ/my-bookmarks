@@ -1,32 +1,32 @@
 {
   "combos": {
     "maat-main": {
-      "calls_15m": 2,
-      "calls_24h": 419,
-      "calls_60m": 65,
-      "errors_60m": 5,
-      "last_call_at": "2026-11-06T22:55:52.546Z",
-      "last_model": "beam",
-      "provider": "ollama-cloud"
+      "calls_15m": 6,
+      "calls_24h": 423,
+      "calls_60m": 69,
+      "errors_60m": 9,
+      "last_call_at": "2026-11-06T23:04:52.648Z",
+      "last_model": "combo/maat-main",
+      "provider": "maat-main"
     },
     "thoth-main": {
-      "calls_15m": 3,
-      "calls_24h": 996,
-      "calls_60m": 44,
-      "errors_60m": 3,
-      "last_call_at": "2026-11-06T22:54:41.508Z",
-      "last_model": "beam",
-      "provider": "ollama-cloud"
+      "calls_15m": 5,
+      "calls_24h": 1000,
+      "calls_60m": 48,
+      "errors_60m": 6,
+      "last_call_at": "2026-11-06T23:04:52.782Z",
+      "last_model": "combo/thoth-main",
+      "provider": "thoth-main"
     },
     "zumbrel-main": {
-      "calls_15m": 1,
-      "calls_24h": 1250,
-      "calls_60m": 29,
-      "errors_60m": 13,
-      "last_call_at": "2026-11-06T22:54:41.746Z",
-      "last_model": "beam",
-      "provider": "ollama-cloud"
+      "calls_15m": 14,
+      "calls_24h": 1263,
+      "calls_60m": 42,
+      "errors_60m": 23,
+      "last_call_at": "2026-11-06T23:05:02.890Z",
+      "last_model": "combo/zumbrel-main",
+      "provider": "zumbrel-main"
     }
   },
-  "produced_at": "2026-11-06T23:00:22.390Z"
+  "produced_at": "2026-11-06T23:05:03.484Z"
 }
