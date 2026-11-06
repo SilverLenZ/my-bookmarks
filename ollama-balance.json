@@ -1,7 +1,7 @@
 {
   "connections": {
     "main": {
-      "checked_at": "2026-11-06T14:45:04.690Z",
+      "checked_at": "2026-11-06T14:50:13.462Z",
       "monthly": {
         "period_from": "2026-10-23T23:14:19.956Z",
         "period_until": "2026-11-23T23:14:19.956Z",
@@ -10,17 +10,17 @@
       "status": "ok"
     },
     "main-paid": {
-      "checked_at": "2026-11-06T14:45:04.690Z",
+      "checked_at": "2026-11-06T14:50:13.462Z",
       "session": {
         "resets_at": "2026-11-06T18:00:00.000Z",
-        "used_pct": 3.7
+        "used_pct": 4.3
       },
       "status": "ok",
       "weekly": {
         "resets_at": "2026-11-09T00:00:00.000Z",
-        "used_pct": 70.8
+        "used_pct": 70.9
       }
     }
   },
-  "produced_at": "2026-11-06T14:45:04.690Z"
+  "produced_at": "2026-11-06T14:50:13.462Z"
 }
