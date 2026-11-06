@@ -19,14 +19,14 @@
       "provider": "ollama-cloud"
     },
     "zumbrel-main": {
-      "calls_15m": 57,
-      "calls_24h": 700,
-      "calls_60m": 142,
+      "calls_15m": 29,
+      "calls_24h": 717,
+      "calls_60m": 139,
       "errors_60m": 2,
-      "last_call_at": "2026-11-06T15:13:40.879Z",
+      "last_call_at": "2026-11-06T15:18:57.167Z",
       "last_model": "deepseek-v4.1-flash",
       "provider": "ollama-cloud"
     }
   },
-  "produced_at": "2026-11-06T15:15:22.340Z"
+  "produced_at": "2026-11-06T15:20:13.380Z"
 }
