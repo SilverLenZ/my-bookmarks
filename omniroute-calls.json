@@ -1,17 +1,17 @@
 {
   "combos": {
     "maat-main": {
-      "calls_15m": 0,
-      "calls_24h": 221,
-      "calls_60m": 53,
+      "calls_15m": 87,
+      "calls_24h": 308,
+      "calls_60m": 140,
       "errors_60m": 0,
-      "last_call_at": "2026-11-06T02:49:47.190Z",
+      "last_call_at": "2026-11-06T03:45:16.911Z",
       "last_model": "kimi-k2.7-code",
       "provider": "ollama-cloud"
     },
     "thoth-main": {
-      "calls_15m": 48,
-      "calls_24h": 1491,
+      "calls_15m": 34,
+      "calls_24h": 1484,
       "calls_60m": 191,
       "errors_60m": 2,
       "last_call_at": "2026-11-06T03:33:31.216Z",
@@ -28,5 +28,5 @@
       "provider": "ollama-cloud"
     }
   },
-  "produced_at": "2026-11-06T03:40:13.374Z"
+  "produced_at": "2026-11-06T03:45:18.697Z"
 }
