@@ -11,15 +11,15 @@
     },
     "thoth-main": {
       "calls_15m": 17,
-      "calls_24h": 864,
-      "calls_60m": 68,
+      "calls_24h": 868,
+      "calls_60m": 62,
       "errors_60m": 1,
-      "last_call_at": "2026-11-06T19:54:51.611Z",
+      "last_call_at": "2026-11-06T19:59:44.675Z",
       "last_model": "deepseek-v4-pro",
       "provider": "ollama-cloud"
     },
     "zumbrel-main": {
-      "calls_15m": 11,
+      "calls_15m": 7,
       "calls_24h": 1145,
       "calls_60m": 23,
       "errors_60m": 0,
@@ -28,5 +28,5 @@
       "provider": "ollama-cloud"
     }
   },
-  "produced_at": "2026-11-06T19:55:13.411Z"
+  "produced_at": "2026-11-06T20:00:04.284Z"
 }
