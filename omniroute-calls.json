@@ -10,16 +10,16 @@
       "provider": "ollama-cloud"
     },
     "thoth-main": {
-      "calls_15m": 29,
-      "calls_24h": 830,
-      "calls_60m": 91,
-      "errors_60m": 3,
-      "last_call_at": "2026-11-06T18:50:20.199Z",
+      "calls_15m": 32,
+      "calls_24h": 840,
+      "calls_60m": 85,
+      "errors_60m": 2,
+      "last_call_at": "2026-11-06T18:59:47.271Z",
       "last_model": "deepseek-v4-pro",
       "provider": "ollama-cloud"
     },
     "zumbrel-main": {
-      "calls_15m": 97,
+      "calls_15m": 3,
       "calls_24h": 1137,
       "calls_60m": 364,
       "errors_60m": 2,
@@ -28,5 +28,5 @@
       "provider": "ollama-cloud"
     }
   },
-  "produced_at": "2026-11-06T18:55:15.416Z"
+  "produced_at": "2026-11-06T19:00:13.390Z"
 }
