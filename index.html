@@ -156,6 +156,7 @@
     .calls-head h2 { margin: 0; font-size: 14px; font-weight: 750; letter-spacing: .1em; text-transform: uppercase; white-space: nowrap; }
     .calls-age { color: var(--muted); font-size: 13.5px; white-space: nowrap; }
     .calls-cadence { color: var(--muted); font-size: 12px; white-space: nowrap; }
+    .calls-scope { margin: 10px 0 0; color: var(--muted); font-size: 11.5px; line-height: 1.35; }
     .usage-cadence { color: var(--muted); font-size: 12px; white-space: nowrap; }
     .calls-rows { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; }
     .call-row { padding: 14px 18px; border: 1px solid var(--border); border-radius: 13px; background: var(--surface-raised); min-width: 0; }
@@ -239,6 +240,7 @@
         <div class="call-row" data-combo="zumbrel-main"><div class="call-row-head"><span class="call-dot" id="dot-zumbrel-main"></span><span class="call-name">zumbrel-main</span></div><div class="call-pending" id="row-zumbrel-main">Waiting for first reading</div></div>
         <div class="call-row" data-combo="maat-main"><div class="call-row-head"><span class="call-dot" id="dot-maat-main"></span><span class="call-name">maat-main</span></div><div class="call-pending" id="row-maat-main">Waiting for first reading</div></div>
       </div>
+      <div class="calls-scope">Counts calls routed through each OmniRoute combo. Calls sent direct to a provider (no combo) are not counted here.</div>
     </section>
 
     <div class="section-heading">
@@ -439,7 +441,7 @@
           row.className = '';
           row.innerHTML = '';
           const model = document.createElement('div'); model.className = 'call-model';
-          model.textContent = 'last used: ' + (c.last_model || 'unknown model');
+          model.textContent = 'last combo model: ' + (c.last_model || 'unknown model');
           const stats = document.createElement('div'); stats.className = 'call-stats';
           let s = (c.calls_60m || 0) + ' calls last hr \u00b7 last call ' + (ago(c.last_call_at) || 'just now');
           stats.textContent = s;
