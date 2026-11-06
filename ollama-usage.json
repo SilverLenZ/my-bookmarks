@@ -42,10 +42,10 @@
       },
       {
         "label": "Bot weekly limit",
-        "used_pct": 9
+        "used_pct": 11
       }
     ],
-    "checked_at": "2026-11-06T05:40:46Z",
+    "checked_at": "2026-11-06T07:41:32Z",
     "status": "ok"
   }
 }
