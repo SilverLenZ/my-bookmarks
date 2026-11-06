@@ -240,7 +240,7 @@
         <div class="call-row" data-combo="zumbrel-main"><div class="call-row-head"><span class="call-dot" id="dot-zumbrel-main"></span><span class="call-name">zumbrel-main</span></div><div class="call-pending" id="row-zumbrel-main">Waiting for first reading</div></div>
         <div class="call-row" data-combo="maat-main"><div class="call-row-head"><span class="call-dot" id="dot-maat-main"></span><span class="call-name">maat-main</span></div><div class="call-pending" id="row-maat-main">Waiting for first reading</div></div>
       </div>
-      <div class="calls-scope">Counts calls routed through each OmniRoute combo. Calls sent direct to a provider (no combo) are not counted here.</div>
+      <div class="calls-scope">Calls through each OmniRoute combo. thoth-main also includes its verified direct-route calls from the Nov 6 transition.</div>
     </section>
 
     <div class="section-heading">
@@ -441,7 +441,7 @@
           row.className = '';
           row.innerHTML = '';
           const model = document.createElement('div'); model.className = 'call-model';
-          model.textContent = 'last combo model: ' + (c.last_model || 'unknown model');
+          model.textContent = 'last model: ' + (c.last_model || 'unknown model');
           const stats = document.createElement('div'); stats.className = 'call-stats';
           let s = (c.calls_60m || 0) + ' calls last hr \u00b7 last call ' + (ago(c.last_call_at) || 'just now');
           stats.textContent = s;
