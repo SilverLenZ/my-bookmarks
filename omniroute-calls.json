@@ -2,7 +2,7 @@
   "combos": {
     "maat-main": {
       "calls_15m": 9,
-      "calls_24h": 830,
+      "calls_24h": 829,
       "calls_60m": 9,
       "errors_60m": 0,
       "last_call_at": "2026-11-06T00:51:05.972Z",
@@ -10,23 +10,23 @@
       "provider": "ollama-cloud"
     },
     "thoth-main": {
-      "calls_15m": 36,
-      "calls_24h": 1675,
-      "calls_60m": 46,
+      "calls_15m": 43,
+      "calls_24h": 1682,
+      "calls_60m": 53,
       "errors_60m": 0,
-      "last_call_at": "2026-11-06T00:53:34.454Z",
+      "last_call_at": "2026-11-06T01:00:05.750Z",
       "last_model": "deepseek-v4-pro",
       "provider": "ollama-cloud"
     },
     "zumbrel-main": {
       "calls_15m": 41,
-      "calls_24h": 2367,
-      "calls_60m": 49,
+      "calls_24h": 2325,
+      "calls_60m": 41,
       "errors_60m": 0,
       "last_call_at": "2026-11-06T00:51:19.831Z",
       "last_model": "deepseek-v4.1-flash",
       "provider": "ollama-cloud"
     }
   },
-  "produced_at": "2026-11-06T00:55:03.400Z"
+  "produced_at": "2026-11-06T01:00:15.180Z"
 }
