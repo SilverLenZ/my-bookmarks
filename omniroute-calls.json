@@ -1,17 +1,17 @@
 {
   "combos": {
     "maat-main": {
-      "calls_15m": 16,
-      "calls_24h": 1107,
-      "calls_60m": 19,
-      "errors_60m": 6,
-      "last_call_at": "2026-11-07T19:05:16.289Z",
-      "last_model": "grok-4.7",
-      "provider": "grok-cli"
+      "calls_15m": 17,
+      "calls_24h": 1109,
+      "calls_60m": 21,
+      "errors_60m": 7,
+      "last_call_at": "2026-11-07T19:10:24.097Z",
+      "last_model": "S5-free",
+      "provider": "maritalk"
     },
     "thoth-main": {
       "calls_15m": 0,
-      "calls_24h": 972,
+      "calls_24h": 967,
       "calls_60m": 0,
       "errors_60m": 0,
       "last_call_at": "2026-11-07T15:19:05.737Z",
@@ -20,7 +20,7 @@
     },
     "zumbrel-main": {
       "calls_15m": 0,
-      "calls_24h": 915,
+      "calls_24h": 912,
       "calls_60m": 12,
       "errors_60m": 0,
       "last_call_at": "2026-11-07T18:52:56.171Z",
@@ -28,5 +28,5 @@
       "provider": "ollama-cloud"
     }
   },
-  "produced_at": "2026-11-07T19:10:13.385Z"
+  "produced_at": "2026-11-07T19:15:22.374Z"
 }
