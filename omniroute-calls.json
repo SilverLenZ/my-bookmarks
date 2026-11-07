@@ -3,7 +3,7 @@
     "maat-main": {
       "calls_15m": 0,
       "calls_24h": 1335,
-      "calls_60m": 70,
+      "calls_60m": 62,
       "errors_60m": 18,
       "last_call_at": "2026-11-07T21:46:28.932Z",
       "last_model": "grok-4.7",
@@ -19,7 +19,7 @@
       "provider": "ollama-cloud"
     },
     "zumbrel-main": {
-      "calls_15m": 4,
+      "calls_15m": 0,
       "calls_24h": 786,
       "calls_60m": 88,
       "errors_60m": 34,
@@ -28,5 +28,5 @@
       "provider": "ollama-cloud"
     }
   },
-  "produced_at": "2026-11-07T22:10:13.390Z"
+  "produced_at": "2026-11-07T22:15:07.934Z"
 }
