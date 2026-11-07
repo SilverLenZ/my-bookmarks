@@ -10,11 +10,11 @@
       "provider": "grok-cli"
     },
     "thoth-main": {
-      "calls_15m": 0,
-      "calls_24h": 760,
-      "calls_60m": 0,
+      "calls_15m": 3,
+      "calls_24h": 763,
+      "calls_60m": 3,
       "errors_60m": 0,
-      "last_call_at": "2026-11-07T21:46:32.753Z",
+      "last_call_at": "2026-11-07T23:45:25.123Z",
       "last_model": "beam",
       "provider": "ollama-cloud"
     },
@@ -28,5 +28,5 @@
       "provider": "ollama-cloud"
     }
   },
-  "produced_at": "2026-11-07T23:45:17.168Z"
+  "produced_at": "2026-11-07T23:50:13.380Z"
 }
