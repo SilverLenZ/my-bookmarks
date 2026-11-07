@@ -1,32 +1,32 @@
 {
   "combos": {
     "maat-main": {
-      "calls_15m": 50,
-      "calls_24h": 852,
-      "calls_60m": 195,
+      "calls_15m": 21,
+      "calls_24h": 853,
+      "calls_60m": 189,
       "errors_60m": 0,
-      "last_call_at": "2026-11-07T10:55:07.196Z",
+      "last_call_at": "2026-11-07T11:00:20.664Z",
       "last_model": "beam",
       "provider": "ollama-cloud"
     },
     "thoth-main": {
-      "calls_15m": 10,
-      "calls_24h": 1193,
-      "calls_60m": 97,
+      "calls_15m": 4,
+      "calls_24h": 1194,
+      "calls_60m": 98,
       "errors_60m": 0,
-      "last_call_at": "2026-11-07T10:54:17.023Z",
+      "last_call_at": "2026-11-07T11:00:17.380Z",
       "last_model": "grok-4.7",
       "provider": "grok-cli"
     },
     "zumbrel-main": {
-      "calls_15m": 16,
-      "calls_24h": 1625,
-      "calls_60m": 113,
+      "calls_15m": 6,
+      "calls_24h": 1626,
+      "calls_60m": 106,
       "errors_60m": 2,
-      "last_call_at": "2026-11-07T10:54:30.075Z",
-      "last_model": "reflection/beam-1.0-501b-a23b:free",
-      "provider": "nous-research"
+      "last_call_at": "2026-11-07T11:00:16.256Z",
+      "last_model": "beam",
+      "provider": "ollama-cloud"
     }
   },
-  "produced_at": "2026-11-07T11:00:13.433Z"
+  "produced_at": "2026-11-07T11:05:13.367Z"
 }
