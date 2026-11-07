@@ -3,7 +3,7 @@
     "maat-main": {
       "calls_15m": 0,
       "calls_24h": 1088,
-      "calls_60m": 7,
+      "calls_60m": 4,
       "errors_60m": 2,
       "last_call_at": "2026-11-07T17:40:55.530Z",
       "last_model": "grok-4.7",
@@ -11,7 +11,7 @@
     },
     "thoth-main": {
       "calls_15m": 0,
-      "calls_24h": 1068,
+      "calls_24h": 1059,
       "calls_60m": 0,
       "errors_60m": 0,
       "last_call_at": "2026-11-07T15:19:05.737Z",
@@ -28,5 +28,5 @@
       "provider": "ollama-cloud"
     }
   },
-  "produced_at": "2026-11-07T18:10:22.348Z"
+  "produced_at": "2026-11-07T18:15:10.414Z"
 }
