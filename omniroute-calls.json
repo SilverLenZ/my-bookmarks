@@ -1,32 +1,32 @@
 {
   "combos": {
     "maat-main": {
-      "calls_15m": 12,
-      "calls_24h": 680,
-      "calls_60m": 130,
+      "calls_15m": 5,
+      "calls_24h": 682,
+      "calls_60m": 82,
       "errors_60m": 0,
-      "last_call_at": "2026-11-07T01:59:58.816Z",
+      "last_call_at": "2026-11-07T02:03:02.063Z",
       "last_model": "beam",
       "provider": "ollama-cloud"
     },
     "thoth-main": {
-      "calls_15m": 6,
-      "calls_24h": 960,
-      "calls_60m": 49,
+      "calls_15m": 7,
+      "calls_24h": 957,
+      "calls_60m": 38,
       "errors_60m": 0,
-      "last_call_at": "2026-11-07T01:59:58.938Z",
+      "last_call_at": "2026-11-07T02:01:46.993Z",
       "last_model": "grok-4.7",
       "provider": "grok-cli"
     },
     "zumbrel-main": {
-      "calls_15m": 1,
-      "calls_24h": 1370,
-      "calls_60m": 34,
+      "calls_15m": 7,
+      "calls_24h": 1365,
+      "calls_60m": 39,
       "errors_60m": 0,
-      "last_call_at": "2026-11-07T01:59:28.202Z",
+      "last_call_at": "2026-11-07T02:02:37.069Z",
       "last_model": "beam",
       "provider": "ollama-cloud"
     }
   },
-  "produced_at": "2026-11-07T02:00:22.903Z"
+  "produced_at": "2026-11-07T02:05:13.399Z"
 }
