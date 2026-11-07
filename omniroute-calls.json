@@ -1,32 +1,32 @@
 {
   "combos": {
     "maat-main": {
-      "calls_15m": 27,
-      "calls_24h": 494,
-      "calls_60m": 27,
+      "calls_15m": 63,
+      "calls_24h": 521,
+      "calls_60m": 63,
       "errors_60m": 0,
-      "last_call_at": "2026-11-07T00:49:56.928Z",
+      "last_call_at": "2026-11-07T00:51:39.061Z",
       "last_model": "beam",
       "provider": "ollama-cloud"
     },
     "thoth-main": {
-      "calls_15m": 28,
-      "calls_24h": 1041,
-      "calls_60m": 28,
+      "calls_15m": 44,
+      "calls_24h": 1035,
+      "calls_60m": 44,
       "errors_60m": 0,
-      "last_call_at": "2026-11-07T00:48:42.577Z",
+      "last_call_at": "2026-11-07T00:52:49.936Z",
       "last_model": "beam",
       "provider": "ollama-cloud"
     },
     "zumbrel-main": {
-      "calls_15m": 20,
-      "calls_24h": 1298,
-      "calls_60m": 25,
+      "calls_15m": 39,
+      "calls_24h": 1306,
+      "calls_60m": 44,
       "errors_60m": 0,
-      "last_call_at": "2026-11-07T00:49:15.250Z",
-      "last_model": "reflection/beam-1.0-501b-a23b:free",
-      "provider": "nous-research"
+      "last_call_at": "2026-11-07T00:52:56.862Z",
+      "last_model": "beam",
+      "provider": "ollama-cloud"
     }
   },
-  "produced_at": "2026-11-07T00:50:13.362Z"
+  "produced_at": "2026-11-07T00:55:13.378Z"
 }
