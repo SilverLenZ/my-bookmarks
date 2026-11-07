@@ -19,7 +19,7 @@
       "provider": "grok-cli"
     },
     "zumbrel-main": {
-      "calls_15m": 7,
+      "calls_15m": 0,
       "calls_24h": 1547,
       "calls_60m": 7,
       "errors_60m": 0,
@@ -28,5 +28,5 @@
       "provider": "ollama-cloud"
     }
   },
-  "produced_at": "2026-11-07T06:55:13.388Z"
+  "produced_at": "2026-11-07T07:00:18.948Z"
 }
