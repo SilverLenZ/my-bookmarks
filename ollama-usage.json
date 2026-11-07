@@ -38,14 +38,14 @@
     "metrics": [
       {
         "label": "Weekly limit",
-        "used_pct": 36
+        "used_pct": 42
       },
       {
         "label": "Bot weekly limit",
         "used_pct": 14
       }
     ],
-    "checked_at": "2026-11-07T00:43:39Z",
+    "checked_at": "2026-11-07T02:44:03Z",
     "status": "ok"
   }
 }
