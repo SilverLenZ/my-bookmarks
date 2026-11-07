@@ -3,8 +3,8 @@
     "maat-main": {
       "calls_15m": 0,
       "calls_24h": 467,
-      "calls_60m": 20,
-      "errors_60m": 1,
+      "calls_60m": 0,
+      "errors_60m": 0,
       "last_call_at": "2026-11-06T23:16:40.343Z",
       "last_model": "beam",
       "provider": "ollama-cloud"
@@ -12,7 +12,7 @@
     "thoth-main": {
       "calls_15m": 0,
       "calls_24h": 1037,
-      "calls_60m": 4,
+      "calls_60m": 0,
       "errors_60m": 0,
       "last_call_at": "2026-11-06T23:16:35.768Z",
       "last_model": "beam",
@@ -28,5 +28,5 @@
       "provider": "ollama-cloud"
     }
   },
-  "produced_at": "2026-11-07T00:15:13.375Z"
+  "produced_at": "2026-11-07T00:20:13.516Z"
 }
