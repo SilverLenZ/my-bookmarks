@@ -11,8 +11,8 @@
     },
     "thoth-main": {
       "calls_15m": 0,
-      "calls_24h": 1100,
-      "calls_60m": 4,
+      "calls_24h": 1096,
+      "calls_60m": 0,
       "errors_60m": 0,
       "last_call_at": "2026-11-07T07:00:35.163Z",
       "last_model": "grok-4.7",
@@ -28,5 +28,5 @@
       "provider": "ollama-cloud"
     }
   },
-  "produced_at": "2026-11-07T08:00:22.372Z"
+  "produced_at": "2026-11-07T08:05:03.383Z"
 }
