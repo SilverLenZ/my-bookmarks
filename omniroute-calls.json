@@ -1,17 +1,17 @@
 {
   "combos": {
     "maat-main": {
-      "calls_15m": 7,
-      "calls_24h": 1208,
-      "calls_60m": 63,
+      "calls_15m": 12,
+      "calls_24h": 1220,
+      "calls_60m": 72,
       "errors_60m": 1,
-      "last_call_at": "2026-11-07T20:29:31.348Z",
-      "last_model": "grok-4.7",
-      "provider": "grok-cli"
+      "last_call_at": "2026-11-07T20:45:01.507Z",
+      "last_model": "gpt-5.6-luna",
+      "provider": "codex"
     },
     "thoth-main": {
       "calls_15m": 0,
-      "calls_24h": 842,
+      "calls_24h": 836,
       "calls_60m": 0,
       "errors_60m": 0,
       "last_call_at": "2026-11-07T19:30:28.487Z",
@@ -20,7 +20,7 @@
     },
     "zumbrel-main": {
       "calls_15m": 0,
-      "calls_24h": 809,
+      "calls_24h": 793,
       "calls_60m": 7,
       "errors_60m": 0,
       "last_call_at": "2026-11-07T19:54:04.159Z",
@@ -28,5 +28,5 @@
       "provider": "ollama-cloud"
     }
   },
-  "produced_at": "2026-11-07T20:40:15.484Z"
+  "produced_at": "2026-11-07T20:45:03.366Z"
 }
