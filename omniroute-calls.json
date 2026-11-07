@@ -1,7 +1,7 @@
 {
   "combos": {
     "maat-main": {
-      "calls_15m": 37,
+      "calls_15m": 21,
       "calls_24h": 1326,
       "calls_60m": 118,
       "errors_60m": 9,
@@ -28,5 +28,5 @@
       "provider": "nous-research"
     }
   },
-  "produced_at": "2026-11-07T21:35:03.389Z"
+  "produced_at": "2026-11-07T21:40:13.365Z"
 }
