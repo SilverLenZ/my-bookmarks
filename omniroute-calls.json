@@ -3,7 +3,7 @@
     "maat-main": {
       "calls_15m": 0,
       "calls_24h": 1335,
-      "calls_60m": 72,
+      "calls_60m": 70,
       "errors_60m": 18,
       "last_call_at": "2026-11-07T21:46:28.932Z",
       "last_model": "grok-4.7",
@@ -28,5 +28,5 @@
       "provider": "ollama-cloud"
     }
   },
-  "produced_at": "2026-11-07T22:05:13.372Z"
+  "produced_at": "2026-11-07T22:10:13.390Z"
 }
