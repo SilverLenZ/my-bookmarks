@@ -19,14 +19,14 @@
       "provider": "grok-cli"
     },
     "zumbrel-main": {
-      "calls_15m": 0,
-      "calls_24h": 1544,
-      "calls_60m": 8,
+      "calls_15m": 6,
+      "calls_24h": 1550,
+      "calls_60m": 6,
       "errors_60m": 0,
-      "last_call_at": "2026-11-07T12:47:10.294Z",
+      "last_call_at": "2026-11-07T13:48:04.365Z",
       "last_model": "beam",
       "provider": "ollama-cloud"
     }
   },
-  "produced_at": "2026-11-07T13:45:13.368Z"
+  "produced_at": "2026-11-07T13:50:22.337Z"
 }
