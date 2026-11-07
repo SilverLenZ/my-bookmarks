@@ -1,11 +1,11 @@
 {
   "combos": {
     "maat-main": {
-      "calls_15m": 12,
-      "calls_24h": 1194,
-      "calls_60m": 82,
+      "calls_15m": 19,
+      "calls_24h": 1201,
+      "calls_60m": 85,
       "errors_60m": 0,
-      "last_call_at": "2026-11-07T20:17:15.693Z",
+      "last_call_at": "2026-11-07T20:22:59.118Z",
       "last_model": "grok-4.7",
       "provider": "grok-cli"
     },
@@ -28,5 +28,5 @@
       "provider": "ollama-cloud"
     }
   },
-  "produced_at": "2026-11-07T20:20:22.416Z"
+  "produced_at": "2026-11-07T20:25:13.381Z"
 }
