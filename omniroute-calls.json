@@ -12,21 +12,21 @@
     "thoth-main": {
       "calls_15m": 0,
       "calls_24h": 1096,
-      "calls_60m": 28,
+      "calls_60m": 20,
       "errors_60m": 0,
       "last_call_at": "2026-11-07T05:21:03.290Z",
       "last_model": "grok-4.7",
       "provider": "grok-cli"
     },
     "zumbrel-main": {
-      "calls_15m": 7,
+      "calls_15m": 0,
       "calls_24h": 1553,
-      "calls_60m": 49,
+      "calls_60m": 39,
       "errors_60m": 0,
       "last_call_at": "2026-11-07T05:40:04.806Z",
       "last_model": "beam",
       "provider": "ollama-cloud"
     }
   },
-  "produced_at": "2026-11-07T05:50:13.367Z"
+  "produced_at": "2026-11-07T05:55:13.376Z"
 }
