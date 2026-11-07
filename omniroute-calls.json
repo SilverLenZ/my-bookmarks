@@ -1,7 +1,7 @@
 {
   "combos": {
     "maat-main": {
-      "calls_15m": 7,
+      "calls_15m": 3,
       "calls_24h": 1107,
       "calls_60m": 64,
       "errors_60m": 7,
@@ -28,5 +28,5 @@
       "provider": "ollama-cloud"
     }
   },
-  "produced_at": "2026-11-07T17:25:13.379Z"
+  "produced_at": "2026-11-07T17:30:03.399Z"
 }
