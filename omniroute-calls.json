@@ -3,7 +3,7 @@
     "maat-main": {
       "calls_15m": 0,
       "calls_24h": 661,
-      "calls_60m": 9,
+      "calls_60m": 0,
       "errors_60m": 0,
       "last_call_at": "2026-11-07T05:45:44.308Z",
       "last_model": "beam",
@@ -28,5 +28,5 @@
       "provider": "ollama-cloud"
     }
   },
-  "produced_at": "2026-11-07T06:45:13.371Z"
+  "produced_at": "2026-11-07T06:50:03.391Z"
 }
