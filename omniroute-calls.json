@@ -1,32 +1,32 @@
 {
   "combos": {
     "maat-main": {
-      "calls_15m": 21,
-      "calls_24h": 1326,
-      "calls_60m": 118,
-      "errors_60m": 9,
-      "last_call_at": "2026-11-07T21:29:07.674Z",
-      "last_model": "grok-4.7",
-      "provider": "grok-cli"
+      "calls_15m": 2,
+      "calls_24h": 1328,
+      "calls_60m": 108,
+      "errors_60m": 11,
+      "last_call_at": "2026-11-07T21:45:02.279Z",
+      "last_model": "combo/maat-main",
+      "provider": "maat-main"
     },
     "thoth-main": {
-      "calls_15m": 19,
-      "calls_24h": 834,
-      "calls_60m": 19,
-      "errors_60m": 5,
-      "last_call_at": "2026-11-07T21:29:19.025Z",
-      "last_model": "beam",
-      "provider": "ollama-cloud"
+      "calls_15m": 2,
+      "calls_24h": 836,
+      "calls_60m": 21,
+      "errors_60m": 7,
+      "last_call_at": "2026-11-07T21:45:02.602Z",
+      "last_model": "combo/thoth-main",
+      "provider": "thoth-main"
     },
     "zumbrel-main": {
-      "calls_15m": 46,
-      "calls_24h": 744,
-      "calls_60m": 51,
-      "errors_60m": 15,
-      "last_call_at": "2026-11-07T21:29:11.146Z",
-      "last_model": "reflection/beam-1.0-501b-a23b:free",
-      "provider": "nous-research"
+      "calls_15m": 2,
+      "calls_24h": 746,
+      "calls_60m": 53,
+      "errors_60m": 17,
+      "last_call_at": "2026-11-07T21:45:01.430Z",
+      "last_model": "combo/zumbrel-main",
+      "provider": "zumbrel-main"
     }
   },
-  "produced_at": "2026-11-07T21:40:13.365Z"
+  "produced_at": "2026-11-07T21:45:03.442Z"
 }
