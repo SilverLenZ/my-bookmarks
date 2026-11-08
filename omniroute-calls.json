@@ -1,11 +1,11 @@
 {
   "combos": {
     "maat-main": {
-      "calls_15m": 54,
-      "calls_24h": 1110,
-      "calls_60m": 255,
+      "calls_15m": 63,
+      "calls_24h": 1119,
+      "calls_60m": 264,
       "errors_60m": 3,
-      "last_call_at": "2026-11-08T06:28:46.121Z",
+      "last_call_at": "2026-11-08T06:31:17.896Z",
       "last_model": "beam",
       "provider": "ollama-cloud"
     },
@@ -28,5 +28,5 @@
       "provider": "ollama-cloud"
     }
   },
-  "produced_at": "2026-11-08T06:30:13.396Z"
+  "produced_at": "2026-11-08T06:35:03.447Z"
 }
