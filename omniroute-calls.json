@@ -10,11 +10,11 @@
       "provider": "ollama-cloud"
     },
     "thoth-main": {
-      "calls_15m": 139,
-      "calls_24h": 711,
-      "calls_60m": 270,
+      "calls_15m": 16,
+      "calls_24h": 715,
+      "calls_60m": 274,
       "errors_60m": 1,
-      "last_call_at": "2026-11-08T23:04:16.716Z",
+      "last_call_at": "2026-11-08T23:08:26.183Z",
       "last_model": "beam",
       "provider": "ollama-cloud"
     },
@@ -28,5 +28,5 @@
       "provider": "ollama-cloud"
     }
   },
-  "produced_at": "2026-11-08T23:05:13.421Z"
+  "produced_at": "2026-11-08T23:10:03.422Z"
 }
