@@ -11,7 +11,7 @@
     },
     "thoth-main": {
       "calls_15m": 0,
-      "calls_24h": 360,
+      "calls_24h": 345,
       "calls_60m": 3,
       "errors_60m": 0,
       "last_call_at": "2026-11-08T04:00:25.984Z",
@@ -21,12 +21,12 @@
     "zumbrel-main": {
       "calls_15m": 0,
       "calls_24h": 495,
-      "calls_60m": 13,
+      "calls_60m": 7,
       "errors_60m": 0,
       "last_call_at": "2026-11-08T04:02:05.003Z",
       "last_model": "beam",
       "provider": "ollama-cloud"
     }
   },
-  "produced_at": "2026-11-08T04:30:03.401Z"
+  "produced_at": "2026-11-08T04:35:15.917Z"
 }
