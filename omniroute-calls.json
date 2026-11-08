@@ -1,9 +1,9 @@
 {
   "combos": {
     "maat-main": {
-      "calls_15m": 141,
+      "calls_15m": 82,
       "calls_24h": 1274,
-      "calls_60m": 344,
+      "calls_60m": 306,
       "errors_60m": 6,
       "last_call_at": "2026-11-08T06:54:38.813Z",
       "last_model": "nvidia/nemotron-3-ultra-550b-a55b:free",
@@ -28,5 +28,5 @@
       "provider": "ollama-cloud"
     }
   },
-  "produced_at": "2026-11-08T06:55:22.315Z"
+  "produced_at": "2026-11-08T07:00:06.427Z"
 }
