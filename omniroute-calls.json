@@ -2,31 +2,31 @@
   "combos": {
     "maat-main": {
       "calls_15m": 0,
-      "calls_24h": 1311,
-      "calls_60m": 109,
-      "errors_60m": 15,
+      "calls_24h": 1305,
+      "calls_60m": 88,
+      "errors_60m": 13,
       "last_call_at": "2026-11-08T16:22:58.106Z",
       "last_model": "beam",
       "provider": "ollama-cloud"
     },
     "thoth-main": {
-      "calls_15m": 3,
+      "calls_15m": 0,
       "calls_24h": 367,
-      "calls_60m": 29,
-      "errors_60m": 4,
+      "calls_60m": 26,
+      "errors_60m": 3,
       "last_call_at": "2026-11-08T16:52:24.054Z",
       "last_model": "beam",
       "provider": "ollama-cloud"
     },
     "zumbrel-main": {
-      "calls_15m": 33,
-      "calls_24h": 552,
-      "calls_60m": 121,
-      "errors_60m": 25,
-      "last_call_at": "2026-11-08T17:05:06.658Z",
-      "last_model": "beam",
-      "provider": "ollama-cloud"
+      "calls_15m": 47,
+      "calls_24h": 566,
+      "calls_60m": 102,
+      "errors_60m": 21,
+      "last_call_at": "2026-11-08T17:06:10.931Z",
+      "last_model": "reflection/beam-1.0-501b-a23b:free",
+      "provider": "nous-research"
     }
   },
-  "produced_at": "2026-11-08T17:05:13.355Z"
+  "produced_at": "2026-11-08T17:10:13.377Z"
 }
