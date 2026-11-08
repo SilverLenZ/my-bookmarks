@@ -10,23 +10,23 @@
       "provider": "nous-research"
     },
     "thoth-main": {
-      "calls_15m": 0,
-      "calls_24h": 399,
-      "calls_60m": 0,
+      "calls_15m": 3,
+      "calls_24h": 402,
+      "calls_60m": 3,
       "errors_60m": 0,
-      "last_call_at": "2026-11-07T23:45:25.123Z",
+      "last_call_at": "2026-11-08T04:00:25.984Z",
       "last_model": "beam",
       "provider": "ollama-cloud"
     },
     "zumbrel-main": {
-      "calls_15m": 0,
-      "calls_24h": 491,
-      "calls_60m": 19,
+      "calls_15m": 7,
+      "calls_24h": 498,
+      "calls_60m": 17,
       "errors_60m": 0,
-      "last_call_at": "2026-11-08T03:30:38.932Z",
+      "last_call_at": "2026-11-08T04:02:05.003Z",
       "last_model": "beam",
       "provider": "ollama-cloud"
     }
   },
-  "produced_at": "2026-11-08T04:00:06.179Z"
+  "produced_at": "2026-11-08T04:05:22.316Z"
 }
