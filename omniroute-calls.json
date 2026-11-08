@@ -1,32 +1,32 @@
 {
   "combos": {
     "maat-main": {
-      "calls_15m": 62,
-      "calls_24h": 1259,
-      "calls_60m": 92,
-      "errors_60m": 8,
-      "last_call_at": "2026-11-08T14:25:33.294Z",
+      "calls_15m": 52,
+      "calls_24h": 1275,
+      "calls_60m": 109,
+      "errors_60m": 11,
+      "last_call_at": "2026-11-08T14:32:00.409Z",
+      "last_model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+      "provider": "openrouter"
+    },
+    "thoth-main": {
+      "calls_15m": 14,
+      "calls_24h": 136,
+      "calls_60m": 36,
+      "errors_60m": 6,
+      "last_call_at": "2026-11-08T14:31:32.522Z",
       "last_model": "beam",
       "provider": "ollama-cloud"
     },
-    "thoth-main": {
-      "calls_15m": 7,
-      "calls_24h": 122,
-      "calls_60m": 22,
-      "errors_60m": 3,
-      "last_call_at": "2026-11-08T14:18:55.062Z",
-      "last_model": "gpt-5.6-luna:free",
-      "provider": "unorouter"
-    },
     "zumbrel-main": {
-      "calls_15m": 1,
-      "calls_24h": 300,
-      "calls_60m": 11,
+      "calls_15m": 16,
+      "calls_24h": 315,
+      "calls_60m": 26,
       "errors_60m": 1,
-      "last_call_at": "2026-11-08T14:22:48.580Z",
-      "last_model": "gpt-5.6-luna:free",
-      "provider": "unorouter"
+      "last_call_at": "2026-11-08T14:31:52.797Z",
+      "last_model": "reflection/beam-1.0-501b-a23b:free",
+      "provider": "nous-research"
     }
   },
-  "produced_at": "2026-11-08T14:30:03.389Z"
+  "produced_at": "2026-11-08T14:35:13.364Z"
 }
