@@ -2,7 +2,7 @@
   "combos": {
     "maat-main": {
       "calls_15m": 0,
-      "calls_24h": 1088,
+      "calls_24h": 1067,
       "calls_60m": 0,
       "errors_60m": 0,
       "last_call_at": "2026-11-08T19:30:38.930Z",
@@ -11,7 +11,7 @@
     },
     "thoth-main": {
       "calls_15m": 0,
-      "calls_24h": 463,
+      "calls_24h": 444,
       "calls_60m": 0,
       "errors_60m": 0,
       "last_call_at": "2026-11-08T18:28:12.126Z",
@@ -20,7 +20,7 @@
     },
     "zumbrel-main": {
       "calls_15m": 12,
-      "calls_24h": 625,
+      "calls_24h": 579,
       "calls_60m": 12,
       "errors_60m": 0,
       "last_call_at": "2026-11-08T21:18:58.618Z",
@@ -28,5 +28,5 @@
       "provider": "ollama-cloud"
     }
   },
-  "produced_at": "2026-11-08T21:25:03.375Z"
+  "produced_at": "2026-11-08T21:30:13.370Z"
 }
