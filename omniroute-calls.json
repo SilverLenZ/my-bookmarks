@@ -3,14 +3,14 @@
     "maat-main": {
       "calls_15m": 0,
       "calls_24h": 188,
-      "calls_60m": 42,
+      "calls_60m": 36,
       "errors_60m": 9,
       "last_call_at": "2026-11-09T19:37:31.793Z",
       "last_model": "deepseek-v4.1-flash",
       "provider": "ollama-cloud"
     },
     "thoth-main": {
-      "calls_15m": 22,
+      "calls_15m": 0,
       "calls_24h": 854,
       "calls_60m": 23,
       "errors_60m": 9,
@@ -28,5 +28,5 @@
       "provider": "openai-compatible-chat-905d5ad5-4a80-4f81-b994-460f8d76c797"
     }
   },
-  "produced_at": "2026-11-09T19:55:13.377Z"
+  "produced_at": "2026-11-09T20:00:13.359Z"
 }
