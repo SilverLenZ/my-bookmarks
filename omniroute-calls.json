@@ -12,7 +12,7 @@
     "thoth-main": {
       "calls_15m": 0,
       "calls_24h": 778,
-      "calls_60m": 66,
+      "calls_60m": 59,
       "errors_60m": 3,
       "last_call_at": "2026-11-08T23:42:22.703Z",
       "last_model": "reflection/beam-1.0-501b-a23b:free",
@@ -28,5 +28,5 @@
       "provider": "ollama-cloud"
     }
   },
-  "produced_at": "2026-11-09T00:10:13.388Z"
+  "produced_at": "2026-11-09T00:15:13.370Z"
 }
