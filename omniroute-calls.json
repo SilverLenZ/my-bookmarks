@@ -19,7 +19,7 @@
       "provider": "nous-research"
     },
     "zumbrel-main": {
-      "calls_15m": 22,
+      "calls_15m": 4,
       "calls_24h": 551,
       "calls_60m": 22,
       "errors_60m": 0,
@@ -28,5 +28,5 @@
       "provider": "ollama-cloud"
     }
   },
-  "produced_at": "2026-11-09T01:30:13.377Z"
+  "produced_at": "2026-11-09T01:35:03.373Z"
 }
