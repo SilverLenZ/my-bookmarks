@@ -3,8 +3,8 @@
     "maat-main": {
       "calls_15m": 0,
       "calls_24h": 1042,
-      "calls_60m": 5,
-      "errors_60m": 2,
+      "calls_60m": 2,
+      "errors_60m": 1,
       "last_call_at": "2026-11-09T03:08:17.711Z",
       "last_model": "deepseek-v4.1-flash",
       "provider": "ollama-cloud"
@@ -12,21 +12,21 @@
     "thoth-main": {
       "calls_15m": 0,
       "calls_24h": 794,
-      "calls_60m": 16,
+      "calls_60m": 9,
       "errors_60m": 1,
       "last_call_at": "2026-11-09T03:08:43.275Z",
       "last_model": "deepseek-v4.1-flash",
       "provider": "ollama-cloud"
     },
     "zumbrel-main": {
-      "calls_15m": 55,
-      "calls_24h": 581,
-      "calls_60m": 56,
-      "errors_60m": 4,
-      "last_call_at": "2026-11-09T03:27:51.559Z",
+      "calls_15m": 77,
+      "calls_24h": 597,
+      "calls_60m": 77,
+      "errors_60m": 6,
+      "last_call_at": "2026-11-09T03:33:49.640Z",
       "last_model": "gpt-6-luna:free",
       "provider": "unorouter"
     }
   },
-  "produced_at": "2026-11-09T03:30:13.357Z"
+  "produced_at": "2026-11-09T03:35:13.377Z"
 }
