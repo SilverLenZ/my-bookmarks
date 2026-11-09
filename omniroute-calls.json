@@ -1,11 +1,11 @@
 {
   "combos": {
     "maat-main": {
-      "calls_15m": 16,
-      "calls_24h": 281,
-      "calls_60m": 93,
-      "errors_60m": 16,
-      "last_call_at": "2026-11-09T20:55:10.888Z",
+      "calls_15m": 27,
+      "calls_24h": 292,
+      "calls_60m": 104,
+      "errors_60m": 17,
+      "last_call_at": "2026-11-09T20:56:10.954Z",
       "last_model": "deepseek-v4.1-flash",
       "provider": "ollama-cloud"
     },
@@ -28,5 +28,5 @@
       "provider": "ollama-cloud"
     }
   },
-  "produced_at": "2026-11-09T20:55:13.369Z"
+  "produced_at": "2026-11-09T21:00:04.950Z"
 }
