@@ -1,32 +1,32 @@
 {
   "combos": {
     "maat-main": {
-      "calls_15m": 7,
-      "calls_24h": 109,
-      "calls_60m": 35,
+      "calls_15m": 10,
+      "calls_24h": 113,
+      "calls_60m": 39,
       "errors_60m": 4,
-      "last_call_at": "2026-11-09T17:49:41.115Z",
+      "last_call_at": "2026-11-09T17:51:47.331Z",
       "last_model": "k-exaone_v2.5",
       "provider": "openai-compatible-chat-905d5ad5-4a80-4f81-b994-460f8d76c797"
     },
     "thoth-main": {
       "calls_15m": 0,
-      "calls_24h": 851,
-      "calls_60m": 54,
-      "errors_60m": 5,
+      "calls_24h": 826,
+      "calls_60m": 25,
+      "errors_60m": 2,
       "last_call_at": "2026-11-09T17:23:07.944Z",
       "last_model": "k-exaone_v2.5",
       "provider": "openai-compatible-chat-905d5ad5-4a80-4f81-b994-460f8d76c797"
     },
     "zumbrel-main": {
-      "calls_15m": 0,
-      "calls_24h": 423,
-      "calls_60m": 11,
+      "calls_15m": 3,
+      "calls_24h": 426,
+      "calls_60m": 3,
       "errors_60m": 0,
-      "last_call_at": "2026-11-09T16:53:25.044Z",
-      "last_model": "deepseek-v4.1-flash",
-      "provider": "ollama-cloud"
+      "last_call_at": "2026-11-09T17:55:19.948Z",
+      "last_model": "k-exaone_v2.5",
+      "provider": "openai-compatible-chat-905d5ad5-4a80-4f81-b994-460f8d76c797"
     }
   },
-  "produced_at": "2026-11-09T17:50:03.379Z"
+  "produced_at": "2026-11-09T17:55:22.342Z"
 }
