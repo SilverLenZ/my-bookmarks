@@ -2,24 +2,24 @@
   "combos": {
     "maat-main": {
       "calls_15m": 5,
-      "calls_24h": 114,
-      "calls_60m": 40,
-      "errors_60m": 4,
-      "last_call_at": "2026-11-09T18:04:03.119Z",
+      "calls_24h": 118,
+      "calls_60m": 30,
+      "errors_60m": 3,
+      "last_call_at": "2026-11-09T18:09:56.584Z",
       "last_model": "k-exaone_v2.5",
       "provider": "openai-compatible-chat-905d5ad5-4a80-4f81-b994-460f8d76c797"
     },
     "thoth-main": {
       "calls_15m": 0,
       "calls_24h": 826,
-      "calls_60m": 21,
+      "calls_60m": 7,
       "errors_60m": 1,
       "last_call_at": "2026-11-09T17:23:07.944Z",
       "last_model": "k-exaone_v2.5",
       "provider": "openai-compatible-chat-905d5ad5-4a80-4f81-b994-460f8d76c797"
     },
     "zumbrel-main": {
-      "calls_15m": 10,
+      "calls_15m": 8,
       "calls_24h": 433,
       "calls_60m": 10,
       "errors_60m": 0,
@@ -28,5 +28,5 @@
       "provider": "openai-compatible-chat-905d5ad5-4a80-4f81-b994-460f8d76c797"
     }
   },
-  "produced_at": "2026-11-09T18:05:22.329Z"
+  "produced_at": "2026-11-09T18:10:13.420Z"
 }
