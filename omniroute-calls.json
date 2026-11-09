@@ -19,7 +19,7 @@
       "provider": "ollama-cloud"
     },
     "zumbrel-main": {
-      "calls_15m": 77,
+      "calls_15m": 65,
       "calls_24h": 597,
       "calls_60m": 77,
       "errors_60m": 6,
@@ -28,5 +28,5 @@
       "provider": "unorouter"
     }
   },
-  "produced_at": "2026-11-09T03:35:13.377Z"
+  "produced_at": "2026-11-09T03:40:22.297Z"
 }
