@@ -1,7 +1,7 @@
 {
   "combos": {
     "maat-main": {
-      "calls_15m": 29,
+      "calls_15m": 21,
       "calls_24h": 188,
       "calls_60m": 47,
       "errors_60m": 10,
@@ -10,7 +10,7 @@
       "provider": "ollama-cloud"
     },
     "thoth-main": {
-      "calls_15m": 23,
+      "calls_15m": 22,
       "calls_24h": 854,
       "calls_60m": 23,
       "errors_60m": 9,
@@ -28,5 +28,5 @@
       "provider": "openai-compatible-chat-905d5ad5-4a80-4f81-b994-460f8d76c797"
     }
   },
-  "produced_at": "2026-11-09T19:45:03.380Z"
+  "produced_at": "2026-11-09T19:50:13.378Z"
 }
