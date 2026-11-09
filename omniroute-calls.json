@@ -1,7 +1,7 @@
 {
   "combos": {
     "maat-main": {
-      "calls_15m": 2,
+      "calls_15m": 0,
       "calls_24h": 1056,
       "calls_60m": 5,
       "errors_60m": 2,
@@ -10,7 +10,7 @@
       "provider": "ollama-cloud"
     },
     "thoth-main": {
-      "calls_15m": 9,
+      "calls_15m": 0,
       "calls_24h": 794,
       "calls_60m": 16,
       "errors_60m": 1,
@@ -19,14 +19,14 @@
       "provider": "ollama-cloud"
     },
     "zumbrel-main": {
-      "calls_15m": 0,
-      "calls_24h": 530,
-      "calls_60m": 3,
-      "errors_60m": 0,
-      "last_call_at": "2026-11-09T02:33:49.792Z",
-      "last_model": "gpt-6-luna:free",
-      "provider": "unorouter"
+      "calls_15m": 12,
+      "calls_24h": 542,
+      "calls_60m": 13,
+      "errors_60m": 1,
+      "last_call_at": "2026-11-09T03:25:21.042Z",
+      "last_model": "deepseek-v4.1-flash",
+      "provider": "ollama-cloud"
     }
   },
-  "produced_at": "2026-11-09T03:20:22.330Z"
+  "produced_at": "2026-11-09T03:25:22.334Z"
 }
