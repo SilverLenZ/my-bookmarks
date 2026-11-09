@@ -10,11 +10,11 @@
       "provider": "ollama-cloud"
     },
     "thoth-main": {
-      "calls_15m": 11,
-      "calls_24h": 991,
-      "calls_60m": 67,
-      "errors_60m": 14,
-      "last_call_at": "2026-11-09T12:29:07.858Z",
+      "calls_15m": 13,
+      "calls_24h": 996,
+      "calls_60m": 61,
+      "errors_60m": 11,
+      "last_call_at": "2026-11-09T12:37:10.620Z",
       "last_model": "deepseek-v4.1-flash",
       "provider": "ollama-cloud"
     },
@@ -28,5 +28,5 @@
       "provider": "ollama-cloud"
     }
   },
-  "produced_at": "2026-11-09T12:35:03.385Z"
+  "produced_at": "2026-11-09T12:40:04.914Z"
 }
