@@ -19,14 +19,14 @@
       "provider": "nous-research"
     },
     "zumbrel-main": {
-      "calls_15m": 0,
-      "calls_24h": 524,
-      "calls_60m": 4,
+      "calls_15m": 8,
+      "calls_24h": 532,
+      "calls_60m": 8,
       "errors_60m": 0,
-      "last_call_at": "2026-11-08T23:20:52.242Z",
+      "last_call_at": "2026-11-09T00:22:09.143Z",
       "last_model": "beam",
       "provider": "ollama-cloud"
     }
   },
-  "produced_at": "2026-11-09T00:20:13.430Z"
+  "produced_at": "2026-11-09T00:25:13.368Z"
 }
