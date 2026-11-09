@@ -19,14 +19,14 @@
       "provider": "nous-research"
     },
     "zumbrel-main": {
-      "calls_15m": 18,
-      "calls_24h": 547,
-      "calls_60m": 26,
+      "calls_15m": 22,
+      "calls_24h": 551,
+      "calls_60m": 22,
       "errors_60m": 0,
-      "last_call_at": "2026-11-09T01:16:27.459Z",
-      "last_model": "reflection/beam-1.0-501b-a23b:free",
-      "provider": "nous-research"
+      "last_call_at": "2026-11-09T01:22:56.160Z",
+      "last_model": "beam",
+      "provider": "ollama-cloud"
     }
   },
-  "produced_at": "2026-11-09T01:20:13.437Z"
+  "produced_at": "2026-11-09T01:25:13.396Z"
 }
