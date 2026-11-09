@@ -10,7 +10,7 @@
       "provider": "ollama-cloud"
     },
     "thoth-main": {
-      "calls_15m": 25,
+      "calls_15m": 22,
       "calls_24h": 1038,
       "calls_60m": 49,
       "errors_60m": 7,
@@ -28,5 +28,5 @@
       "provider": "ollama-cloud"
     }
   },
-  "produced_at": "2026-11-09T13:30:06.422Z"
+  "produced_at": "2026-11-09T13:35:13.369Z"
 }
