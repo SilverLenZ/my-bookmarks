@@ -1,9 +1,9 @@
 {
   "combos": {
     "maat-main": {
-      "calls_15m": 22,
+      "calls_15m": 18,
       "calls_24h": 148,
-      "calls_60m": 45,
+      "calls_60m": 40,
       "errors_60m": 1,
       "last_call_at": "2026-11-09T18:42:09.982Z",
       "last_model": "k-exaone_v2.5",
@@ -28,5 +28,5 @@
       "provider": "openai-compatible-chat-905d5ad5-4a80-4f81-b994-460f8d76c797"
     }
   },
-  "produced_at": "2026-11-09T18:45:22.462Z"
+  "produced_at": "2026-11-09T18:50:03.377Z"
 }
