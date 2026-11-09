@@ -1,16 +1,16 @@
 {
   "combos": {
     "maat-main": {
-      "calls_15m": 13,
-      "calls_24h": 101,
-      "calls_60m": 31,
-      "errors_60m": 5,
-      "last_call_at": "2026-11-09T17:24:04.691Z",
+      "calls_15m": 10,
+      "calls_24h": 102,
+      "calls_60m": 30,
+      "errors_60m": 4,
+      "last_call_at": "2026-11-09T17:25:40.976Z",
       "last_model": "k-exaone_v2.5",
       "provider": "openai-compatible-chat-905d5ad5-4a80-4f81-b994-460f8d76c797"
     },
     "thoth-main": {
-      "calls_15m": 7,
+      "calls_15m": 4,
       "calls_24h": 926,
       "calls_60m": 75,
       "errors_60m": 7,
@@ -28,5 +28,5 @@
       "provider": "ollama-cloud"
     }
   },
-  "produced_at": "2026-11-09T17:25:03.375Z"
+  "produced_at": "2026-11-09T17:30:22.426Z"
 }
