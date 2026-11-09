@@ -1,32 +1,32 @@
 {
   "combos": {
     "maat-main": {
-      "calls_15m": 9,
-      "calls_24h": 113,
-      "calls_60m": 39,
+      "calls_15m": 5,
+      "calls_24h": 114,
+      "calls_60m": 40,
       "errors_60m": 4,
-      "last_call_at": "2026-11-09T17:51:47.331Z",
+      "last_call_at": "2026-11-09T18:04:03.119Z",
       "last_model": "k-exaone_v2.5",
       "provider": "openai-compatible-chat-905d5ad5-4a80-4f81-b994-460f8d76c797"
     },
     "thoth-main": {
       "calls_15m": 0,
       "calls_24h": 826,
-      "calls_60m": 24,
-      "errors_60m": 2,
+      "calls_60m": 21,
+      "errors_60m": 1,
       "last_call_at": "2026-11-09T17:23:07.944Z",
       "last_model": "k-exaone_v2.5",
       "provider": "openai-compatible-chat-905d5ad5-4a80-4f81-b994-460f8d76c797"
     },
     "zumbrel-main": {
-      "calls_15m": 5,
-      "calls_24h": 428,
-      "calls_60m": 5,
+      "calls_15m": 10,
+      "calls_24h": 433,
+      "calls_60m": 10,
       "errors_60m": 0,
-      "last_call_at": "2026-11-09T17:58:19.443Z",
+      "last_call_at": "2026-11-09T18:03:44.206Z",
       "last_model": "k-exaone_v2.5",
       "provider": "openai-compatible-chat-905d5ad5-4a80-4f81-b994-460f8d76c797"
     }
   },
-  "produced_at": "2026-11-09T18:00:13.367Z"
+  "produced_at": "2026-11-09T18:05:22.329Z"
 }
