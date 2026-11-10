@@ -10,23 +10,23 @@
       "provider": "openrouter"
     },
     "thoth-main": {
-      "calls_15m": 22,
-      "calls_24h": 662,
-      "calls_60m": 22,
+      "calls_15m": 24,
+      "calls_24h": 664,
+      "calls_60m": 24,
       "errors_60m": 0,
-      "last_call_at": "2026-11-10T11:55:14.883Z",
+      "last_call_at": "2026-11-10T11:58:42.927Z",
       "last_model": "nvidia/nemotron-3-ultra-550b-a55b:free",
       "provider": "openrouter"
     },
     "zumbrel-main": {
       "calls_15m": 6,
       "calls_24h": 539,
-      "calls_60m": 44,
+      "calls_60m": 32,
       "errors_60m": 0,
       "last_call_at": "2026-11-10T11:53:18.382Z",
       "last_model": "nvidia/nemotron-3-ultra-550b-a55b:free",
       "provider": "openrouter"
     }
   },
-  "produced_at": "2026-11-10T11:55:23.400Z"
+  "produced_at": "2026-11-10T12:00:03.498Z"
 }
