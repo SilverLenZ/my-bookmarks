@@ -2,7 +2,7 @@
   "combos": {
     "maat-main": {
       "calls_15m": 3,
-      "calls_24h": 570,
+      "calls_24h": 565,
       "calls_60m": 14,
       "errors_60m": 0,
       "last_call_at": "2026-11-10T18:30:53.362Z",
@@ -11,7 +11,7 @@
     },
     "thoth-main": {
       "calls_15m": 0,
-      "calls_24h": 506,
+      "calls_24h": 504,
       "calls_60m": 0,
       "errors_60m": 0,
       "last_call_at": "2026-11-10T17:28:22.963Z",
@@ -28,5 +28,5 @@
       "provider": "openrouter"
     }
   },
-  "produced_at": "2026-11-10T18:40:03.379Z"
+  "produced_at": "2026-11-10T18:45:19.165Z"
 }
