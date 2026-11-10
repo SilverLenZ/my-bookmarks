@@ -11,7 +11,7 @@
     },
     "thoth-main": {
       "calls_15m": 0,
-      "calls_24h": 600,
+      "calls_24h": 578,
       "calls_60m": 0,
       "errors_60m": 0,
       "last_call_at": "2026-11-10T12:33:12.355Z",
@@ -19,7 +19,7 @@
       "provider": "openrouter"
     },
     "zumbrel-main": {
-      "calls_15m": 4,
+      "calls_15m": 3,
       "calls_24h": 593,
       "calls_60m": 42,
       "errors_60m": 0,
@@ -28,5 +28,5 @@
       "provider": "openrouter"
     }
   },
-  "produced_at": "2026-11-10T13:35:13.380Z"
+  "produced_at": "2026-11-10T13:40:13.368Z"
 }
