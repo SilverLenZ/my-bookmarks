@@ -10,11 +10,11 @@
       "provider": "nous-research"
     },
     "thoth-main": {
-      "calls_15m": 0,
-      "calls_24h": 417,
-      "calls_60m": 11,
-      "errors_60m": 6,
-      "last_call_at": "2026-11-10T20:30:31.840Z",
+      "calls_15m": 5,
+      "calls_24h": 410,
+      "calls_60m": 16,
+      "errors_60m": 9,
+      "last_call_at": "2026-11-10T21:26:52.249Z",
       "last_model": "deepseek-v4.1-flash",
       "provider": "ollama-cloud"
     },
@@ -28,5 +28,5 @@
       "provider": "ollama-cloud"
     }
   },
-  "produced_at": "2026-11-10T21:25:03.388Z"
+  "produced_at": "2026-11-10T21:30:13.925Z"
 }
