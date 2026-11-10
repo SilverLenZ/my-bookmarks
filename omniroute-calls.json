@@ -19,14 +19,14 @@
       "provider": "openrouter"
     },
     "zumbrel-main": {
-      "calls_15m": 0,
-      "calls_24h": 481,
-      "calls_60m": 6,
+      "calls_15m": 29,
+      "calls_24h": 510,
+      "calls_60m": 32,
       "errors_60m": 0,
-      "last_call_at": "2026-11-10T08:01:09.872Z",
+      "last_call_at": "2026-11-10T08:49:56.221Z",
       "last_model": "nvidia/nemotron-3-ultra-550b-a55b:free",
       "provider": "openrouter"
     }
   },
-  "produced_at": "2026-11-10T08:45:05.406Z"
+  "produced_at": "2026-11-10T08:50:03.381Z"
 }
