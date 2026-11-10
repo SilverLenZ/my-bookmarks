@@ -1,10 +1,10 @@
 {
   "combos": {
     "maat-main": {
-      "calls_15m": 5,
-      "calls_24h": 459,
-      "calls_60m": 29,
-      "errors_60m": 17,
+      "calls_15m": 0,
+      "calls_24h": 454,
+      "calls_60m": 24,
+      "errors_60m": 15,
       "last_call_at": "2026-11-10T21:00:58.722Z",
       "last_model": "meituan/longcat-2.5:free",
       "provider": "nous-research"
@@ -28,5 +28,5 @@
       "provider": "ollama-cloud"
     }
   },
-  "produced_at": "2026-11-10T21:15:23.379Z"
+  "produced_at": "2026-11-10T21:20:13.395Z"
 }
