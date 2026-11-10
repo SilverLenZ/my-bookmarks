@@ -2,7 +2,7 @@
   "combos": {
     "maat-main": {
       "calls_15m": 5,
-      "calls_24h": 552,
+      "calls_24h": 532,
       "calls_60m": 14,
       "errors_60m": 0,
       "last_call_at": "2026-11-10T19:31:46.757Z",
@@ -19,14 +19,14 @@
       "provider": "openrouter"
     },
     "zumbrel-main": {
-      "calls_15m": 72,
-      "calls_24h": 855,
-      "calls_60m": 102,
-      "errors_60m": 11,
-      "last_call_at": "2026-11-10T19:35:13.300Z",
+      "calls_15m": 115,
+      "calls_24h": 899,
+      "calls_60m": 146,
+      "errors_60m": 24,
+      "last_call_at": "2026-11-10T19:37:48.254Z",
       "last_model": "deepseek-v4.1-flash",
       "provider": "ollama-cloud"
     }
   },
-  "produced_at": "2026-11-10T19:35:15.709Z"
+  "produced_at": "2026-11-10T19:40:13.393Z"
 }
