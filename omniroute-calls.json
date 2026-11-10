@@ -3,8 +3,8 @@
     "maat-main": {
       "calls_15m": 0,
       "calls_24h": 493,
-      "calls_60m": 44,
-      "errors_60m": 12,
+      "calls_60m": 39,
+      "errors_60m": 10,
       "last_call_at": "2026-11-10T21:38:24.066Z",
       "last_model": "glm-5.3",
       "provider": "ollama-cloud"
@@ -19,14 +19,14 @@
       "provider": "ollama-cloud"
     },
     "zumbrel-main": {
-      "calls_15m": 26,
-      "calls_24h": 946,
-      "calls_60m": 52,
-      "errors_60m": 20,
-      "last_call_at": "2026-11-10T22:00:22.922Z",
+      "calls_15m": 48,
+      "calls_24h": 968,
+      "calls_60m": 74,
+      "errors_60m": 27,
+      "last_call_at": "2026-11-10T22:04:42.635Z",
       "last_model": "deepseek-v4.1-flash",
       "provider": "ollama-cloud"
     }
   },
-  "produced_at": "2026-11-10T22:00:23.374Z"
+  "produced_at": "2026-11-10T22:05:03.362Z"
 }
