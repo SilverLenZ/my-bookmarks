@@ -20,7 +20,7 @@
     },
     "zumbrel-main": {
       "calls_15m": 0,
-      "calls_24h": 518,
+      "calls_24h": 503,
       "calls_60m": 37,
       "errors_60m": 0,
       "last_call_at": "2026-11-10T08:52:51.771Z",
@@ -28,5 +28,5 @@
       "provider": "openrouter"
     }
   },
-  "produced_at": "2026-11-10T09:40:03.380Z"
+  "produced_at": "2026-11-10T09:45:15.429Z"
 }
