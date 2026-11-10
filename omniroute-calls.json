@@ -1,7 +1,7 @@
 {
   "combos": {
     "maat-main": {
-      "calls_15m": 23,
+      "calls_15m": 4,
       "calls_24h": 531,
       "calls_60m": 82,
       "errors_60m": 2,
@@ -10,9 +10,9 @@
       "provider": "openrouter"
     },
     "thoth-main": {
-      "calls_15m": 34,
+      "calls_15m": 0,
       "calls_24h": 812,
-      "calls_60m": 123,
+      "calls_60m": 109,
       "errors_60m": 0,
       "last_call_at": "2026-11-10T03:23:04.218Z",
       "last_model": "deepseek-v4.1-flash",
@@ -28,5 +28,5 @@
       "provider": "ollama-cloud"
     }
   },
-  "produced_at": "2026-11-10T03:35:13.356Z"
+  "produced_at": "2026-11-10T03:40:13.382Z"
 }
