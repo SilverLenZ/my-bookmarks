@@ -1,16 +1,16 @@
 {
   "combos": {
     "maat-main": {
-      "calls_15m": 26,
+      "calls_15m": 16,
       "calls_24h": 418,
-      "calls_60m": 113,
+      "calls_60m": 110,
       "errors_60m": 20,
       "last_call_at": "2026-11-10T01:39:04.697Z",
       "last_model": "meituan/longcat-2.5:free",
       "provider": "nous-research"
     },
     "thoth-main": {
-      "calls_15m": 6,
+      "calls_15m": 0,
       "calls_24h": 671,
       "calls_60m": 46,
       "errors_60m": 7,
@@ -28,5 +28,5 @@
       "provider": "ollama-cloud"
     }
   },
-  "produced_at": "2026-11-10T01:45:13.373Z"
+  "produced_at": "2026-11-10T01:50:13.363Z"
 }
