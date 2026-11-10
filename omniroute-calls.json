@@ -10,7 +10,7 @@
       "provider": "nous-research"
     },
     "thoth-main": {
-      "calls_15m": 41,
+      "calls_15m": 6,
       "calls_24h": 671,
       "calls_60m": 46,
       "errors_60m": 7,
@@ -28,5 +28,5 @@
       "provider": "ollama-cloud"
     }
   },
-  "produced_at": "2026-11-10T01:40:14.107Z"
+  "produced_at": "2026-11-10T01:45:13.373Z"
 }
