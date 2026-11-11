@@ -10,13 +10,13 @@
       "provider": "unorouter"
     },
     "thoth-main": {
-      "calls_15m": 1,
-      "calls_24h": 3012,
-      "calls_60m": 23,
-      "errors_60m": 10,
-      "last_call_at": "2026-11-11T20:19:53.620Z",
-      "last_model": "gemma-4-26b:free",
-      "provider": "unorouter"
+      "calls_15m": 7,
+      "calls_24h": 3018,
+      "calls_60m": 17,
+      "errors_60m": 6,
+      "last_call_at": "2026-11-11T20:25:09.702Z",
+      "last_model": "deepseek-v4.1-flash",
+      "provider": "ollama-cloud"
     },
     "zumbrel-main": {
       "calls_15m": 0,
@@ -28,5 +28,5 @@
       "provider": "unorouter"
     }
   },
-  "produced_at": "2026-11-11T20:20:13.419Z"
+  "produced_at": "2026-11-11T20:25:13.370Z"
 }
