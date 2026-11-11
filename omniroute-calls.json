@@ -1,7 +1,7 @@
 {
   "combos": {
     "maat-main": {
-      "calls_15m": 5,
+      "calls_15m": 1,
       "calls_24h": 677,
       "calls_60m": 59,
       "errors_60m": 13,
@@ -10,8 +10,8 @@
       "provider": "unorouter"
     },
     "thoth-main": {
-      "calls_15m": 8,
-      "calls_24h": 2877,
+      "calls_15m": 0,
+      "calls_24h": 2876,
       "calls_60m": 37,
       "errors_60m": 12,
       "last_call_at": "2026-11-11T16:24:57.971Z",
@@ -28,5 +28,5 @@
       "provider": "unorouter"
     }
   },
-  "produced_at": "2026-11-11T16:35:23.369Z"
+  "produced_at": "2026-11-11T16:40:13.361Z"
 }
