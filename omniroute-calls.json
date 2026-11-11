@@ -10,11 +10,11 @@
       "provider": "ollama-cloud"
     },
     "thoth-main": {
-      "calls_15m": 73,
-      "calls_24h": 1219,
-      "calls_60m": 207,
+      "calls_15m": 53,
+      "calls_24h": 1209,
+      "calls_60m": 193,
       "errors_60m": 0,
-      "last_call_at": "2026-11-11T02:31:56.095Z",
+      "last_call_at": "2026-11-11T02:36:00.877Z",
       "last_model": "deepseek-v4.1-flash",
       "provider": "ollama-cloud"
     },
@@ -28,5 +28,5 @@
       "provider": "openrouter"
     }
   },
-  "produced_at": "2026-11-11T02:35:23.362Z"
+  "produced_at": "2026-11-11T02:40:13.380Z"
 }
