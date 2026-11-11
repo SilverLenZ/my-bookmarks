@@ -10,13 +10,13 @@
       "provider": "nous-research"
     },
     "thoth-main": {
-      "calls_15m": 111,
-      "calls_24h": 1009,
-      "calls_60m": 177,
-      "errors_60m": 86,
-      "last_call_at": "2026-11-11T01:25:12.886Z",
-      "last_model": "nvidia/nemotron-3-ultra-550b-a55b:free",
-      "provider": "openrouter"
+      "calls_15m": 143,
+      "calls_24h": 1007,
+      "calls_60m": 209,
+      "errors_60m": 99,
+      "last_call_at": "2026-11-11T01:28:38.297Z",
+      "last_model": "glm-4.7-flash",
+      "provider": "zai"
     },
     "zumbrel-main": {
       "calls_15m": 0,
@@ -28,5 +28,5 @@
       "provider": "openrouter"
     }
   },
-  "produced_at": "2026-11-11T01:25:14.671Z"
+  "produced_at": "2026-11-11T01:30:04.905Z"
 }
