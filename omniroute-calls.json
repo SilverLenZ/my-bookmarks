@@ -19,14 +19,14 @@
       "provider": "ollama-cloud"
     },
     "zumbrel-main": {
-      "calls_15m": 7,
-      "calls_24h": 1108,
-      "calls_60m": 7,
-      "errors_60m": 5,
-      "last_call_at": "2026-11-11T10:49:45.318Z",
-      "last_model": "gpt-6-luna:free",
-      "provider": "unorouter"
+      "calls_15m": 10,
+      "calls_24h": 1111,
+      "calls_60m": 10,
+      "errors_60m": 6,
+      "last_call_at": "2026-11-11T10:51:52.635Z",
+      "last_model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+      "provider": "openrouter"
     }
   },
-  "produced_at": "2026-11-11T10:50:03.388Z"
+  "produced_at": "2026-11-11T10:55:13.357Z"
 }
