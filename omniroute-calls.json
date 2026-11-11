@@ -10,23 +10,23 @@
       "provider": "ollama-cloud"
     },
     "thoth-main": {
-      "calls_15m": 362,
-      "calls_24h": 2120,
-      "calls_60m": 627,
+      "calls_15m": 366,
+      "calls_24h": 2191,
+      "calls_60m": 643,
       "errors_60m": 4,
-      "last_call_at": "2026-11-11T12:55:03.270Z",
+      "last_call_at": "2026-11-11T13:00:08.072Z",
       "last_model": "deepseek-v4.1-flash",
       "provider": "ollama-cloud"
     },
     "zumbrel-main": {
       "calls_15m": 0,
       "calls_24h": 1094,
-      "calls_60m": 42,
-      "errors_60m": 16,
+      "calls_60m": 38,
+      "errors_60m": 13,
       "last_call_at": "2026-11-11T12:18:21.124Z",
       "last_model": "nvidia/nemotron-3-ultra-550b-a55b:free",
       "provider": "openrouter"
     }
   },
-  "produced_at": "2026-11-11T12:55:07.918Z"
+  "produced_at": "2026-11-11T13:00:11.952Z"
 }
