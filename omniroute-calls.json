@@ -10,23 +10,23 @@
       "provider": "nous-research"
     },
     "thoth-main": {
-      "calls_15m": 42,
-      "calls_24h": 890,
-      "calls_60m": 153,
-      "errors_60m": 57,
-      "last_call_at": "2026-11-11T00:48:38.611Z",
-      "last_model": "nvidia/nemotron-3-ultra-550b-a55b:free",
-      "provider": "openrouter"
+      "calls_15m": 38,
+      "calls_24h": 901,
+      "calls_60m": 135,
+      "errors_60m": 53,
+      "last_call_at": "2026-11-11T00:55:03.983Z",
+      "last_model": "glm-4.7-flash",
+      "provider": "zai"
     },
     "zumbrel-main": {
-      "calls_15m": 3,
-      "calls_24h": 1081,
-      "calls_60m": 58,
-      "errors_60m": 13,
-      "last_call_at": "2026-11-11T00:49:31.901Z",
+      "calls_15m": 14,
+      "calls_24h": 1092,
+      "calls_60m": 33,
+      "errors_60m": 9,
+      "last_call_at": "2026-11-11T00:51:43.353Z",
       "last_model": "nvidia/nemotron-3-ultra-550b-a55b:free",
       "provider": "openrouter"
     }
   },
-  "produced_at": "2026-11-11T00:50:13.372Z"
+  "produced_at": "2026-11-11T00:55:07.423Z"
 }
