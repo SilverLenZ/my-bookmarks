@@ -12,7 +12,7 @@
     "thoth-main": {
       "calls_15m": 0,
       "calls_24h": 1398,
-      "calls_60m": 16,
+      "calls_60m": 14,
       "errors_60m": 0,
       "last_call_at": "2026-11-11T04:45:39.849Z",
       "last_model": "deepseek-v4.1-flash",
@@ -20,7 +20,7 @@
     },
     "zumbrel-main": {
       "calls_15m": 6,
-      "calls_24h": 1099,
+      "calls_24h": 1060,
       "calls_60m": 58,
       "errors_60m": 29,
       "last_call_at": "2026-11-11T05:15:51.035Z",
@@ -28,5 +28,5 @@
       "provider": "openrouter"
     }
   },
-  "produced_at": "2026-11-11T05:25:23.387Z"
+  "produced_at": "2026-11-11T05:30:23.380Z"
 }
