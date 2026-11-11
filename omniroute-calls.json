@@ -10,10 +10,10 @@
       "provider": "nous-research"
     },
     "thoth-main": {
-      "calls_15m": 47,
+      "calls_15m": 40,
       "calls_24h": 838,
-      "calls_60m": 277,
-      "errors_60m": 66,
+      "calls_60m": 266,
+      "errors_60m": 59,
       "last_call_at": "2026-11-11T00:24:03.740Z",
       "last_model": "glm-4.7-flash",
       "provider": "zai"
@@ -28,5 +28,5 @@
       "provider": "openrouter"
     }
   },
-  "produced_at": "2026-11-11T00:25:13.355Z"
+  "produced_at": "2026-11-11T00:30:15.938Z"
 }
