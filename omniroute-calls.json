@@ -3,18 +3,18 @@
     "maat-main": {
       "calls_15m": 0,
       "calls_24h": 596,
-      "calls_60m": 36,
+      "calls_60m": 19,
       "errors_60m": 0,
       "last_call_at": "2026-11-11T12:17:59.540Z",
       "last_model": "kimi-k2.7-code",
       "provider": "ollama-cloud"
     },
     "thoth-main": {
-      "calls_15m": 169,
-      "calls_24h": 1827,
-      "calls_60m": 383,
+      "calls_15m": 265,
+      "calls_24h": 1975,
+      "calls_60m": 525,
       "errors_60m": 0,
-      "last_call_at": "2026-11-11T12:45:19.594Z",
+      "last_call_at": "2026-11-11T12:50:05.057Z",
       "last_model": "deepseek-v4.1-flash",
       "provider": "ollama-cloud"
     },
@@ -28,5 +28,5 @@
       "provider": "openrouter"
     }
   },
-  "produced_at": "2026-11-11T12:45:19.922Z"
+  "produced_at": "2026-11-11T12:50:08.604Z"
 }
