@@ -3,8 +3,8 @@
     "maat-main": {
       "calls_15m": 0,
       "calls_24h": 745,
-      "calls_60m": 80,
-      "errors_60m": 4,
+      "calls_60m": 64,
+      "errors_60m": 1,
       "last_call_at": "2026-11-11T18:09:18.052Z",
       "last_model": "meituan/longcat-2.5:free",
       "provider": "nous-research"
@@ -12,8 +12,8 @@
     "thoth-main": {
       "calls_15m": 0,
       "calls_24h": 2940,
-      "calls_60m": 40,
-      "errors_60m": 17,
+      "calls_60m": 35,
+      "errors_60m": 16,
       "last_call_at": "2026-11-11T17:44:12.185Z",
       "last_model": "gemma-4-26b:free",
       "provider": "unorouter"
@@ -28,5 +28,5 @@
       "provider": "unorouter"
     }
   },
-  "produced_at": "2026-11-11T18:25:13.359Z"
+  "produced_at": "2026-11-11T18:30:11.867Z"
 }
