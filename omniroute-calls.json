@@ -1,17 +1,17 @@
 {
   "combos": {
     "maat-main": {
-      "calls_15m": 16,
-      "calls_24h": 769,
-      "calls_60m": 18,
+      "calls_15m": 18,
+      "calls_24h": 771,
+      "calls_60m": 20,
       "errors_60m": 0,
-      "last_call_at": "2026-11-11T22:55:13.233Z",
+      "last_call_at": "2026-11-11T22:58:33.189Z",
       "last_model": "glm-5.3",
       "provider": "ollama-cloud"
     },
     "thoth-main": {
       "calls_15m": 0,
-      "calls_24h": 2916,
+      "calls_24h": 2882,
       "calls_60m": 1,
       "errors_60m": 0,
       "last_call_at": "2026-11-11T22:28:39.140Z",
@@ -28,5 +28,5 @@
       "provider": "unorouter"
     }
   },
-  "produced_at": "2026-11-11T22:55:13.379Z"
+  "produced_at": "2026-11-11T23:00:23.428Z"
 }
