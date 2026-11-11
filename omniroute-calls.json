@@ -19,14 +19,14 @@
       "provider": "ollama-cloud"
     },
     "zumbrel-main": {
-      "calls_15m": 69,
-      "calls_24h": 1111,
-      "calls_60m": 75,
-      "errors_60m": 13,
-      "last_call_at": "2026-11-11T06:15:17.240Z",
+      "calls_15m": 87,
+      "calls_24h": 1129,
+      "calls_60m": 87,
+      "errors_60m": 10,
+      "last_call_at": "2026-11-11T06:20:10.033Z",
       "last_model": "nvidia/nemotron-3-ultra-550b-a55b:free",
       "provider": "openrouter"
     }
   },
-  "produced_at": "2026-11-11T06:15:23.387Z"
+  "produced_at": "2026-11-11T06:20:13.389Z"
 }
