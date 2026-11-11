@@ -12,8 +12,8 @@
     "thoth-main": {
       "calls_15m": 0,
       "calls_24h": 3015,
-      "calls_60m": 14,
-      "errors_60m": 5,
+      "calls_60m": 8,
+      "errors_60m": 3,
       "last_call_at": "2026-11-11T20:46:37.600Z",
       "last_model": "gemma-4-26b:free",
       "provider": "unorouter"
@@ -28,5 +28,5 @@
       "provider": "unorouter"
     }
   },
-  "produced_at": "2026-11-11T21:20:14.213Z"
+  "produced_at": "2026-11-11T21:25:13.363Z"
 }
