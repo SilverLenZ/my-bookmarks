@@ -2,7 +2,7 @@
   "combos": {
     "maat-main": {
       "calls_15m": 7,
-      "calls_24h": 563,
+      "calls_24h": 557,
       "calls_60m": 26,
       "errors_60m": 0,
       "last_call_at": "2026-11-11T01:17:46.534Z",
@@ -10,13 +10,13 @@
       "provider": "nous-research"
     },
     "thoth-main": {
-      "calls_15m": 38,
-      "calls_24h": 942,
-      "calls_60m": 118,
-      "errors_60m": 58,
-      "last_call_at": "2026-11-11T01:19:42.550Z",
-      "last_model": "glm-4.7-flash",
-      "provider": "zai"
+      "calls_15m": 111,
+      "calls_24h": 1009,
+      "calls_60m": 177,
+      "errors_60m": 86,
+      "last_call_at": "2026-11-11T01:25:12.886Z",
+      "last_model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+      "provider": "openrouter"
     },
     "zumbrel-main": {
       "calls_15m": 0,
@@ -28,5 +28,5 @@
       "provider": "openrouter"
     }
   },
-  "produced_at": "2026-11-11T01:20:05.674Z"
+  "produced_at": "2026-11-11T01:25:14.671Z"
 }
