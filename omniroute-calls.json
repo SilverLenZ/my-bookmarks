@@ -2,15 +2,15 @@
   "combos": {
     "maat-main": {
       "calls_15m": 0,
-      "calls_24h": 625,
-      "calls_60m": 34,
+      "calls_24h": 588,
+      "calls_60m": 24,
       "errors_60m": 0,
       "last_call_at": "2026-11-11T00:49:55.517Z",
       "last_model": "meituan/longcat-2.5:free",
       "provider": "nous-research"
     },
     "thoth-main": {
-      "calls_15m": 14,
+      "calls_15m": 3,
       "calls_24h": 904,
       "calls_60m": 113,
       "errors_60m": 53,
@@ -19,7 +19,7 @@
       "provider": "thoth-main"
     },
     "zumbrel-main": {
-      "calls_15m": 11,
+      "calls_15m": 0,
       "calls_24h": 1077,
       "calls_60m": 14,
       "errors_60m": 3,
@@ -28,5 +28,5 @@
       "provider": "openrouter"
     }
   },
-  "produced_at": "2026-11-11T01:05:03.377Z"
+  "produced_at": "2026-11-11T01:10:13.380Z"
 }
