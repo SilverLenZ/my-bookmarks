@@ -2,7 +2,7 @@
   "combos": {
     "maat-main": {
       "calls_15m": 0,
-      "calls_24h": 677,
+      "calls_24h": 674,
       "calls_60m": 59,
       "errors_60m": 13,
       "last_call_at": "2026-11-11T16:25:16.724Z",
@@ -28,5 +28,5 @@
       "provider": "unorouter"
     }
   },
-  "produced_at": "2026-11-11T16:45:13.359Z"
+  "produced_at": "2026-11-11T16:50:13.369Z"
 }
