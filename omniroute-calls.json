@@ -1,26 +1,26 @@
 {
   "combos": {
     "maat-main": {
-      "calls_15m": 17,
-      "calls_24h": 613,
-      "calls_60m": 75,
+      "calls_15m": 14,
+      "calls_24h": 618,
+      "calls_60m": 73,
       "errors_60m": 3,
-      "last_call_at": "2026-11-11T00:07:48.924Z",
+      "last_call_at": "2026-11-11T00:16:44.539Z",
       "last_model": "meituan/longcat-2.5:free",
       "provider": "nous-research"
     },
     "thoth-main": {
-      "calls_15m": 24,
-      "calls_24h": 798,
-      "calls_60m": 247,
-      "errors_60m": 54,
-      "last_call_at": "2026-11-11T00:12:06.301Z",
-      "last_model": "glm-4.7-flash",
-      "provider": "zai"
+      "calls_15m": 36,
+      "calls_24h": 827,
+      "calls_60m": 276,
+      "errors_60m": 67,
+      "last_call_at": "2026-11-11T00:20:12.958Z",
+      "last_model": "gpt-6-luna:free",
+      "provider": "unorouter"
     },
     "zumbrel-main": {
-      "calls_15m": 4,
-      "calls_24h": 1082,
+      "calls_15m": 0,
+      "calls_24h": 1078,
       "calls_60m": 76,
       "errors_60m": 15,
       "last_call_at": "2026-11-11T00:01:26.020Z",
@@ -28,5 +28,5 @@
       "provider": "openrouter"
     }
   },
-  "produced_at": "2026-11-11T00:15:07.247Z"
+  "produced_at": "2026-11-11T00:20:19.189Z"
 }
