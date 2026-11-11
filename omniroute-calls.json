@@ -3,7 +3,7 @@
     "maat-main": {
       "calls_15m": 0,
       "calls_24h": 769,
-      "calls_60m": 28,
+      "calls_60m": 3,
       "errors_60m": 0,
       "last_call_at": "2026-11-11T21:03:44.190Z",
       "last_model": "glm-5.3",
@@ -11,9 +11,9 @@
     },
     "thoth-main": {
       "calls_15m": 0,
-      "calls_24h": 3015,
-      "calls_60m": 8,
-      "errors_60m": 3,
+      "calls_24h": 3010,
+      "calls_60m": 1,
+      "errors_60m": 0,
       "last_call_at": "2026-11-11T20:46:37.600Z",
       "last_model": "gemma-4-26b:free",
       "provider": "unorouter"
@@ -28,5 +28,5 @@
       "provider": "unorouter"
     }
   },
-  "produced_at": "2026-11-11T21:25:13.363Z"
+  "produced_at": "2026-11-11T21:30:03.433Z"
 }
