@@ -3,7 +3,7 @@
     "main": {
       "checked_at": "2026-11-10T01:35:23.461Z",
       "error_code": "invalid_payload",
-      "last_attempt_at": "2026-11-10T23:55:13.451Z",
+      "last_attempt_at": "2026-11-11T00:00:08.012Z",
       "monthly": {
         "period_from": "2026-10-23T23:14:19.956Z",
         "period_until": "2026-11-23T23:14:19.956Z",
@@ -12,10 +12,10 @@
       "status": "error"
     },
     "main-paid": {
-      "checked_at": "2026-11-10T23:55:13.451Z",
+      "checked_at": "2026-11-11T00:00:08.012Z",
       "session": {
         "resets_at": "2026-11-11T03:00:00.000Z",
-        "used_pct": 28.9
+        "used_pct": 29.1
       },
       "status": "ok",
       "weekly": {
@@ -24,5 +24,5 @@
       }
     }
   },
-  "produced_at": "2026-11-10T23:55:13.451Z"
+  "produced_at": "2026-11-11T00:00:08.012Z"
 }
