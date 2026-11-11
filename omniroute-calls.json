@@ -1,7 +1,7 @@
 {
   "combos": {
     "maat-main": {
-      "calls_15m": 14,
+      "calls_15m": 5,
       "calls_24h": 618,
       "calls_60m": 73,
       "errors_60m": 3,
@@ -10,13 +10,13 @@
       "provider": "nous-research"
     },
     "thoth-main": {
-      "calls_15m": 36,
-      "calls_24h": 827,
-      "calls_60m": 276,
-      "errors_60m": 67,
-      "last_call_at": "2026-11-11T00:20:12.958Z",
-      "last_model": "gpt-6-luna:free",
-      "provider": "unorouter"
+      "calls_15m": 47,
+      "calls_24h": 838,
+      "calls_60m": 277,
+      "errors_60m": 66,
+      "last_call_at": "2026-11-11T00:24:03.740Z",
+      "last_model": "glm-4.7-flash",
+      "provider": "zai"
     },
     "zumbrel-main": {
       "calls_15m": 0,
@@ -28,5 +28,5 @@
       "provider": "openrouter"
     }
   },
-  "produced_at": "2026-11-11T00:20:19.189Z"
+  "produced_at": "2026-11-11T00:25:13.355Z"
 }
