@@ -2,7 +2,7 @@
   "combos": {
     "maat-main": {
       "calls_15m": 2,
-      "calls_24h": 771,
+      "calls_24h": 765,
       "calls_60m": 15,
       "errors_60m": 3,
       "last_call_at": "2026-11-11T20:13:39.961Z",
@@ -10,11 +10,11 @@
       "provider": "unorouter"
     },
     "thoth-main": {
-      "calls_15m": 0,
-      "calls_24h": 3011,
-      "calls_60m": 38,
-      "errors_60m": 17,
-      "last_call_at": "2026-11-11T19:50:32.186Z",
+      "calls_15m": 1,
+      "calls_24h": 3012,
+      "calls_60m": 23,
+      "errors_60m": 10,
+      "last_call_at": "2026-11-11T20:19:53.620Z",
       "last_model": "gemma-4-26b:free",
       "provider": "unorouter"
     },
@@ -28,5 +28,5 @@
       "provider": "unorouter"
     }
   },
-  "produced_at": "2026-11-11T20:15:13.361Z"
+  "produced_at": "2026-11-11T20:20:13.419Z"
 }
