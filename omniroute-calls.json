@@ -1,32 +1,32 @@
 {
   "combos": {
     "maat-main": {
-      "calls_15m": 13,
-      "calls_24h": 596,
-      "calls_60m": 103,
-      "errors_60m": 7,
-      "last_call_at": "2026-11-10T23:47:30.013Z",
-      "last_model": "glm-5.3",
-      "provider": "ollama-cloud"
+      "calls_15m": 7,
+      "calls_24h": 603,
+      "calls_60m": 65,
+      "errors_60m": 3,
+      "last_call_at": "2026-11-11T00:02:21.795Z",
+      "last_model": "meituan/longcat-2.5:free",
+      "provider": "nous-research"
     },
     "thoth-main": {
-      "calls_15m": 64,
-      "calls_24h": 774,
-      "calls_60m": 261,
-      "errors_60m": 57,
-      "last_call_at": "2026-11-10T23:55:56.579Z",
-      "last_model": "deepseek-v4.1-flash",
-      "provider": "ollama-cloud"
+      "calls_15m": 54,
+      "calls_24h": 791,
+      "calls_60m": 245,
+      "errors_60m": 53,
+      "last_call_at": "2026-11-11T00:04:35.848Z",
+      "last_model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+      "provider": "openrouter"
     },
     "zumbrel-main": {
-      "calls_15m": 72,
-      "calls_24h": 1088,
+      "calls_15m": 55,
+      "calls_24h": 1092,
       "calls_60m": 76,
       "errors_60m": 15,
-      "last_call_at": "2026-11-10T23:57:59.278Z",
-      "last_model": "deepseek-v4.1-flash",
-      "provider": "ollama-cloud"
+      "last_call_at": "2026-11-11T00:01:26.020Z",
+      "last_model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+      "provider": "openrouter"
     }
   },
-  "produced_at": "2026-11-11T00:00:19.414Z"
+  "produced_at": "2026-11-11T00:05:06.412Z"
 }
