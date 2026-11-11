@@ -10,13 +10,13 @@
       "provider": "nous-research"
     },
     "thoth-main": {
-      "calls_15m": 18,
-      "calls_24h": 2978,
-      "calls_60m": 38,
-      "errors_60m": 17,
-      "last_call_at": "2026-11-11T19:09:22.497Z",
-      "last_model": "gemma-4-26b:free",
-      "provider": "unorouter"
+      "calls_15m": 20,
+      "calls_24h": 2980,
+      "calls_60m": 40,
+      "errors_60m": 18,
+      "last_call_at": "2026-11-11T19:12:45.904Z",
+      "last_model": "deepseek-v4.1-flash",
+      "provider": "ollama-cloud"
     },
     "zumbrel-main": {
       "calls_15m": 0,
@@ -28,5 +28,5 @@
       "provider": "unorouter"
     }
   },
-  "produced_at": "2026-11-11T19:10:13.351Z"
+  "produced_at": "2026-11-11T19:15:03.383Z"
 }
