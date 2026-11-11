@@ -1,25 +1,25 @@
 {
   "combos": {
     "maat-main": {
-      "calls_15m": 3,
+      "calls_15m": 0,
       "calls_24h": 596,
-      "calls_60m": 41,
+      "calls_60m": 36,
       "errors_60m": 0,
       "last_call_at": "2026-11-11T12:17:59.540Z",
       "last_model": "kimi-k2.7-code",
       "provider": "ollama-cloud"
     },
     "thoth-main": {
-      "calls_15m": 27,
-      "calls_24h": 1658,
-      "calls_60m": 292,
+      "calls_15m": 72,
+      "calls_24h": 1711,
+      "calls_60m": 311,
       "errors_60m": 0,
-      "last_call_at": "2026-11-11T12:26:10.499Z",
+      "last_call_at": "2026-11-11T12:35:15.211Z",
       "last_model": "deepseek-v4.1-flash",
       "provider": "ollama-cloud"
     },
     "zumbrel-main": {
-      "calls_15m": 7,
+      "calls_15m": 0,
       "calls_24h": 1094,
       "calls_60m": 43,
       "errors_60m": 17,
@@ -28,5 +28,5 @@
       "provider": "openrouter"
     }
   },
-  "produced_at": "2026-11-11T12:30:11.922Z"
+  "produced_at": "2026-11-11T12:35:23.364Z"
 }
