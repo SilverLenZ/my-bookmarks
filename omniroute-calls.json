@@ -10,9 +10,9 @@
       "provider": "ollama-cloud"
     },
     "thoth-main": {
-      "calls_15m": 12,
+      "calls_15m": 9,
       "calls_24h": 1382,
-      "calls_60m": 125,
+      "calls_60m": 103,
       "errors_60m": 0,
       "last_call_at": "2026-11-11T04:15:36.403Z",
       "last_model": "deepseek-v4.1-flash",
@@ -20,7 +20,7 @@
     },
     "zumbrel-main": {
       "calls_15m": 6,
-      "calls_24h": 1076,
+      "calls_24h": 1065,
       "calls_60m": 54,
       "errors_60m": 19,
       "last_call_at": "2026-11-11T04:15:52.669Z",
@@ -28,5 +28,5 @@
       "provider": "openrouter"
     }
   },
-  "produced_at": "2026-11-11T04:20:23.385Z"
+  "produced_at": "2026-11-11T04:25:03.365Z"
 }
