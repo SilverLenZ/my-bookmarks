@@ -1,13 +1,13 @@
 {
   "combos": {
     "maat-main": {
-      "calls_15m": 11,
-      "calls_24h": 708,
-      "calls_60m": 55,
+      "calls_15m": 21,
+      "calls_24h": 725,
+      "calls_60m": 75,
       "errors_60m": 4,
-      "last_call_at": "2026-11-11T17:50:06.947Z",
-      "last_model": "nvidia/nemotron-3-ultra-550b-a55b:free",
-      "provider": "openrouter"
+      "last_call_at": "2026-11-11T18:04:43.116Z",
+      "last_model": "meituan/longcat-2.5:free",
+      "provider": "nous-research"
     },
     "thoth-main": {
       "calls_15m": 0,
@@ -28,5 +28,5 @@
       "provider": "unorouter"
     }
   },
-  "produced_at": "2026-11-11T18:00:13.379Z"
+  "produced_at": "2026-11-11T18:05:03.401Z"
 }
