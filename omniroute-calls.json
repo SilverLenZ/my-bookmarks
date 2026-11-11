@@ -3,30 +3,30 @@
     "maat-main": {
       "calls_15m": 0,
       "calls_24h": 720,
-      "calls_60m": 19,
-      "errors_60m": 5,
+      "calls_60m": 11,
+      "errors_60m": 3,
       "last_call_at": "2026-11-11T13:52:15.310Z",
       "last_model": "nvidia/nemotron-3-ultra-550b-a55b:free",
       "provider": "openrouter"
     },
     "thoth-main": {
-      "calls_15m": 28,
-      "calls_24h": 2825,
-      "calls_60m": 294,
-      "errors_60m": 33,
-      "last_call_at": "2026-11-11T14:36:59.424Z",
+      "calls_15m": 30,
+      "calls_24h": 2826,
+      "calls_60m": 270,
+      "errors_60m": 18,
+      "last_call_at": "2026-11-11T14:40:49.489Z",
       "last_model": "deepseek-v4.1-flash",
       "provider": "ollama-cloud"
     },
     "zumbrel-main": {
-      "calls_15m": 7,
-      "calls_24h": 1057,
-      "calls_60m": 43,
-      "errors_60m": 10,
-      "last_call_at": "2026-11-11T14:27:30.473Z",
+      "calls_15m": 3,
+      "calls_24h": 1060,
+      "calls_60m": 46,
+      "errors_60m": 12,
+      "last_call_at": "2026-11-11T14:42:28.868Z",
       "last_model": "deepseek-v4.1-flash",
       "provider": "ollama-cloud"
     }
   },
-  "produced_at": "2026-11-11T14:40:13.379Z"
+  "produced_at": "2026-11-11T14:45:13.375Z"
 }
