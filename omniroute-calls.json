@@ -19,14 +19,14 @@
       "provider": "unorouter"
     },
     "zumbrel-main": {
-      "calls_15m": 1,
-      "calls_24h": 653,
-      "calls_60m": 1,
+      "calls_15m": 2,
+      "calls_24h": 635,
+      "calls_60m": 2,
       "errors_60m": 0,
-      "last_call_at": "2026-11-11T22:35:34.228Z",
+      "last_call_at": "2026-11-11T22:45:46.157Z",
       "last_model": "gemma-4-26b:free",
       "provider": "unorouter"
     }
   },
-  "produced_at": "2026-11-11T22:45:23.349Z"
+  "produced_at": "2026-11-11T22:50:13.380Z"
 }
