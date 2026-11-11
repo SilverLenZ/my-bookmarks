@@ -2,15 +2,15 @@
   "combos": {
     "maat-main": {
       "calls_15m": 40,
-      "calls_24h": 782,
-      "calls_60m": 94,
+      "calls_24h": 779,
+      "calls_60m": 83,
       "errors_60m": 6,
       "last_call_at": "2026-11-11T18:41:41.358Z",
       "last_model": "meituan/longcat-2.5:free",
       "provider": "nous-research"
     },
     "thoth-main": {
-      "calls_15m": 20,
+      "calls_15m": 3,
       "calls_24h": 2960,
       "calls_60m": 20,
       "errors_60m": 9,
@@ -20,13 +20,13 @@
     },
     "zumbrel-main": {
       "calls_15m": 1,
-      "calls_24h": 943,
-      "calls_60m": 1,
+      "calls_24h": 941,
+      "calls_60m": 2,
       "errors_60m": 1,
-      "last_call_at": "2026-11-11T18:31:33.731Z",
+      "last_call_at": "2026-11-11T18:45:33.007Z",
       "last_model": "gemma-4-26b:free",
       "provider": "unorouter"
     }
   },
-  "produced_at": "2026-11-11T18:45:23.362Z"
+  "produced_at": "2026-11-11T18:50:23.360Z"
 }
