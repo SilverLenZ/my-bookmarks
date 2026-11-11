@@ -1,32 +1,32 @@
 {
   "combos": {
     "maat-main": {
-      "calls_15m": 2,
-      "calls_24h": 540,
-      "calls_60m": 54,
+      "calls_15m": 6,
+      "calls_24h": 546,
+      "calls_60m": 27,
       "errors_60m": 0,
-      "last_call_at": "2026-11-11T03:45:30.680Z",
+      "last_call_at": "2026-11-11T04:00:59.094Z",
       "last_model": "kimi-k2.7-code",
       "provider": "ollama-cloud"
     },
     "thoth-main": {
-      "calls_15m": 13,
-      "calls_24h": 1365,
-      "calls_60m": 174,
+      "calls_15m": 5,
+      "calls_24h": 1370,
+      "calls_60m": 171,
       "errors_60m": 0,
-      "last_call_at": "2026-11-11T03:47:07.399Z",
+      "last_call_at": "2026-11-11T04:00:32.479Z",
       "last_model": "deepseek-v4.1-flash",
       "provider": "ollama-cloud"
     },
     "zumbrel-main": {
-      "calls_15m": 35,
-      "calls_24h": 1067,
-      "calls_60m": 35,
-      "errors_60m": 10,
-      "last_call_at": "2026-11-11T04:00:16.053Z",
-      "last_model": "gpt-6-luna:free",
-      "provider": "unorouter"
+      "calls_15m": 48,
+      "calls_24h": 1080,
+      "calls_60m": 48,
+      "errors_60m": 16,
+      "last_call_at": "2026-11-11T04:01:15.652Z",
+      "last_model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+      "provider": "openrouter"
     }
   },
-  "produced_at": "2026-11-11T04:00:18.410Z"
+  "produced_at": "2026-11-11T04:05:13.401Z"
 }
