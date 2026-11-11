@@ -3,8 +3,8 @@
     "maat-main": {
       "calls_15m": 0,
       "calls_24h": 772,
-      "calls_60m": 40,
-      "errors_60m": 3,
+      "calls_60m": 27,
+      "errors_60m": 0,
       "last_call_at": "2026-11-11T20:27:05.019Z",
       "last_model": "glm-5.3",
       "provider": "ollama-cloud"
@@ -12,7 +12,7 @@
     "thoth-main": {
       "calls_15m": 1,
       "calls_24h": 3015,
-      "calls_60m": 17,
+      "calls_60m": 15,
       "errors_60m": 5,
       "last_call_at": "2026-11-11T20:46:37.600Z",
       "last_model": "gemma-4-26b:free",
@@ -28,5 +28,5 @@
       "provider": "unorouter"
     }
   },
-  "produced_at": "2026-11-11T20:50:03.378Z"
+  "produced_at": "2026-11-11T20:55:03.365Z"
 }
