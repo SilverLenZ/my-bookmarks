@@ -1,32 +1,32 @@
 {
   "combos": {
     "maat-main": {
-      "calls_15m": 11,
-      "calls_24h": 542,
-      "calls_60m": 28,
+      "calls_15m": 14,
+      "calls_24h": 556,
+      "calls_60m": 32,
       "errors_60m": 0,
-      "last_call_at": "2026-11-11T01:31:34.289Z",
+      "last_call_at": "2026-11-11T01:47:55.972Z",
       "last_model": "kimi-k2.7-code",
       "provider": "ollama-cloud"
     },
     "thoth-main": {
-      "calls_15m": 73,
-      "calls_24h": 1074,
-      "calls_60m": 249,
-      "errors_60m": 83,
-      "last_call_at": "2026-11-11T01:41:08.940Z",
+      "calls_15m": 41,
+      "calls_24h": 1087,
+      "calls_60m": 243,
+      "errors_60m": 72,
+      "last_call_at": "2026-11-11T01:45:46.044Z",
       "last_model": "deepseek-v4.1-flash",
       "provider": "ollama-cloud"
     },
     "zumbrel-main": {
       "calls_15m": 0,
       "calls_24h": 1064,
-      "calls_60m": 14,
-      "errors_60m": 3,
+      "calls_60m": 11,
+      "errors_60m": 2,
       "last_call_at": "2026-11-11T00:51:43.353Z",
       "last_model": "nvidia/nemotron-3-ultra-550b-a55b:free",
       "provider": "openrouter"
     }
   },
-  "produced_at": "2026-11-11T01:45:03.384Z"
+  "produced_at": "2026-11-11T01:50:03.364Z"
 }
