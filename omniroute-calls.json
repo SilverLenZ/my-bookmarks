@@ -3,7 +3,7 @@
     "maat-main": {
       "calls_15m": 0,
       "calls_24h": 676,
-      "calls_60m": 11,
+      "calls_60m": 8,
       "errors_60m": 0,
       "last_call_at": "2026-11-11T23:02:52.216Z",
       "last_model": "glm-5.3",
@@ -11,7 +11,7 @@
     },
     "thoth-main": {
       "calls_15m": 0,
-      "calls_24h": 2632,
+      "calls_24h": 2624,
       "calls_60m": 0,
       "errors_60m": 0,
       "last_call_at": "2026-11-11T22:28:39.140Z",
@@ -20,7 +20,7 @@
     },
     "zumbrel-main": {
       "calls_15m": 0,
-      "calls_24h": 576,
+      "calls_24h": 560,
       "calls_60m": 1,
       "errors_60m": 0,
       "last_call_at": "2026-11-11T23:36:36.130Z",
@@ -28,5 +28,5 @@
       "provider": "unorouter"
     }
   },
-  "produced_at": "2026-11-11T23:55:03.370Z"
+  "produced_at": "2026-11-12T00:00:13.377Z"
 }
