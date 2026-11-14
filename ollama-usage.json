@@ -51,5 +51,24 @@
     ],
     "checked_at": "2026-11-07T18:45:14Z",
     "status": "ok"
+  },
+  "opencode": {
+    "metrics": [
+      {
+        "label": "Session limit",
+        "used_pct": 1
+      },
+      {
+        "label": "Weekly limit",
+        "used_pct": 2
+      },
+      {
+        "label": "Monthly limit",
+        "used_pct": 1
+      }
+    ],
+    "checked_at": "2026-11-14T14:46:46Z",
+    "status": "ok",
+    "scope": "Go plan - one pool across all clients"
   }
 }
