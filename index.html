@@ -211,11 +211,6 @@
           <p class="usage-meta" id="meta-paid">Loading…</p>
         </article>
         <article class="usage-card">
-          <div class="usage-card-head"><h3 id="title-free">Ollama Free tier</h3><a class="usage-card-link" href="https://ollama.com/settings" target="_blank" rel="noopener noreferrer" aria-label="Open Ollama settings">↗</a></div>
-          <div class="usage-rows" id="rows-free"></div>
-          <p class="usage-meta" id="meta-free">Loading…</p>
-        </article>
-        <article class="usage-card">
           <div class="usage-card-head"><h3>ChatGPT Plus</h3><a class="usage-card-link" href="https://chatgpt.com/settings/usage" target="_blank" rel="noopener noreferrer" aria-label="Open ChatGPT usage settings">↗</a></div>
           <p class="usage-scope" id="scope-chatgpt"></p>
           <div class="usage-rows" id="rows-chatgpt"></div>
@@ -361,7 +356,7 @@
   <script>
     (function () {
       const STALE_HOURS = 6;
-      const ACCTS = ['paid', 'free', 'chatgpt', 'opencode'];
+      const ACCTS = ['paid', 'chatgpt', 'opencode'];
       function fmtPct(v) {
         if (v === null || v === undefined || isNaN(Number(v))) return '–';
         const n = Number(v);
@@ -573,7 +568,6 @@
         render('chatgpt', usage && usage.chatgpt, {});
         render('opencode', usage && usage.opencode, {});
         renderOllama('paid', 'main-paid', ['Session limit', 'Weekly limit'], 'Ollama main-paid', 'Ollama Paid · grandfathered', usage && usage.paid, balance);
-        renderOllama('free', 'main', ['Monthly limit'], 'Ollama main', 'Ollama Free tier', usage && usage.free, balance);
       });
     })();
   </script>
