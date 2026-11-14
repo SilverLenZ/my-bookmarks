@@ -202,7 +202,7 @@
     <section class="usage-panel" id="usage-panel" aria-label="Fleet token usage">
       <div class="usage-head">
         <h2>Fleet tokens</h2>
-        <span class="usage-cadence">Ollama ~5 min · ChatGPT ~hourly · reload for latest</span>
+        <span class="usage-cadence">Ollama ~5 min · ChatGPT ~hourly · OpenCode ~hourly · reload for latest</span>
       </div>
       <div class="usage-cards">
         <article class="usage-card">
@@ -220,6 +220,12 @@
           <p class="usage-scope" id="scope-chatgpt"></p>
           <div class="usage-rows" id="rows-chatgpt"></div>
           <p class="usage-meta" id="meta-chatgpt">Loading…</p>
+        </article>
+        <article class="usage-card">
+          <div class="usage-card-head"><h3>OpenCode Go</h3><a class="usage-card-link" href="https://opencode.ai/console/org_01M78FDSSW0SN01BYN4D2MMHR2/activity/overview" target="_blank" rel="noopener noreferrer" aria-label="Open OpenCode Console activity">↗</a></div>
+          <p class="usage-scope" id="scope-opencode"></p>
+          <div class="usage-rows" id="rows-opencode"></div>
+          <p class="usage-meta" id="meta-opencode">Loading…</p>
         </article>
       </div>
     </section>
@@ -355,7 +361,7 @@
   <script>
     (function () {
       const STALE_HOURS = 6;
-      const ACCTS = ['paid', 'free', 'chatgpt'];
+      const ACCTS = ['paid', 'free', 'chatgpt', 'opencode'];
       function fmtPct(v) {
         if (v === null || v === undefined || isNaN(Number(v))) return '–';
         const n = Number(v);
@@ -565,6 +571,7 @@
       ]).then(function (res) {
         const usage = res[0], balance = res[1];
         render('chatgpt', usage && usage.chatgpt, {});
+        render('opencode', usage && usage.opencode, {});
         renderOllama('paid', 'main-paid', ['Session limit', 'Weekly limit'], 'Ollama main-paid', 'Ollama Paid · grandfathered', usage && usage.paid, balance);
         renderOllama('free', 'main', ['Monthly limit'], 'Ollama main', 'Ollama Free tier', usage && usage.free, balance);
       });
