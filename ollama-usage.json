@@ -26,11 +26,15 @@
   "chatgpt": {
     "metrics": [
       {
-        "label": "Monthly limit",
-        "used_pct": 100
+        "label": "5-hour limit",
+        "used_pct": 0
+      },
+      {
+        "label": "Weekly limit",
+        "used_pct": 0
       }
     ],
-    "checked_at": "2026-11-14T11:29:57Z",
+    "checked_at": "2026-11-14T12:30:56Z",
     "status": "ok",
     "scope": "Codex, Work, agents & Excel - not chats"
   },
