@@ -1,28 +1,26 @@
 {
   "connections": {
     "main": {
-      "checked_at": "2026-11-10T01:35:23.461Z",
-      "error_code": "invalid_payload",
-      "last_attempt_at": "2026-11-12T00:10:23.470Z",
+      "checked_at": "2026-11-14T15:06:32Z",
+      "status": "ok",
       "monthly": {
         "period_from": "2026-10-23T23:14:19.956Z",
         "period_until": "2026-11-23T23:14:19.956Z",
-        "used_pct": 100.0
-      },
-      "status": "error"
+        "used_pct": 100
+      }
     },
     "main-paid": {
-      "checked_at": "2026-11-12T00:10:23.470Z",
-      "session": {
-        "resets_at": "2026-11-12T04:00:00.000Z",
-        "used_pct": 6.2
-      },
+      "checked_at": "2026-11-14T15:06:15Z",
       "status": "ok",
+      "session": {
+        "used_pct": 0,
+        "resets_at": "2026-11-14T16:00:00Z"
+      },
       "weekly": {
-        "resets_at": "2026-11-16T00:00:00.000Z",
-        "used_pct": 69.5
+        "used_pct": 100,
+        "resets_at": "2026-11-16T00:00:00Z"
       }
     }
   },
-  "produced_at": "2026-11-12T00:10:23.470Z"
+  "produced_at": "2026-11-14T15:06:32Z"
 }
