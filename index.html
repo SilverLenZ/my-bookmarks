@@ -519,7 +519,7 @@
         const overdue = Date.now() > new Date(callsProducedAt).getTime() + CALLS_INTERVAL_MS;
         if (overdue && Date.now() - callsLastTry > 30000) { callsLastTry = Date.now(); loadCalls(); }
       });
-      const API_STALE_MIN = 15;
+      const API_STALE_MIN = 200;
       const BALANCE_URL = new URLSearchParams(location.search).get('balance_url') || 'https://raw.githubusercontent.com/SilverLenZ/my-bookmarks/main/ollama-balance.json';
       function apiAcct(balance, conn, labels) {
         const c = balance && balance.connections && balance.connections[conn];
