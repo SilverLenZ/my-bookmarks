@@ -60,14 +60,14 @@
       },
       {
         "label": "Weekly limit",
-        "used_pct": 7
+        "used_pct": 8
       },
       {
         "label": "Monthly limit",
-        "used_pct": 3
+        "used_pct": 4
       }
     ],
-    "checked_at": "2026-11-15T18:05:37Z",
+    "checked_at": "2026-11-15T19:05:38Z",
     "status": "ok",
     "scope": "Go plan - one pool across all clients"
   }
