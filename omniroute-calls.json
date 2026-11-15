@@ -19,14 +19,14 @@
       "provider": "unorouter"
     },
     "zumbrel-main": {
-      "calls_15m": 18,
-      "calls_24h": 1267,
-      "calls_60m": 136,
+      "calls_15m": 26,
+      "calls_24h": 1275,
+      "calls_60m": 140,
       "errors_60m": 3,
-      "last_call_at": "2026-11-15T15:20:03.939Z",
+      "last_call_at": "2026-11-15T15:21:51.488Z",
       "last_model": "deepseek-v4.1-flash",
       "provider": "opencode-go"
     }
   },
-  "produced_at": "2026-11-15T15:20:11.841Z"
+  "produced_at": "2026-11-15T15:25:11.870Z"
 }
