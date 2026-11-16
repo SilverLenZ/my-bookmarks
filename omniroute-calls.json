@@ -19,14 +19,14 @@
       "provider": "unorouter"
     },
     "zumbrel-main": {
-      "calls_15m": 3,
-      "calls_24h": 715,
-      "calls_60m": 56,
+      "calls_15m": 17,
+      "calls_24h": 730,
+      "calls_60m": 66,
       "errors_60m": 2,
-      "last_call_at": "2026-11-16T17:02:37.764Z",
+      "last_call_at": "2026-11-16T17:09:25.482Z",
       "last_model": "gpt-6-astra",
       "provider": "codex"
     }
   },
-  "produced_at": "2026-11-16T17:05:11.852Z"
+  "produced_at": "2026-11-16T17:10:11.859Z"
 }
