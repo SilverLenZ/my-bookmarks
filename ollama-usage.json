@@ -34,7 +34,7 @@
         "used_pct": 10
       }
     ],
-    "checked_at": "2026-11-16T06:49:39Z",
+    "checked_at": "2026-11-16T09:51:01Z",
     "status": "ok",
     "scope": "Codex, Work, agents & Excel - not chats"
   },
@@ -56,7 +56,7 @@
     "metrics": [
       {
         "label": "Session limit",
-        "used_pct": 1
+        "used_pct": 0
       },
       {
         "label": "Weekly limit",
@@ -64,10 +64,10 @@
       },
       {
         "label": "Monthly limit",
-        "used_pct": 4
+        "used_pct": 5
       }
     ],
-    "checked_at": "2026-11-16T08:07:16Z",
+    "checked_at": "2026-11-16T10:07:18Z",
     "status": "ok",
     "scope": "Go plan - one pool across all clients"
   }
