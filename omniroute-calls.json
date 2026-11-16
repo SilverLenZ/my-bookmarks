@@ -21,12 +21,12 @@
     "zumbrel-main": {
       "calls_15m": 0,
       "calls_24h": 773,
-      "calls_60m": 27,
+      "calls_60m": 22,
       "errors_60m": 2,
       "last_call_at": "2026-11-16T19:13:02.512Z",
       "last_model": "deepseek-v4.1-flash",
       "provider": "opencode-go"
     }
   },
-  "produced_at": "2026-11-16T19:30:11.843Z"
+  "produced_at": "2026-11-16T19:35:11.839Z"
 }
