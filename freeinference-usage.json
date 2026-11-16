@@ -2,11 +2,11 @@
   "freeinference": {
     "status": "ok",
     "scope": "Daily compute quota across all models",
-    "checked_at": "2026-11-16T00:06:15Z",
+    "checked_at": "2026-11-16T01:06:21Z",
     "metrics": [
       {
         "label": "Daily limit",
-        "used_pct": 0.0
+        "used_pct": 0.5
       }
     ]
   }
