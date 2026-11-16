@@ -19,7 +19,7 @@
       "provider": "unorouter"
     },
     "zumbrel-main": {
-      "calls_15m": 18,
+      "calls_15m": 0,
       "calls_24h": 1166,
       "calls_60m": 21,
       "errors_60m": 0,
@@ -28,5 +28,5 @@
       "provider": "opencode-go"
     }
   },
-  "produced_at": "2026-11-16T04:55:11.844Z"
+  "produced_at": "2026-11-16T05:00:11.845Z"
 }
