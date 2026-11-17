@@ -3,7 +3,7 @@
     "maat-main": {
       "calls_15m": 0,
       "calls_24h": 300,
-      "calls_60m": 11,
+      "calls_60m": 10,
       "errors_60m": 0,
       "last_call_at": "2026-11-17T22:00:46.375Z",
       "last_model": "nvidia/nemotron-3-ultra-550b-a55b:free",
@@ -28,5 +28,5 @@
       "provider": "opencode-go"
     }
   },
-  "produced_at": "2026-11-17T22:35:18.963Z"
+  "produced_at": "2026-11-17T22:40:09.698Z"
 }
