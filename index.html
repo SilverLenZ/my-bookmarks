@@ -444,8 +444,8 @@
           if (dot) dot.className = 'call-dot ' + (mins < 15 ? 'fresh' : (mins < 60 ? 'warm' : ''));
           row.className = '';
           row.innerHTML = '';
-          const model = document.createElement('div'); model.className = 'call-model' + (combo === 'zumbrel-main' ? ' call-model-wrap' : '');
-          model.textContent = 'last model: ' + (combo === 'zumbrel-main' && c.provider ? c.provider + '/' : '') + (c.last_model || 'unknown model');
+          const model = document.createElement('div'); model.className = 'call-model call-model-wrap';
+          model.textContent = 'last model: ' + (c.provider ? c.provider + '/' : '') + (c.last_model || 'unknown model');
           const stats = document.createElement('div'); stats.className = 'call-stats';
           let s = (c.calls_60m || 0) + ' calls last hr \u00b7 last call ' + (ago(c.last_call_at) || 'just now');
           stats.textContent = s;
