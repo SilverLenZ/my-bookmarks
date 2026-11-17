@@ -1,32 +1,32 @@
 {
   "combos": {
     "maat-main": {
-      "calls_15m": 0,
-      "calls_24h": 0,
-      "calls_60m": 0,
-      "errors_60m": 0,
-      "last_call_at": "2026-11-11T23:02:52.216Z",
-      "last_model": "glm-5.3",
-      "provider": "ollama-cloud"
+      "calls_15m": 2,
+      "calls_24h": 2,
+      "calls_60m": 2,
+      "errors_60m": 1,
+      "last_call_at": "2026-11-17T15:45:48.302Z",
+      "last_model": "gemma-4-26b:free",
+      "provider": "unorouter"
     },
     "thoth-main": {
-      "calls_15m": 0,
-      "calls_24h": 0,
-      "calls_60m": 0,
-      "errors_60m": 0,
-      "last_call_at": "2026-11-12T00:51:41.860Z",
-      "last_model": "combo/thoth-main",
-      "provider": "thoth-main"
+      "calls_15m": 4,
+      "calls_24h": 4,
+      "calls_60m": 4,
+      "errors_60m": 2,
+      "last_call_at": "2026-11-17T15:45:56.862Z",
+      "last_model": "gemma-4-26b:free",
+      "provider": "unorouter"
     },
     "zumbrel-main": {
       "calls_15m": 0,
-      "calls_24h": 878,
-      "calls_60m": 34,
+      "calls_24h": 0,
+      "calls_60m": 0,
       "errors_60m": 0,
-      "last_call_at": "2026-11-17T15:17:42.917Z",
-      "last_model": "deepseek-v4.1-flash",
-      "provider": "opencode-go"
+      "last_call_at": "2026-11-11T23:36:36.130Z",
+      "last_model": "gemma-4-26b:free",
+      "provider": "unorouter"
     }
   },
-  "produced_at": "2026-11-17T15:50:12.834Z"
+  "produced_at": "2026-11-17T15:50:19.843Z"
 }
