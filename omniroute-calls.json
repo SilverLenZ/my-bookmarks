@@ -3,18 +3,18 @@
     "maat-main": {
       "calls_15m": 0,
       "calls_24h": 2,
-      "calls_60m": 2,
-      "errors_60m": 1,
+      "calls_60m": 0,
+      "errors_60m": 0,
       "last_call_at": "2026-11-17T15:45:48.302Z",
       "last_model": "gemma-4-26b:free",
       "provider": "unorouter"
     },
     "thoth-main": {
       "calls_15m": 1,
-      "calls_24h": 7,
-      "calls_60m": 7,
-      "errors_60m": 4,
-      "last_call_at": "2026-11-17T16:31:00.076Z",
+      "calls_24h": 8,
+      "calls_60m": 4,
+      "errors_60m": 2,
+      "last_call_at": "2026-11-17T16:45:44.398Z",
       "last_model": "gemma-4-26b:free",
       "provider": "unorouter"
     },
@@ -28,5 +28,5 @@
       "provider": "opencode-go"
     }
   },
-  "produced_at": "2026-11-17T16:50:13.009Z"
+  "produced_at": "2026-11-17T16:50:19.239Z"
 }
