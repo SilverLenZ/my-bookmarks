@@ -2,31 +2,31 @@
   "combos": {
     "maat-main": {
       "calls_15m": 0,
-      "calls_24h": 659,
+      "calls_24h": 0,
       "calls_60m": 0,
       "errors_60m": 0,
-      "last_call_at": "2026-11-11T23:02:52.216Z",
-      "last_model": "glm-5.3",
+      "last_call_at": "2026-11-08T07:06:06.200Z",
+      "last_model": "beam",
       "provider": "ollama-cloud"
     },
     "thoth-main": {
       "calls_15m": 0,
-      "calls_24h": 2607,
+      "calls_24h": 6,
       "calls_60m": 0,
       "errors_60m": 0,
-      "last_call_at": "2026-11-11T22:28:39.140Z",
-      "last_model": "gemma-4-26b:free",
-      "provider": "unorouter"
+      "last_call_at": "2026-11-16T20:08:43.525Z",
+      "last_model": "combo/thoth-main",
+      "provider": "thoth-main"
     },
     "zumbrel-main": {
-      "calls_15m": 28,
-      "calls_24h": 730,
-      "calls_60m": 60,
+      "calls_15m": 0,
+      "calls_24h": 0,
+      "calls_60m": 0,
       "errors_60m": 0,
-      "last_call_at": "2026-11-17T12:24:32.938Z",
-      "last_model": "deepseek-v4.1-flash",
-      "provider": "opencode-go"
+      "last_call_at": "2026-11-08T07:05:06.849Z",
+      "last_model": "beam",
+      "provider": "ollama-cloud"
     }
   },
-  "produced_at": "2026-11-17T12:30:11.851Z"
+  "produced_at": "2026-11-17T12:30:15.998Z"
 }
