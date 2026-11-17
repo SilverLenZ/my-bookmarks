@@ -1,16 +1,16 @@
 {
   "combos": {
     "maat-main": {
-      "calls_15m": 3,
-      "calls_24h": 289,
-      "calls_60m": 5,
-      "errors_60m": 3,
-      "last_call_at": "2026-11-17T21:29:43.352Z",
-      "last_model": "meituan/longcat-2.5:free",
-      "provider": "nous-research"
+      "calls_15m": 4,
+      "calls_24h": 290,
+      "calls_60m": 4,
+      "errors_60m": 2,
+      "last_call_at": "2026-11-17T21:39:30.346Z",
+      "last_model": "kimi-k2.7-code",
+      "provider": "opencode-go"
     },
     "thoth-main": {
-      "calls_15m": 10,
+      "calls_15m": 4,
       "calls_24h": 48,
       "calls_60m": 17,
       "errors_60m": 10,
@@ -28,5 +28,5 @@
       "provider": "opencode-go"
     }
   },
-  "produced_at": "2026-11-17T21:35:12.940Z"
+  "produced_at": "2026-11-17T21:40:09.712Z"
 }
