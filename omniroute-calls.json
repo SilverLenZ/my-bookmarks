@@ -1,7 +1,7 @@
 {
   "combos": {
     "maat-main": {
-      "calls_15m": 9,
+      "calls_15m": 8,
       "calls_24h": 300,
       "calls_60m": 14,
       "errors_60m": 2,
@@ -10,7 +10,7 @@
       "provider": "openrouter"
     },
     "thoth-main": {
-      "calls_15m": 15,
+      "calls_15m": 6,
       "calls_24h": 67,
       "calls_60m": 30,
       "errors_60m": 9,
@@ -28,5 +28,5 @@
       "provider": "opencode-go"
     }
   },
-  "produced_at": "2026-11-17T22:10:12.960Z"
+  "produced_at": "2026-11-17T22:10:19.698Z"
 }
