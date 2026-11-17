@@ -10,11 +10,11 @@
       "provider": "unorouter"
     },
     "thoth-main": {
-      "calls_15m": 1,
-      "calls_24h": 8,
-      "calls_60m": 4,
+      "calls_15m": 2,
+      "calls_24h": 10,
+      "calls_60m": 5,
       "errors_60m": 2,
-      "last_call_at": "2026-11-17T16:45:44.398Z",
+      "last_call_at": "2026-11-17T17:01:19.388Z",
       "last_model": "gemma-4-26b:free",
       "provider": "unorouter"
     },
@@ -28,5 +28,5 @@
       "provider": "opencode-go"
     }
   },
-  "produced_at": "2026-11-17T17:00:14.058Z"
+  "produced_at": "2026-11-17T17:05:09.731Z"
 }
