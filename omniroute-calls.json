@@ -1,13 +1,13 @@
 {
   "combos": {
     "maat-main": {
-      "calls_15m": 1,
-      "calls_24h": 9,
-      "calls_60m": 7,
-      "errors_60m": 4,
-      "last_call_at": "2026-11-17T19:19:58.333Z",
-      "last_model": "glm-5.3",
-      "provider": "ollama-cloud"
+      "calls_15m": 35,
+      "calls_24h": 43,
+      "calls_60m": 41,
+      "errors_60m": 21,
+      "last_call_at": "2026-11-17T19:24:46.212Z",
+      "last_model": "meituan/longcat-2.5:free",
+      "provider": "nous-research"
     },
     "thoth-main": {
       "calls_15m": 1,
@@ -28,5 +28,5 @@
       "provider": "opencode-go"
     }
   },
-  "produced_at": "2026-11-17T19:25:12.938Z"
+  "produced_at": "2026-11-17T19:25:14.204Z"
 }
