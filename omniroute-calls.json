@@ -1,7 +1,7 @@
 {
   "combos": {
     "maat-main": {
-      "calls_15m": 4,
+      "calls_15m": 0,
       "calls_24h": 23,
       "calls_60m": 23,
       "errors_60m": 2,
@@ -10,7 +10,7 @@
       "provider": "openrouter"
     },
     "thoth-main": {
-      "calls_15m": 12,
+      "calls_15m": 0,
       "calls_24h": 92,
       "calls_60m": 86,
       "errors_60m": 16,
@@ -28,5 +28,5 @@
       "provider": "ollama-cloud"
     }
   },
-  "produced_at": "2026-11-17T12:55:12.250Z"
+  "produced_at": "2026-11-17T13:00:12.267Z"
 }
