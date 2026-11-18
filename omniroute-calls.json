@@ -1,9 +1,9 @@
 {
   "combos": {
     "maat-main": {
-      "calls_15m": 4,
+      "calls_15m": 1,
       "calls_24h": 1453,
-      "calls_60m": 49,
+      "calls_60m": 34,
       "errors_60m": 4,
       "last_call_at": "2026-11-18T14:00:20.421Z",
       "last_model": "moonshotai/kimi-k3.1-pro",
@@ -28,5 +28,5 @@
       "provider": "openrouter"
     }
   },
-  "produced_at": "2026-11-18T14:10:16.414Z"
+  "produced_at": "2026-11-18T14:15:03.436Z"
 }
