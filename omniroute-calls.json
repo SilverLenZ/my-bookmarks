@@ -20,13 +20,13 @@
     },
     "zumbrel-main": {
       "calls_15m": 19,
-      "calls_24h": 970,
-      "calls_60m": 127,
-      "errors_60m": 0,
-      "last_call_at": "2026-11-18T13:22:14.450Z",
-      "last_model": "deepseek-v4.1-flash",
-      "provider": "opencode-go"
+      "calls_24h": 953,
+      "calls_60m": 110,
+      "errors_60m": 2,
+      "last_call_at": "2026-11-18T13:32:55.496Z",
+      "last_model": "moonshotai/kimi-k3.1-pro",
+      "provider": "nvidia"
     }
   },
-  "produced_at": "2026-11-18T13:35:12.883Z"
+  "produced_at": "2026-11-18T13:35:15.509Z"
 }
