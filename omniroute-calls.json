@@ -10,11 +10,11 @@
       "provider": "nvidia"
     },
     "thoth-main": {
-      "calls_15m": 16,
-      "calls_24h": 1659,
-      "calls_60m": 95,
-      "errors_60m": 43,
-      "last_call_at": "2026-11-18T21:28:54.244Z",
+      "calls_15m": 15,
+      "calls_24h": 1660,
+      "calls_60m": 75,
+      "errors_60m": 35,
+      "last_call_at": "2026-11-18T21:34:21.795Z",
       "last_model": "moonshotai/kimi-k3.1-pro",
       "provider": "nvidia"
     },
@@ -28,5 +28,5 @@
       "provider": "zumbrel-umbrel"
     }
   },
-  "produced_at": "2026-11-18T21:35:12.824Z"
+  "produced_at": "2026-11-18T21:35:14.745Z"
 }
