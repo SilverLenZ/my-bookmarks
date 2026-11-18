@@ -20,7 +20,7 @@
     },
     "zumbrel-main": {
       "calls_15m": 0,
-      "calls_24h": 942,
+      "calls_24h": 928,
       "calls_60m": 96,
       "errors_60m": 41,
       "last_call_at": "2026-11-18T14:36:30.065Z",
@@ -28,5 +28,5 @@
       "provider": "zumbrel-umbrel"
     }
   },
-  "produced_at": "2026-11-18T15:00:12.915Z"
+  "produced_at": "2026-11-18T15:05:12.850Z"
 }
