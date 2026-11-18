@@ -10,11 +10,11 @@
       "provider": "opencode-go"
     },
     "thoth-main": {
-      "calls_15m": 46,
-      "calls_24h": 286,
-      "calls_60m": 159,
-      "errors_60m": 0,
-      "last_call_at": "2026-11-18T00:07:05.993Z",
+      "calls_15m": 54,
+      "calls_24h": 300,
+      "calls_60m": 168,
+      "errors_60m": 1,
+      "last_call_at": "2026-11-18T00:12:12.552Z",
       "last_model": "deepseek-v4.1-flash",
       "provider": "opencode-go"
     },
@@ -28,5 +28,5 @@
       "provider": "opencode-go"
     }
   },
-  "produced_at": "2026-11-18T00:10:16.446Z"
+  "produced_at": "2026-11-18T00:15:10.952Z"
 }
