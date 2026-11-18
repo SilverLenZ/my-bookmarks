@@ -27,14 +27,14 @@
     "metrics": [
       {
         "label": "5-hour limit",
-        "used_pct": 0
+        "used_pct": 21
       },
       {
         "label": "Weekly limit",
-        "used_pct": 29
+        "used_pct": 33
       }
     ],
-    "checked_at": "2026-11-18T04:10:14Z",
+    "checked_at": "2026-11-18T05:10:45Z",
     "status": "ok",
     "scope": "Codex, Work, agents & Excel - not chats"
   },
@@ -56,18 +56,18 @@
     "metrics": [
       {
         "label": "Session limit",
-        "used_pct": 0
+        "used_pct": 44
       },
       {
         "label": "Weekly limit",
-        "used_pct": 33
+        "used_pct": 51
       },
       {
         "label": "Monthly limit",
-        "used_pct": 20
+        "used_pct": 29
       }
     ],
-    "checked_at": "2026-11-18T04:11:55.537811Z",
+    "checked_at": "2026-11-18T05:11:22.015327Z",
     "status": "ok",
     "scope": "Go plan - one pool across all clients"
   }
