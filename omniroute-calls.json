@@ -1,12 +1,12 @@
 {
   "combos": {
     "maat-main": {
-      "calls_15m": 83,
-      "calls_24h": 1034,
-      "calls_60m": 282,
+      "calls_15m": 98,
+      "calls_24h": 1065,
+      "calls_60m": 294,
       "errors_60m": 1,
-      "last_call_at": "2026-11-18T05:40:07.547Z",
-      "last_model": "kimi-k2.7-code",
+      "last_call_at": "2026-11-18T05:45:05.711Z",
+      "last_model": "deepseek-v4.1-flash",
       "provider": "opencode-go"
     },
     "thoth-main": {
@@ -28,5 +28,5 @@
       "provider": "opencode-go"
     }
   },
-  "produced_at": "2026-11-18T05:40:16.641Z"
+  "produced_at": "2026-11-18T05:45:06.411Z"
 }
