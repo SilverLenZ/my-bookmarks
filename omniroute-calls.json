@@ -10,13 +10,13 @@
       "provider": "opencode-go"
     },
     "thoth-main": {
-      "calls_15m": 70,
-      "calls_24h": 2145,
-      "calls_60m": 334,
-      "errors_60m": 37,
-      "last_call_at": "2026-11-18T23:40:17.452Z",
-      "last_model": "qwen3.8-27b",
-      "provider": "openai-compatible-chat-7abce719-6b36-4752-b97c-51bf94cf1d21"
+      "calls_15m": 49,
+      "calls_24h": 2148,
+      "calls_60m": 297,
+      "errors_60m": 31,
+      "last_call_at": "2026-11-18T23:40:58.508Z",
+      "last_model": "deepseek-v4.1-flash",
+      "provider": "opencode-go"
     },
     "zumbrel-main": {
       "calls_15m": 30,
@@ -28,5 +28,5 @@
       "provider": "opencode-go"
     }
   },
-  "produced_at": "2026-11-18T23:40:19.712Z"
+  "produced_at": "2026-11-18T23:45:05.182Z"
 }
