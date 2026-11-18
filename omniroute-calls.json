@@ -1,13 +1,13 @@
 {
   "combos": {
     "maat-main": {
-      "calls_15m": 54,
-      "calls_24h": 751,
-      "calls_60m": 142,
+      "calls_15m": 51,
+      "calls_24h": 771,
+      "calls_60m": 156,
       "errors_60m": 0,
-      "last_call_at": "2026-11-18T04:40:05.791Z",
-      "last_model": "kimi-k2.7-code",
-      "provider": "opencode-go"
+      "last_call_at": "2026-11-18T04:44:48.238Z",
+      "last_model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+      "provider": "openrouter"
     },
     "thoth-main": {
       "calls_15m": 31,
@@ -28,5 +28,5 @@
       "provider": "opencode-go"
     }
   },
-  "produced_at": "2026-11-18T04:45:13.065Z"
+  "produced_at": "2026-11-18T04:45:18.851Z"
 }
