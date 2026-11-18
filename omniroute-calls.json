@@ -2,7 +2,7 @@
   "combos": {
     "maat-main": {
       "calls_15m": 0,
-      "calls_24h": 1509,
+      "calls_24h": 1506,
       "calls_60m": 0,
       "errors_60m": 0,
       "last_call_at": "2026-11-18T17:33:53.573Z",
@@ -10,8 +10,8 @@
       "provider": "nvidia"
     },
     "thoth-main": {
-      "calls_15m": 5,
-      "calls_24h": 1455,
+      "calls_15m": 2,
+      "calls_24h": 1450,
       "calls_60m": 19,
       "errors_60m": 10,
       "last_call_at": "2026-11-18T18:33:45.070Z",
@@ -28,5 +28,5 @@
       "provider": "openrouter"
     }
   },
-  "produced_at": "2026-11-18T18:35:12.899Z"
+  "produced_at": "2026-11-18T18:40:09.714Z"
 }
