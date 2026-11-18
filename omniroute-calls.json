@@ -1,8 +1,8 @@
 {
   "combos": {
     "maat-main": {
-      "calls_15m": 2,
-      "calls_24h": 1435,
+      "calls_15m": 0,
+      "calls_24h": 1377,
       "calls_60m": 2,
       "errors_60m": 0,
       "last_call_at": "2026-11-18T19:19:38.768Z",
@@ -10,11 +10,11 @@
       "provider": "nvidia"
     },
     "thoth-main": {
-      "calls_15m": 10,
-      "calls_24h": 1477,
-      "calls_60m": 32,
-      "errors_60m": 12,
-      "last_call_at": "2026-11-18T19:28:28.147Z",
+      "calls_15m": 13,
+      "calls_24h": 1481,
+      "calls_60m": 35,
+      "errors_60m": 15,
+      "last_call_at": "2026-11-18T19:34:44.800Z",
       "last_model": "moonshotai/kimi-k3.1-pro",
       "provider": "nvidia"
     },
@@ -28,5 +28,5 @@
       "provider": "openrouter"
     }
   },
-  "produced_at": "2026-11-18T19:30:13.911Z"
+  "produced_at": "2026-11-18T19:35:02.834Z"
 }
