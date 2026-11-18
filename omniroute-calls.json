@@ -11,10 +11,10 @@
     },
     "thoth-main": {
       "calls_15m": 2,
-      "calls_24h": 1450,
-      "calls_60m": 19,
-      "errors_60m": 10,
-      "last_call_at": "2026-11-18T18:33:45.070Z",
+      "calls_24h": 1451,
+      "calls_60m": 18,
+      "errors_60m": 11,
+      "last_call_at": "2026-11-18T18:49:25.245Z",
       "last_model": "moonshotai/kimi-k3.1-pro",
       "provider": "nvidia"
     },
@@ -28,5 +28,5 @@
       "provider": "openrouter"
     }
   },
-  "produced_at": "2026-11-18T18:50:12.814Z"
+  "produced_at": "2026-11-18T18:50:13.999Z"
 }
