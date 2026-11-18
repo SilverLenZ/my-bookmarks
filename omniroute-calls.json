@@ -19,14 +19,14 @@
       "provider": "nvidia"
     },
     "zumbrel-main": {
-      "calls_15m": 38,
-      "calls_24h": 960,
-      "calls_60m": 77,
-      "errors_60m": 42,
-      "last_call_at": "2026-11-18T16:25:07.865Z",
-      "last_model": "nvidia/nemotron-3-ultra-550b-a55b:free",
-      "provider": "openrouter"
+      "calls_15m": 73,
+      "calls_24h": 995,
+      "calls_60m": 111,
+      "errors_60m": 59,
+      "last_call_at": "2026-11-18T16:30:06.675Z",
+      "last_model": "moonshotai/kimi-k3.1-pro",
+      "provider": "nvidia"
     }
   },
-  "produced_at": "2026-11-18T16:30:02.493Z"
+  "produced_at": "2026-11-18T16:30:13.961Z"
 }
