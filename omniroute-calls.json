@@ -1,20 +1,20 @@
 {
   "combos": {
     "maat-main": {
-      "calls_15m": 0,
-      "calls_24h": 1225,
-      "calls_60m": 0,
+      "calls_15m": 3,
+      "calls_24h": 1228,
+      "calls_60m": 3,
       "errors_60m": 0,
-      "last_call_at": "2026-11-18T19:19:38.768Z",
-      "last_model": "moonshotai/kimi-k3.1-pro",
-      "provider": "nvidia"
+      "last_call_at": "2026-11-18T21:45:56.624Z",
+      "last_model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+      "provider": "openrouter"
     },
     "thoth-main": {
-      "calls_15m": 44,
-      "calls_24h": 1699,
-      "calls_60m": 97,
-      "errors_60m": 35,
-      "last_call_at": "2026-11-18T21:42:17.680Z",
+      "calls_15m": 72,
+      "calls_24h": 1727,
+      "calls_60m": 124,
+      "errors_60m": 31,
+      "last_call_at": "2026-11-18T21:47:37.005Z",
       "last_model": "nvidia/nemotron-3-ultra-550b-a55b:free",
       "provider": "openrouter"
     },
@@ -28,5 +28,5 @@
       "provider": "opencode-go"
     }
   },
-  "produced_at": "2026-11-18T21:50:12.837Z"
+  "produced_at": "2026-11-18T21:50:16.520Z"
 }
