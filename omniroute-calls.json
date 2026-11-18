@@ -19,7 +19,7 @@
       "provider": "nvidia"
     },
     "zumbrel-main": {
-      "calls_15m": 24,
+      "calls_15m": 16,
       "calls_24h": 949,
       "calls_60m": 39,
       "errors_60m": 23,
@@ -28,5 +28,5 @@
       "provider": "openrouter"
     }
   },
-  "produced_at": "2026-11-18T16:05:03.279Z"
+  "produced_at": "2026-11-18T16:05:12.964Z"
 }
