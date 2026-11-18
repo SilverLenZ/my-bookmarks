@@ -11,10 +11,10 @@
     },
     "thoth-main": {
       "calls_15m": 3,
-      "calls_24h": 1118,
+      "calls_24h": 1121,
       "calls_60m": 32,
       "errors_60m": 0,
-      "last_call_at": "2026-11-18T12:00:50.164Z",
+      "last_call_at": "2026-11-18T12:15:54.984Z",
       "last_model": "kimi-k2.7-code",
       "provider": "opencode-go"
     },
@@ -28,5 +28,5 @@
       "provider": "opencode-go"
     }
   },
-  "produced_at": "2026-11-18T12:15:13.060Z"
+  "produced_at": "2026-11-18T12:20:09.693Z"
 }
