@@ -10,7 +10,7 @@
       "provider": "openrouter"
     },
     "thoth-main": {
-      "calls_15m": 9,
+      "calls_15m": 0,
       "calls_24h": 1073,
       "calls_60m": 33,
       "errors_60m": 0,
@@ -28,5 +28,5 @@
       "provider": "openrouter"
     }
   },
-  "produced_at": "2026-11-18T07:20:12.875Z"
+  "produced_at": "2026-11-18T07:20:19.711Z"
 }
