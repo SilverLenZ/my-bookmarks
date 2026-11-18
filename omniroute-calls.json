@@ -1,20 +1,20 @@
 {
   "combos": {
     "maat-main": {
-      "calls_15m": 75,
-      "calls_24h": 814,
-      "calls_60m": 183,
+      "calls_15m": 85,
+      "calls_24h": 837,
+      "calls_60m": 204,
       "errors_60m": 0,
-      "last_call_at": "2026-11-18T04:49:44.255Z",
+      "last_call_at": "2026-11-18T04:55:16.514Z",
       "last_model": "deepseek-v4.1-flash",
       "provider": "opencode-go"
     },
     "thoth-main": {
-      "calls_15m": 28,
-      "calls_24h": 951,
-      "calls_60m": 95,
+      "calls_15m": 40,
+      "calls_24h": 965,
+      "calls_60m": 109,
       "errors_60m": 0,
-      "last_call_at": "2026-11-18T04:49:11.210Z",
+      "last_call_at": "2026-11-18T04:54:22.156Z",
       "last_model": "deepseek-v4.1-flash",
       "provider": "opencode-go"
     },
@@ -28,5 +28,5 @@
       "provider": "opencode-go"
     }
   },
-  "produced_at": "2026-11-18T04:55:12.959Z"
+  "produced_at": "2026-11-18T04:55:20.077Z"
 }
