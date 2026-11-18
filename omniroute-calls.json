@@ -3,18 +3,18 @@
     "maat-main": {
       "calls_15m": 0,
       "calls_24h": 1484,
-      "calls_60m": 13,
+      "calls_60m": 8,
       "errors_60m": 0,
       "last_call_at": "2026-11-18T15:16:56.660Z",
       "last_model": "moonshotai/kimi-k3.1-pro",
       "provider": "nvidia"
     },
     "thoth-main": {
-      "calls_15m": 26,
-      "calls_24h": 1397,
-      "calls_60m": 120,
-      "errors_60m": 22,
-      "last_call_at": "2026-11-18T15:54:39.663Z",
+      "calls_15m": 19,
+      "calls_24h": 1402,
+      "calls_60m": 114,
+      "errors_60m": 23,
+      "last_call_at": "2026-11-18T15:57:06.106Z",
       "last_model": "moonshotai/kimi-k3.1-pro",
       "provider": "nvidia"
     },
@@ -28,5 +28,5 @@
       "provider": "openrouter"
     }
   },
-  "produced_at": "2026-11-18T15:55:15.211Z"
+  "produced_at": "2026-11-18T16:00:08.453Z"
 }
