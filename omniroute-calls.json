@@ -19,14 +19,14 @@
       "provider": "openrouter"
     },
     "zumbrel-main": {
-      "calls_15m": 68,
-      "calls_24h": 945,
-      "calls_60m": 100,
+      "calls_15m": 57,
+      "calls_24h": 954,
+      "calls_60m": 103,
       "errors_60m": 0,
-      "last_call_at": "2026-11-18T12:45:10.844Z",
+      "last_call_at": "2026-11-18T12:50:01.310Z",
       "last_model": "deepseek-v4.1-flash",
       "provider": "opencode-go"
     }
   },
-  "produced_at": "2026-11-18T12:50:04.010Z"
+  "produced_at": "2026-11-18T12:50:12.932Z"
 }
