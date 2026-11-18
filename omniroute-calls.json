@@ -19,14 +19,14 @@
       "provider": "openrouter"
     },
     "zumbrel-main": {
-      "calls_15m": 19,
-      "calls_24h": 953,
-      "calls_60m": 110,
+      "calls_15m": 3,
+      "calls_24h": 935,
+      "calls_60m": 86,
       "errors_60m": 2,
       "last_call_at": "2026-11-18T13:32:55.496Z",
       "last_model": "moonshotai/kimi-k3.1-pro",
       "provider": "nvidia"
     }
   },
-  "produced_at": "2026-11-18T13:40:03.907Z"
+  "produced_at": "2026-11-18T13:40:12.901Z"
 }
