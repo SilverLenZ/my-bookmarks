@@ -21,12 +21,12 @@
     "zumbrel-main": {
       "calls_15m": 0,
       "calls_24h": 910,
-      "calls_60m": 41,
-      "errors_60m": 13,
+      "calls_60m": 14,
+      "errors_60m": 2,
       "last_call_at": "2026-11-18T14:36:30.065Z",
       "last_model": "zumbrel-umbrel",
       "provider": "zumbrel-umbrel"
     }
   },
-  "produced_at": "2026-11-18T15:25:09.482Z"
+  "produced_at": "2026-11-18T15:25:12.874Z"
 }
