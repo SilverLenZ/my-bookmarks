@@ -1,11 +1,11 @@
 {
   "combos": {
     "maat-main": {
-      "calls_15m": 85,
-      "calls_24h": 837,
-      "calls_60m": 204,
+      "calls_15m": 77,
+      "calls_24h": 848,
+      "calls_60m": 201,
       "errors_60m": 0,
-      "last_call_at": "2026-11-18T04:55:16.514Z",
+      "last_call_at": "2026-11-18T05:00:06.545Z",
       "last_model": "deepseek-v4.1-flash",
       "provider": "opencode-go"
     },
@@ -28,5 +28,5 @@
       "provider": "opencode-go"
     }
   },
-  "produced_at": "2026-11-18T04:55:20.077Z"
+  "produced_at": "2026-11-18T05:00:11.411Z"
 }
