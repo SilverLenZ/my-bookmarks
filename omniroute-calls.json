@@ -10,11 +10,11 @@
       "provider": "openrouter"
     },
     "thoth-main": {
-      "calls_15m": 0,
-      "calls_24h": 1076,
+      "calls_15m": 3,
+      "calls_24h": 1079,
       "calls_60m": 3,
       "errors_60m": 0,
-      "last_call_at": "2026-11-18T08:01:23.351Z",
+      "last_call_at": "2026-11-18T09:01:19.581Z",
       "last_model": "nvidia/nemotron-3-ultra-550b-a55b:free",
       "provider": "openrouter"
     },
@@ -28,5 +28,5 @@
       "provider": "openrouter"
     }
   },
-  "produced_at": "2026-11-18T09:00:13.405Z"
+  "produced_at": "2026-11-18T09:05:03.936Z"
 }
