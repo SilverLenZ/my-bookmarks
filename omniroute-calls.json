@@ -1,9 +1,9 @@
 {
   "combos": {
     "maat-main": {
-      "calls_15m": 24,
+      "calls_15m": 22,
       "calls_24h": 655,
-      "calls_60m": 132,
+      "calls_60m": 117,
       "errors_60m": 0,
       "last_call_at": "2026-11-18T04:04:13.236Z",
       "last_model": "nvidia/nemotron-3-ultra-550b-a55b:free",
@@ -28,5 +28,5 @@
       "provider": "opencode-go"
     }
   },
-  "produced_at": "2026-11-18T04:10:14.081Z"
+  "produced_at": "2026-11-18T04:10:19.692Z"
 }
