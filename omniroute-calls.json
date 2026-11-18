@@ -12,7 +12,7 @@
     "thoth-main": {
       "calls_15m": 4,
       "calls_24h": 1431,
-      "calls_60m": 43,
+      "calls_60m": 38,
       "errors_60m": 3,
       "last_call_at": "2026-11-18T16:49:41.386Z",
       "last_model": "moonshotai/kimi-k3.1-pro",
@@ -28,5 +28,5 @@
       "provider": "openrouter"
     }
   },
-  "produced_at": "2026-11-18T16:50:13.050Z"
+  "produced_at": "2026-11-18T16:55:07.780Z"
 }
