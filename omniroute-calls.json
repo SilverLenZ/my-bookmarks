@@ -10,7 +10,7 @@
       "provider": "nvidia"
     },
     "thoth-main": {
-      "calls_15m": 8,
+      "calls_15m": 5,
       "calls_24h": 1454,
       "calls_60m": 20,
       "errors_60m": 10,
@@ -28,5 +28,5 @@
       "provider": "openrouter"
     }
   },
-  "produced_at": "2026-11-18T18:25:12.963Z"
+  "produced_at": "2026-11-18T18:30:05.803Z"
 }
