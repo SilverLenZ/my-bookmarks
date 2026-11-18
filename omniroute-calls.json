@@ -3,20 +3,20 @@
     "maat-main": {
       "calls_15m": 0,
       "calls_24h": 1303,
-      "calls_60m": 2,
+      "calls_60m": 0,
       "errors_60m": 0,
       "last_call_at": "2026-11-18T22:35:38.362Z",
       "last_model": "deepseek-v4.1-flash",
       "provider": "opencode-go"
     },
     "thoth-main": {
-      "calls_15m": 62,
-      "calls_24h": 2134,
+      "calls_15m": 70,
+      "calls_24h": 2145,
       "calls_60m": 334,
-      "errors_60m": 41,
-      "last_call_at": "2026-11-18T23:34:52.151Z",
-      "last_model": "deepseek-v4.1-flash",
-      "provider": "opencode-go"
+      "errors_60m": 37,
+      "last_call_at": "2026-11-18T23:40:17.452Z",
+      "last_model": "qwen3.8-27b",
+      "provider": "openai-compatible-chat-7abce719-6b36-4752-b97c-51bf94cf1d21"
     },
     "zumbrel-main": {
       "calls_15m": 30,
@@ -28,5 +28,5 @@
       "provider": "opencode-go"
     }
   },
-  "produced_at": "2026-11-18T23:40:12.822Z"
+  "produced_at": "2026-11-18T23:40:19.712Z"
 }
