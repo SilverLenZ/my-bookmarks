@@ -1,11 +1,11 @@
 {
   "combos": {
     "maat-main": {
-      "calls_15m": 20,
-      "calls_24h": 1122,
-      "calls_60m": 228,
+      "calls_15m": 5,
+      "calls_24h": 1123,
+      "calls_60m": 205,
       "errors_60m": 2,
-      "last_call_at": "2026-11-18T06:00:43.803Z",
+      "last_call_at": "2026-11-18T06:12:33.323Z",
       "last_model": "nvidia/nemotron-3-ultra-550b-a55b:free",
       "provider": "openrouter"
     },
@@ -28,5 +28,5 @@
       "provider": "openrouter"
     }
   },
-  "produced_at": "2026-11-18T06:10:19.712Z"
+  "produced_at": "2026-11-18T06:15:06.911Z"
 }
