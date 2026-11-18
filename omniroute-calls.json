@@ -1,7 +1,7 @@
 {
   "combos": {
     "maat-main": {
-      "calls_15m": 42,
+      "calls_15m": 15,
       "calls_24h": 1176,
       "calls_60m": 44,
       "errors_60m": 0,
@@ -10,11 +10,11 @@
       "provider": "opencode-go"
     },
     "thoth-main": {
-      "calls_15m": 23,
-      "calls_24h": 1112,
-      "calls_60m": 29,
+      "calls_15m": 5,
+      "calls_24h": 1115,
+      "calls_60m": 32,
       "errors_60m": 0,
-      "last_call_at": "2026-11-18T11:35:15.189Z",
+      "last_call_at": "2026-11-18T11:45:52.966Z",
       "last_model": "kimi-k2.7-code",
       "provider": "opencode-go"
     },
@@ -28,5 +28,5 @@
       "provider": "opencode-go"
     }
   },
-  "produced_at": "2026-11-18T11:45:13.018Z"
+  "produced_at": "2026-11-18T11:50:03.819Z"
 }
