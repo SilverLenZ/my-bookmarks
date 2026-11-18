@@ -21,12 +21,12 @@
     "zumbrel-main": {
       "calls_15m": 0,
       "calls_24h": 851,
-      "calls_60m": 32,
+      "calls_60m": 1,
       "errors_60m": 0,
       "last_call_at": "2026-11-18T07:55:13.768Z",
       "last_model": "nvidia/nemotron-3-ultra-550b-a55b:free",
       "provider": "openrouter"
     }
   },
-  "produced_at": "2026-11-18T08:55:09.417Z"
+  "produced_at": "2026-11-18T08:55:12.935Z"
 }
