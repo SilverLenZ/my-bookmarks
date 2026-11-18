@@ -1,20 +1,20 @@
 {
   "combos": {
     "maat-main": {
-      "calls_15m": 8,
-      "calls_24h": 1468,
-      "calls_60m": 19,
+      "calls_15m": 10,
+      "calls_24h": 1473,
+      "calls_60m": 24,
       "errors_60m": 1,
-      "last_call_at": "2026-11-18T14:43:46.320Z",
+      "last_call_at": "2026-11-18T14:53:27.231Z",
       "last_model": "moonshotai/kimi-k3.1-pro",
       "provider": "nvidia"
     },
     "thoth-main": {
-      "calls_15m": 27,
-      "calls_24h": 1265,
-      "calls_60m": 43,
+      "calls_15m": 38,
+      "calls_24h": 1281,
+      "calls_60m": 59,
       "errors_60m": 0,
-      "last_call_at": "2026-11-18T14:49:52.313Z",
+      "last_call_at": "2026-11-18T14:54:53.894Z",
       "last_model": "moonshotai/kimi-k3.1-pro",
       "provider": "nvidia"
     },
@@ -28,5 +28,5 @@
       "provider": "zumbrel-umbrel"
     }
   },
-  "produced_at": "2026-11-18T14:50:12.977Z"
+  "produced_at": "2026-11-18T14:55:10.059Z"
 }
