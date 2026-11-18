@@ -1,11 +1,11 @@
 {
   "combos": {
     "maat-main": {
-      "calls_15m": 57,
-      "calls_24h": 950,
-      "calls_60m": 253,
+      "calls_15m": 49,
+      "calls_24h": 967,
+      "calls_60m": 248,
       "errors_60m": 0,
-      "last_call_at": "2026-11-18T05:25:04.395Z",
+      "last_call_at": "2026-11-18T05:30:06.277Z",
       "last_model": "kimi-k2.7-code",
       "provider": "opencode-go"
     },
@@ -28,5 +28,5 @@
       "provider": "opencode-go"
     }
   },
-  "produced_at": "2026-11-18T05:25:12.977Z"
+  "produced_at": "2026-11-18T05:30:07.387Z"
 }
