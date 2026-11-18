@@ -3,14 +3,14 @@
     "maat-main": {
       "calls_15m": 0,
       "calls_24h": 1508,
-      "calls_60m": 5,
+      "calls_60m": 1,
       "errors_60m": 0,
       "last_call_at": "2026-11-18T16:30:15.819Z",
       "last_model": "moonshotai/kimi-k3.1-pro",
       "provider": "nvidia"
     },
     "thoth-main": {
-      "calls_15m": 5,
+      "calls_15m": 3,
       "calls_24h": 1438,
       "calls_60m": 17,
       "errors_60m": 5,
@@ -28,5 +28,5 @@
       "provider": "openrouter"
     }
   },
-  "produced_at": "2026-11-18T17:25:13.032Z"
+  "produced_at": "2026-11-18T17:30:08.518Z"
 }
