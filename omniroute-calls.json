@@ -10,11 +10,11 @@
       "provider": "nous-research"
     },
     "thoth-main": {
-      "calls_15m": 28,
-      "calls_24h": 3114,
-      "calls_60m": 48,
+      "calls_15m": 43,
+      "calls_24h": 3123,
+      "calls_60m": 63,
       "errors_60m": 0,
-      "last_call_at": "2026-11-19T21:25:04.685Z",
+      "last_call_at": "2026-11-19T21:27:56.514Z",
       "last_model": "qwen/qwen4-max:free",
       "provider": "nous-research"
     },
@@ -28,5 +28,5 @@
       "provider": "nous-research"
     }
   },
-  "produced_at": "2026-11-19T21:30:12.930Z"
+  "produced_at": "2026-11-19T21:30:15.530Z"
 }
