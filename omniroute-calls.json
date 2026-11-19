@@ -19,7 +19,7 @@
       "provider": "openrouter"
     },
     "zumbrel-main": {
-      "calls_15m": 36,
+      "calls_15m": 10,
       "calls_24h": 1139,
       "calls_60m": 90,
       "errors_60m": 28,
@@ -28,5 +28,5 @@
       "provider": "opencode-go"
     }
   },
-  "produced_at": "2026-11-19T02:45:09.537Z"
+  "produced_at": "2026-11-19T02:45:13.002Z"
 }
