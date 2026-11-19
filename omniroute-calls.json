@@ -11,7 +11,7 @@
     },
     "thoth-main": {
       "calls_15m": 5,
-      "calls_24h": 3109,
+      "calls_24h": 3102,
       "calls_60m": 54,
       "errors_60m": 0,
       "last_call_at": "2026-11-19T21:01:57.458Z",
@@ -28,5 +28,5 @@
       "provider": "nous-research"
     }
   },
-  "produced_at": "2026-11-19T21:05:12.936Z"
+  "produced_at": "2026-11-19T21:10:09.718Z"
 }
