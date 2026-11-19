@@ -4,7 +4,7 @@
       "checked_at": "2026-11-10T01:35:23.461Z",
       "status": "error",
       "error_code": "no included allowance reported",
-      "last_attempt_at": "2026-11-19T08:16:12.907530Z",
+      "last_attempt_at": "2026-11-19T11:16:36.419398Z",
       "monthly": {
         "period_from": "2026-10-23T23:14:19.956Z",
         "period_until": "2026-11-23T23:14:19.956Z",
@@ -12,11 +12,11 @@
       }
     },
     "main-paid": {
-      "checked_at": "2026-11-19T08:16:12.907530Z",
+      "checked_at": "2026-11-19T11:16:36.419398Z",
       "status": "ok",
       "session": {
-        "used_pct": 2.21,
-        "resets_at": "2026-11-19T11:00:00Z"
+        "used_pct": 0,
+        "resets_at": "2026-11-19T16:00:00Z"
       },
       "weekly": {
         "used_pct": 39.88,
@@ -24,5 +24,5 @@
       }
     }
   },
-  "produced_at": "2026-11-19T08:16:12.907530Z"
+  "produced_at": "2026-11-19T11:16:36.419398Z"
 }
