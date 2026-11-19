@@ -19,14 +19,14 @@
       "provider": "openrouter"
     },
     "zumbrel-main": {
-      "calls_15m": 36,
-      "calls_24h": 1117,
-      "calls_60m": 36,
-      "errors_60m": 11,
-      "last_call_at": "2026-11-19T02:20:09.120Z",
-      "last_model": "deepseek-v4.1-flash",
-      "provider": "opencode-go"
+      "calls_15m": 46,
+      "calls_24h": 1135,
+      "calls_60m": 54,
+      "errors_60m": 19,
+      "last_call_at": "2026-11-19T02:24:19.527Z",
+      "last_model": "qwen3.8-27b",
+      "provider": "openai-compatible-chat-fe33e052-d1d6-4480-bca0-d101957e0151"
     }
   },
-  "produced_at": "2026-11-19T02:25:10.273Z"
+  "produced_at": "2026-11-19T02:25:12.983Z"
 }
