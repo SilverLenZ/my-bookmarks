@@ -1,7 +1,7 @@
 {
   "combos": {
     "maat-main": {
-      "calls_15m": 38,
+      "calls_15m": 12,
       "calls_24h": 1635,
       "calls_60m": 38,
       "errors_60m": 0,
@@ -10,7 +10,7 @@
       "provider": "ollama-cloud"
     },
     "thoth-main": {
-      "calls_15m": 33,
+      "calls_15m": 20,
       "calls_24h": 2536,
       "calls_60m": 48,
       "errors_60m": 23,
@@ -28,5 +28,5 @@
       "provider": "opencode-go"
     }
   },
-  "produced_at": "2026-11-19T07:15:16.753Z"
+  "produced_at": "2026-11-19T07:20:09.709Z"
 }
