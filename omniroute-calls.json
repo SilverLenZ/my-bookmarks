@@ -10,11 +10,11 @@
       "provider": "ollama-cloud"
     },
     "thoth-main": {
-      "calls_15m": 29,
-      "calls_24h": 2265,
-      "calls_60m": 175,
+      "calls_15m": 16,
+      "calls_24h": 2267,
+      "calls_60m": 165,
       "errors_60m": 10,
-      "last_call_at": "2026-11-19T01:35:29.066Z",
+      "last_call_at": "2026-11-19T01:40:19.680Z",
       "last_model": "nvidia/nemotron-3-ultra-550b-a55b:free",
       "provider": "openrouter"
     },
@@ -28,5 +28,5 @@
       "provider": "opencode-go"
     }
   },
-  "produced_at": "2026-11-19T01:40:12.988Z"
+  "produced_at": "2026-11-19T01:45:08.305Z"
 }
