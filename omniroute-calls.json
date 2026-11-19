@@ -19,14 +19,14 @@
       "provider": "nous-research"
     },
     "zumbrel-main": {
-      "calls_15m": 9,
-      "calls_24h": 681,
-      "calls_60m": 44,
+      "calls_15m": 14,
+      "calls_24h": 691,
+      "calls_60m": 58,
       "errors_60m": 3,
-      "last_call_at": "2026-11-19T14:16:40.672Z",
+      "last_call_at": "2026-11-19T14:32:57.178Z",
       "last_model": "qwen/qwen4-max:free",
       "provider": "nous-research"
     }
   },
-  "produced_at": "2026-11-19T14:30:15.249Z"
+  "produced_at": "2026-11-19T14:35:13.019Z"
 }
