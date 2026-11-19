@@ -20,7 +20,7 @@
     },
     "zumbrel-main": {
       "calls_15m": 0,
-      "calls_24h": 1109,
+      "calls_24h": 1084,
       "calls_60m": 0,
       "errors_60m": 0,
       "last_call_at": "2026-11-18T23:38:15.966Z",
@@ -28,5 +28,5 @@
       "provider": "opencode-go"
     }
   },
-  "produced_at": "2026-11-19T01:30:13.021Z"
+  "produced_at": "2026-11-19T01:35:13.404Z"
 }
