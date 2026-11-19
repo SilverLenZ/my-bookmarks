@@ -56,18 +56,18 @@
     "metrics": [
       {
         "label": "Session limit",
-        "used_pct": 4
+        "used_pct": 0
       },
       {
         "label": "Weekly limit",
-        "used_pct": 86
+        "used_pct": 87
       },
       {
         "label": "Monthly limit",
-        "used_pct": 47
+        "used_pct": 48
       }
     ],
-    "checked_at": "2026-11-19T00:15:04.668417Z",
+    "checked_at": "2026-11-19T03:15:31.772310Z",
     "status": "ok",
     "scope": "Go plan - one pool across all clients"
   }
