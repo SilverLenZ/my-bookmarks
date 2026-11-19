@@ -19,8 +19,8 @@
       "provider": "nous-research"
     },
     "zumbrel-main": {
-      "calls_15m": 18,
-      "calls_24h": 702,
+      "calls_15m": 13,
+      "calls_24h": 690,
       "calls_60m": 26,
       "errors_60m": 0,
       "last_call_at": "2026-11-19T15:47:49.820Z",
@@ -28,5 +28,5 @@
       "provider": "nous-research"
     }
   },
-  "produced_at": "2026-11-19T15:55:09.717Z"
+  "produced_at": "2026-11-19T15:55:13.037Z"
 }
