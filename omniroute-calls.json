@@ -2,19 +2,19 @@
   "combos": {
     "maat-main": {
       "calls_15m": 49,
-      "calls_24h": 1504,
-      "calls_60m": 152,
+      "calls_24h": 1515,
+      "calls_60m": 146,
       "errors_60m": 2,
-      "last_call_at": "2026-11-19T14:42:10.766Z",
+      "last_call_at": "2026-11-19T14:49:38.981Z",
       "last_model": "qwen/qwen4-max:free",
       "provider": "nous-research"
     },
     "thoth-main": {
-      "calls_15m": 21,
-      "calls_24h": 2688,
-      "calls_60m": 185,
+      "calls_15m": 19,
+      "calls_24h": 2693,
+      "calls_60m": 166,
       "errors_60m": 0,
-      "last_call_at": "2026-11-19T14:34:56.785Z",
+      "last_call_at": "2026-11-19T14:49:21.512Z",
       "last_model": "qwen/qwen4-max:free",
       "provider": "nous-research"
     },
@@ -28,5 +28,5 @@
       "provider": "nous-research"
     }
   },
-  "produced_at": "2026-11-19T14:45:12.867Z"
+  "produced_at": "2026-11-19T14:50:04.283Z"
 }
