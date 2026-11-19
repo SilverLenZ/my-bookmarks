@@ -1,20 +1,20 @@
 {
   "combos": {
     "maat-main": {
-      "calls_15m": 41,
+      "calls_15m": 42,
       "calls_24h": 1810,
-      "calls_60m": 513,
-      "errors_60m": 22,
-      "last_call_at": "2026-11-19T00:50:05.666Z",
+      "calls_60m": 490,
+      "errors_60m": 20,
+      "last_call_at": "2026-11-19T00:50:08.598Z",
       "last_model": "deepseek-v4.1-flash",
       "provider": "ollama-cloud"
     },
     "thoth-main": {
-      "calls_15m": 118,
-      "calls_24h": 2332,
-      "calls_60m": 330,
-      "errors_60m": 13,
-      "last_call_at": "2026-11-19T00:50:04.500Z",
+      "calls_15m": 95,
+      "calls_24h": 2345,
+      "calls_60m": 308,
+      "errors_60m": 14,
+      "last_call_at": "2026-11-19T00:52:15.821Z",
       "last_model": "nvidia/nemotron-3-ultra-550b-a55b:free",
       "provider": "openrouter"
     },
@@ -28,5 +28,5 @@
       "provider": "opencode-go"
     }
   },
-  "produced_at": "2026-11-19T00:55:13.896Z"
+  "produced_at": "2026-11-19T00:55:19.251Z"
 }
