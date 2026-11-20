@@ -3,7 +3,7 @@
     "maat-main": {
       "calls_15m": 0,
       "calls_24h": 1208,
-      "calls_60m": 20,
+      "calls_60m": 17,
       "errors_60m": 0,
       "last_call_at": "2026-11-20T02:56:56.825Z",
       "last_model": "qwen/qwen4-max:free",
@@ -11,8 +11,8 @@
     },
     "thoth-main": {
       "calls_15m": 4,
-      "calls_24h": 2677,
-      "calls_60m": 45,
+      "calls_24h": 2663,
+      "calls_60m": 32,
       "errors_60m": 0,
       "last_call_at": "2026-11-20T03:31:05.110Z",
       "last_model": "qwen/qwen4-max:free",
@@ -28,5 +28,5 @@
       "provider": "nous-research"
     }
   },
-  "produced_at": "2026-11-20T03:40:13.063Z"
+  "produced_at": "2026-11-20T03:45:05.760Z"
 }
