@@ -19,14 +19,14 @@
       "provider": "opencode-go"
     },
     "zumbrel-main": {
-      "calls_15m": 17,
-      "calls_24h": 228,
-      "calls_60m": 37,
-      "errors_60m": 16,
+      "calls_15m": 0,
+      "calls_24h": 214,
+      "calls_60m": 17,
+      "errors_60m": 7,
       "last_call_at": "2026-11-20T16:17:29.225Z",
       "last_model": "deepseek-v4.1-flash",
       "provider": "opencode-go"
     }
   },
-  "produced_at": "2026-11-20T16:35:11.916Z"
+  "produced_at": "2026-11-20T16:35:14.294Z"
 }
