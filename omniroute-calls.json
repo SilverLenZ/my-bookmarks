@@ -19,14 +19,14 @@
       "provider": "opencode-go"
     },
     "zumbrel-main": {
-      "calls_15m": 22,
-      "calls_24h": 216,
-      "calls_60m": 22,
-      "errors_60m": 4,
-      "last_call_at": "2026-11-20T15:04:44.510Z",
-      "last_model": "qwen3.8-27b",
-      "provider": "openai-compatible-chat-fe33e052-d1d6-4480-bca0-d101957e0151"
+      "calls_15m": 33,
+      "calls_24h": 227,
+      "calls_60m": 33,
+      "errors_60m": 9,
+      "last_call_at": "2026-11-20T15:10:00.691Z",
+      "last_model": "deepseek-v4.1-flash",
+      "provider": "opencode-go"
     }
   },
-  "produced_at": "2026-11-20T15:10:11.805Z"
+  "produced_at": "2026-11-20T15:10:13.342Z"
 }
