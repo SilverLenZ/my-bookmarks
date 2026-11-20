@@ -20,13 +20,13 @@
     },
     "zumbrel-main": {
       "calls_15m": 18,
-      "calls_24h": 290,
-      "calls_60m": 21,
+      "calls_24h": 288,
+      "calls_60m": 29,
       "errors_60m": 0,
-      "last_call_at": "2026-11-20T02:23:26.395Z",
+      "last_call_at": "2026-11-20T02:32:17.618Z",
       "last_model": "qwen/qwen4-max:free",
       "provider": "nous-research"
     }
   },
-  "produced_at": "2026-11-20T02:35:11.982Z"
+  "produced_at": "2026-11-20T02:35:15.042Z"
 }
