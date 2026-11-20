@@ -3,7 +3,7 @@
     "maat-main": {
       "calls_15m": 0,
       "calls_24h": 1043,
-      "calls_60m": 6,
+      "calls_60m": 1,
       "errors_60m": 1,
       "last_call_at": "2026-11-20T04:57:12.369Z",
       "last_model": "qwen/qwen4-max:free",
@@ -28,5 +28,5 @@
       "provider": "nous-research"
     }
   },
-  "produced_at": "2026-11-20T05:50:16.780Z"
+  "produced_at": "2026-11-20T05:55:09.717Z"
 }
