@@ -10,13 +10,13 @@
       "provider": "ollama-cloud"
     },
     "thoth-main": {
-      "calls_15m": 21,
-      "calls_24h": 2295,
-      "calls_60m": 43,
-      "errors_60m": 10,
-      "last_call_at": "2026-11-20T10:05:05.395Z",
-      "last_model": "deepseek-v4.1-flash",
-      "provider": "opencode-go"
+      "calls_15m": 59,
+      "calls_24h": 2333,
+      "calls_60m": 67,
+      "errors_60m": 15,
+      "last_call_at": "2026-11-20T10:09:59.103Z",
+      "last_model": "qwen/qwen4-max:free",
+      "provider": "nous-research"
     },
     "zumbrel-main": {
       "calls_15m": 0,
@@ -28,5 +28,5 @@
       "provider": "opencode-go"
     }
   },
-  "produced_at": "2026-11-20T10:05:13.080Z"
+  "produced_at": "2026-11-20T10:10:01.549Z"
 }
