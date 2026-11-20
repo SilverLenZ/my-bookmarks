@@ -12,7 +12,7 @@
     "thoth-main": {
       "calls_15m": 0,
       "calls_24h": 2257,
-      "calls_60m": 25,
+      "calls_60m": 21,
       "errors_60m": 2,
       "last_call_at": "2026-11-20T06:04:48.921Z",
       "last_model": "qwen/qwen4-max:free",
@@ -28,5 +28,5 @@
       "provider": "nous-research"
     }
   },
-  "produced_at": "2026-11-20T06:30:12.998Z"
+  "produced_at": "2026-11-20T06:35:09.688Z"
 }
