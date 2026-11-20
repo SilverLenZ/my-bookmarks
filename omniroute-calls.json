@@ -1,13 +1,13 @@
 {
   "combos": {
     "maat-main": {
-      "calls_15m": 60,
-      "calls_24h": 1060,
-      "calls_60m": 63,
-      "errors_60m": 12,
-      "last_call_at": "2026-11-20T08:10:11.242Z",
-      "last_model": "deepseek-v4.1-flash",
-      "provider": "ollama-cloud"
+      "calls_15m": 74,
+      "calls_24h": 1074,
+      "calls_60m": 74,
+      "errors_60m": 13,
+      "last_call_at": "2026-11-20T08:11:35.123Z",
+      "last_model": "qwen/qwen4-max:free",
+      "provider": "nous-research"
     },
     "thoth-main": {
       "calls_15m": 10,
@@ -28,5 +28,5 @@
       "provider": "nous-research"
     }
   },
-  "produced_at": "2026-11-20T08:10:15.137Z"
+  "produced_at": "2026-11-20T08:15:08.547Z"
 }
