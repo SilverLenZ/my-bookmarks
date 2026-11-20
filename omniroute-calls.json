@@ -1,7 +1,7 @@
 {
   "combos": {
     "maat-main": {
-      "calls_15m": 24,
+      "calls_15m": 6,
       "calls_24h": 1361,
       "calls_60m": 41,
       "errors_60m": 1,
@@ -10,11 +10,11 @@
       "provider": "nous-research"
     },
     "thoth-main": {
-      "calls_15m": 66,
-      "calls_24h": 2560,
-      "calls_60m": 190,
+      "calls_15m": 42,
+      "calls_24h": 2574,
+      "calls_60m": 203,
       "errors_60m": 1,
-      "last_call_at": "2026-11-20T01:35:19.195Z",
+      "last_call_at": "2026-11-20T01:37:55.534Z",
       "last_model": "qwen/qwen4-max:free",
       "provider": "nous-research"
     },
@@ -28,5 +28,5 @@
       "provider": "nous-research"
     }
   },
-  "produced_at": "2026-11-20T01:35:27.252Z"
+  "produced_at": "2026-11-20T01:40:04.093Z"
 }
