@@ -10,11 +10,11 @@
       "provider": "ollama-cloud"
     },
     "thoth-main": {
-      "calls_15m": 74,
-      "calls_24h": 2169,
-      "calls_60m": 152,
+      "calls_15m": 60,
+      "calls_24h": 2177,
+      "calls_60m": 150,
       "errors_60m": 25,
-      "last_call_at": "2026-11-20T17:27:12.149Z",
+      "last_call_at": "2026-11-20T17:31:21.618Z",
       "last_model": "deepseek-v4.1-flash",
       "provider": "opencode-go"
     },
@@ -28,5 +28,5 @@
       "provider": "opencode-go"
     }
   },
-  "produced_at": "2026-11-20T17:30:13.150Z"
+  "produced_at": "2026-11-20T17:35:01.883Z"
 }
