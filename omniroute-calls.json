@@ -1,19 +1,19 @@
 {
   "combos": {
     "maat-main": {
-      "calls_15m": 61,
-      "calls_24h": 1238,
-      "calls_60m": 114,
+      "calls_15m": 102,
+      "calls_24h": 1279,
+      "calls_60m": 102,
       "errors_60m": 5,
-      "last_call_at": "2026-11-20T18:03:56.872Z",
+      "last_call_at": "2026-11-20T18:08:02.869Z",
       "last_model": "deepseek-v4.1-flash",
       "provider": "ollama-cloud"
     },
     "thoth-main": {
       "calls_15m": 26,
       "calls_24h": 2198,
-      "calls_60m": 151,
-      "errors_60m": 24,
+      "calls_60m": 127,
+      "errors_60m": 22,
       "last_call_at": "2026-11-20T18:04:48.225Z",
       "last_model": "deepseek-v4.1-flash",
       "provider": "opencode-go"
@@ -28,5 +28,5 @@
       "provider": "opencode-go"
     }
   },
-  "produced_at": "2026-11-20T18:10:13.023Z"
+  "produced_at": "2026-11-20T18:10:13.826Z"
 }
