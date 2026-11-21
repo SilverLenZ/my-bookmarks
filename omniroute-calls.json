@@ -1,20 +1,20 @@
 {
   "combos": {
     "maat-main": {
-      "calls_15m": 31,
-      "calls_24h": 2177,
-      "calls_60m": 136,
+      "calls_15m": 30,
+      "calls_24h": 2164,
+      "calls_60m": 166,
       "errors_60m": 1,
-      "last_call_at": "2026-11-21T18:04:41.508Z",
+      "last_call_at": "2026-11-21T18:20:01.352Z",
       "last_model": "gpt-6-luna",
       "provider": "codex"
     },
     "thoth-main": {
-      "calls_15m": 16,
-      "calls_24h": 1815,
-      "calls_60m": 68,
+      "calls_15m": 19,
+      "calls_24h": 1818,
+      "calls_60m": 76,
       "errors_60m": 0,
-      "last_call_at": "2026-11-21T18:05:04.449Z",
+      "last_call_at": "2026-11-21T18:20:08.505Z",
       "last_model": "nvidia/nemotron-3-ultra-550b-a55b:free",
       "provider": "kilo-gateway"
     },
@@ -28,5 +28,5 @@
       "provider": "kilo-gateway"
     }
   },
-  "produced_at": "2026-11-21T18:15:13.122Z"
+  "produced_at": "2026-11-21T18:20:11.580Z"
 }
