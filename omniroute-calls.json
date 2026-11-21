@@ -19,7 +19,7 @@
       "provider": "opencode-go"
     },
     "zumbrel-main": {
-      "calls_15m": 8,
+      "calls_15m": 0,
       "calls_24h": 132,
       "calls_60m": 24,
       "errors_60m": 0,
@@ -28,5 +28,5 @@
       "provider": "kilo-gateway"
     }
   },
-  "produced_at": "2026-11-21T23:30:12.961Z"
+  "produced_at": "2026-11-21T23:35:13.029Z"
 }
