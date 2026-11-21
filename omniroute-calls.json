@@ -10,11 +10,11 @@
       "provider": "kilo-gateway"
     },
     "thoth-main": {
-      "calls_15m": 55,
-      "calls_24h": 2286,
-      "calls_60m": 302,
-      "errors_60m": 4,
-      "last_call_at": "2026-11-21T04:40:08.619Z",
+      "calls_15m": 64,
+      "calls_24h": 2295,
+      "calls_60m": 311,
+      "errors_60m": 6,
+      "last_call_at": "2026-11-21T04:42:10.672Z",
       "last_model": "deepseek-v4.1-flash",
       "provider": "opencode-go"
     },
@@ -28,5 +28,5 @@
       "provider": "kilo-gateway"
     }
   },
-  "produced_at": "2026-11-21T04:45:12.933Z"
+  "produced_at": "2026-11-21T04:45:13.313Z"
 }
