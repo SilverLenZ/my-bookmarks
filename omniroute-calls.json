@@ -11,7 +11,7 @@
     },
     "thoth-main": {
       "calls_15m": 5,
-      "calls_24h": 2274,
+      "calls_24h": 2257,
       "calls_60m": 5,
       "errors_60m": 0,
       "last_call_at": "2026-11-21T10:01:14.551Z",
@@ -28,5 +28,5 @@
       "provider": "kilo-gateway"
     }
   },
-  "produced_at": "2026-11-21T10:10:16.052Z"
+  "produced_at": "2026-11-21T10:15:08.074Z"
 }
