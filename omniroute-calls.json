@@ -2,7 +2,7 @@
   "combos": {
     "maat-main": {
       "calls_15m": 0,
-      "calls_24h": 2726,
+      "calls_24h": 2713,
       "calls_60m": 1,
       "errors_60m": 0,
       "last_call_at": "2026-11-21T00:53:30.282Z",
@@ -10,11 +10,11 @@
       "provider": "kilo-gateway"
     },
     "thoth-main": {
-      "calls_15m": 7,
-      "calls_24h": 2302,
-      "calls_60m": 28,
-      "errors_60m": 1,
-      "last_call_at": "2026-11-21T01:31:25.815Z",
+      "calls_15m": 6,
+      "calls_24h": 2304,
+      "calls_60m": 26,
+      "errors_60m": 0,
+      "last_call_at": "2026-11-21T01:46:01.388Z",
       "last_model": "nvidia/nemotron-3-ultra-550b-a55b:free",
       "provider": "kilo-gateway"
     },
@@ -28,5 +28,5 @@
       "provider": "opencode-go"
     }
   },
-  "produced_at": "2026-11-21T01:45:15.751Z"
+  "produced_at": "2026-11-21T01:50:10.048Z"
 }
