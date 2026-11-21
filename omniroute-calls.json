@@ -19,14 +19,14 @@
       "provider": "opencode-go"
     },
     "zumbrel-main": {
-      "calls_15m": 10,
-      "calls_24h": 131,
-      "calls_60m": 16,
+      "calls_15m": 11,
+      "calls_24h": 132,
+      "calls_60m": 24,
       "errors_60m": 0,
-      "last_call_at": "2026-11-21T23:05:43.411Z",
+      "last_call_at": "2026-11-21T23:16:17.847Z",
       "last_model": "nvidia/nemotron-3-ultra-550b-a55b:free",
       "provider": "kilo-gateway"
     }
   },
-  "produced_at": "2026-11-21T23:20:13.308Z"
+  "produced_at": "2026-11-21T23:20:16.741Z"
 }
