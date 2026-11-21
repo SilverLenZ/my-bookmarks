@@ -19,7 +19,7 @@
       "provider": "kilo-gateway"
     },
     "zumbrel-main": {
-      "calls_15m": 4,
+      "calls_15m": 1,
       "calls_24h": 218,
       "calls_60m": 4,
       "errors_60m": 0,
@@ -28,5 +28,5 @@
       "provider": "kilo-gateway"
     }
   },
-  "produced_at": "2026-11-21T13:35:07.422Z"
+  "produced_at": "2026-11-21T13:35:12.961Z"
 }
