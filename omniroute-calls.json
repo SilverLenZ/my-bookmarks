@@ -2,7 +2,7 @@
   "combos": {
     "maat-main": {
       "calls_15m": 0,
-      "calls_24h": 2566,
+      "calls_24h": 2565,
       "calls_60m": 0,
       "errors_60m": 0,
       "last_call_at": "2026-11-21T00:53:30.282Z",
@@ -28,5 +28,5 @@
       "provider": "kilo-gateway"
     }
   },
-  "produced_at": "2026-11-21T02:55:13.064Z"
+  "produced_at": "2026-11-21T03:00:11.797Z"
 }
