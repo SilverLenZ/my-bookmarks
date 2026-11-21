@@ -2,7 +2,7 @@
   "combos": {
     "maat-main": {
       "calls_15m": 0,
-      "calls_24h": 1496,
+      "calls_24h": 1458,
       "calls_60m": 170,
       "errors_60m": 0,
       "last_call_at": "2026-11-21T22:41:57.957Z",
@@ -10,11 +10,11 @@
       "provider": "codex"
     },
     "thoth-main": {
-      "calls_15m": 25,
-      "calls_24h": 1295,
-      "calls_60m": 52,
+      "calls_15m": 27,
+      "calls_24h": 1264,
+      "calls_60m": 51,
       "errors_60m": 0,
-      "last_call_at": "2026-11-21T23:05:08.525Z",
+      "last_call_at": "2026-11-21T23:06:29.387Z",
       "last_model": "kimi-k2.7-code",
       "provider": "opencode-go"
     },
@@ -28,5 +28,5 @@
       "provider": "kilo-gateway"
     }
   },
-  "produced_at": "2026-11-21T23:05:20.054Z"
+  "produced_at": "2026-11-21T23:10:02.360Z"
 }
