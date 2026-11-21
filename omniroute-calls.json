@@ -1,7 +1,7 @@
 {
   "combos": {
     "maat-main": {
-      "calls_15m": 13,
+      "calls_15m": 0,
       "calls_24h": 2536,
       "calls_60m": 13,
       "errors_60m": 0,
@@ -10,7 +10,7 @@
       "provider": "codex"
     },
     "thoth-main": {
-      "calls_15m": 5,
+      "calls_15m": 0,
       "calls_24h": 2257,
       "calls_60m": 5,
       "errors_60m": 0,
@@ -28,5 +28,5 @@
       "provider": "kilo-gateway"
     }
   },
-  "produced_at": "2026-11-21T10:15:13.058Z"
+  "produced_at": "2026-11-21T10:20:02.564Z"
 }
