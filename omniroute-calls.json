@@ -19,14 +19,14 @@
       "provider": "kilo-gateway"
     },
     "zumbrel-main": {
-      "calls_15m": 0,
-      "calls_24h": 203,
-      "calls_60m": 0,
+      "calls_15m": 4,
+      "calls_24h": 207,
+      "calls_60m": 4,
       "errors_60m": 0,
-      "last_call_at": "2026-11-21T02:03:53.514Z",
+      "last_call_at": "2026-11-21T03:33:53.326Z",
       "last_model": "nvidia/nemotron-3-ultra-550b-a55b:free",
       "provider": "kilo-gateway"
     }
   },
-  "produced_at": "2026-11-21T03:35:05.576Z"
+  "produced_at": "2026-11-21T03:35:13.079Z"
 }
