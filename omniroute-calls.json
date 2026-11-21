@@ -2,7 +2,7 @@
   "combos": {
     "maat-main": {
       "calls_15m": 0,
-      "calls_24h": 2549,
+      "calls_24h": 2544,
       "calls_60m": 0,
       "errors_60m": 0,
       "last_call_at": "2026-11-21T00:53:30.282Z",
@@ -10,11 +10,11 @@
       "provider": "kilo-gateway"
     },
     "thoth-main": {
-      "calls_15m": 64,
-      "calls_24h": 2295,
-      "calls_60m": 311,
-      "errors_60m": 6,
-      "last_call_at": "2026-11-21T04:42:10.672Z",
+      "calls_15m": 53,
+      "calls_24h": 2302,
+      "calls_60m": 317,
+      "errors_60m": 7,
+      "last_call_at": "2026-11-21T04:46:49.735Z",
       "last_model": "deepseek-v4.1-flash",
       "provider": "opencode-go"
     },
@@ -28,5 +28,5 @@
       "provider": "kilo-gateway"
     }
   },
-  "produced_at": "2026-11-21T04:45:13.313Z"
+  "produced_at": "2026-11-21T04:50:05.208Z"
 }
