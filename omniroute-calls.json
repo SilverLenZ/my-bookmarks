@@ -10,7 +10,7 @@
       "provider": "codex"
     },
     "thoth-main": {
-      "calls_15m": 17,
+      "calls_15m": 0,
       "calls_24h": 2369,
       "calls_60m": 17,
       "errors_60m": 0,
@@ -28,5 +28,5 @@
       "provider": "kilo-gateway"
     }
   },
-  "produced_at": "2026-11-21T08:15:12.991Z"
+  "produced_at": "2026-11-21T08:20:10.548Z"
 }
