@@ -10,11 +10,11 @@
       "provider": "kilo-gateway"
     },
     "thoth-main": {
-      "calls_15m": 87,
-      "calls_24h": 2084,
-      "calls_60m": 106,
+      "calls_15m": 170,
+      "calls_24h": 2167,
+      "calls_60m": 189,
       "errors_60m": 0,
-      "last_call_at": "2026-11-21T04:05:02.416Z",
+      "last_call_at": "2026-11-21T04:09:57.207Z",
       "last_model": "nvidia/nemotron-3-ultra-550b-a55b:free",
       "provider": "kilo-gateway"
     },
@@ -28,5 +28,5 @@
       "provider": "kilo-gateway"
     }
   },
-  "produced_at": "2026-11-21T04:05:13.148Z"
+  "produced_at": "2026-11-21T04:10:03.334Z"
 }
