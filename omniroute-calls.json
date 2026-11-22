@@ -3,8 +3,8 @@
     "maat-main": {
       "calls_15m": 9,
       "calls_24h": 1326,
-      "calls_60m": 106,
-      "errors_60m": 2,
+      "calls_60m": 78,
+      "errors_60m": 0,
       "last_call_at": "2026-11-22T00:16:10.561Z",
       "last_model": "gpt-6-luna",
       "provider": "codex"
@@ -28,5 +28,5 @@
       "provider": "kilo-gateway"
     }
   },
-  "produced_at": "2026-11-22T00:20:15.363Z"
+  "produced_at": "2026-11-22T00:25:13.307Z"
 }
