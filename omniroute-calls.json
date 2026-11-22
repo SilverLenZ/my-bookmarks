@@ -19,8 +19,8 @@
       "provider": "ollama-cloud"
     },
     "zumbrel-main": {
-      "calls_15m": 1,
-      "calls_24h": 62,
+      "calls_15m": 0,
+      "calls_24h": 59,
       "calls_60m": 9,
       "errors_60m": 1,
       "last_call_at": "2026-11-22T22:40:23.539Z",
@@ -28,5 +28,5 @@
       "provider": "kilo-gateway"
     }
   },
-  "produced_at": "2026-11-22T22:55:13.102Z"
+  "produced_at": "2026-11-22T23:00:14.075Z"
 }
