@@ -21,12 +21,12 @@
     "zumbrel-main": {
       "calls_15m": 0,
       "calls_24h": 132,
-      "calls_60m": 8,
+      "calls_60m": 0,
       "errors_60m": 0,
       "last_call_at": "2026-11-21T23:16:17.847Z",
       "last_model": "nvidia/nemotron-3-ultra-550b-a55b:free",
       "provider": "kilo-gateway"
     }
   },
-  "produced_at": "2026-11-22T00:20:11.892Z"
+  "produced_at": "2026-11-22T00:20:15.363Z"
 }
