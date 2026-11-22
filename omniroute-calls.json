@@ -10,13 +10,13 @@
       "provider": "codex"
     },
     "thoth-main": {
-      "calls_15m": 0,
-      "calls_24h": 1016,
-      "calls_60m": 13,
+      "calls_15m": 2,
+      "calls_24h": 1018,
+      "calls_60m": 15,
       "errors_60m": 1,
-      "last_call_at": "2026-11-22T00:45:58.329Z",
-      "last_model": "nvidia/nemotron-3-ultra-550b-a55b:free",
-      "provider": "kilo-gateway"
+      "last_call_at": "2026-11-22T01:07:27.289Z",
+      "last_model": "deepseek-v4.1-flash",
+      "provider": "ollama-cloud"
     },
     "zumbrel-main": {
       "calls_15m": 0,
@@ -28,5 +28,5 @@
       "provider": "kilo-gateway"
     }
   },
-  "produced_at": "2026-11-22T01:05:20.542Z"
+  "produced_at": "2026-11-22T01:10:07.351Z"
 }
