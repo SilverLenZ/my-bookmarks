@@ -3,7 +3,7 @@
     "maat-main": {
       "calls_15m": 0,
       "calls_24h": 103,
-      "calls_60m": 21,
+      "calls_60m": 0,
       "errors_60m": 0,
       "last_call_at": "2026-11-23T01:16:27.416Z",
       "last_model": "deepseek-v4.1-flash",
@@ -28,5 +28,5 @@
       "provider": "kilo-gateway"
     }
   },
-  "produced_at": "2026-11-23T02:20:13.053Z"
+  "produced_at": "2026-11-23T02:20:21.049Z"
 }
