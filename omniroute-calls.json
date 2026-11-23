@@ -10,8 +10,8 @@
       "provider": "ollama-cloud"
     },
     "thoth-main": {
-      "calls_15m": 3,
-      "calls_24h": 48,
+      "calls_15m": 0,
+      "calls_24h": 44,
       "calls_60m": 3,
       "errors_60m": 0,
       "last_call_at": "2026-11-23T00:30:41.097Z",
@@ -28,5 +28,5 @@
       "provider": "kilo-gateway"
     }
   },
-  "produced_at": "2026-11-23T00:45:16.600Z"
+  "produced_at": "2026-11-23T00:50:11.888Z"
 }
