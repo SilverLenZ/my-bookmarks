@@ -20,13 +20,13 @@
     },
     "zumbrel-main": {
       "calls_15m": 9,
-      "calls_24h": 72,
-      "calls_60m": 17,
-      "errors_60m": 10,
-      "last_call_at": "2026-11-23T04:23:52.242Z",
+      "calls_24h": 75,
+      "calls_60m": 20,
+      "errors_60m": 12,
+      "last_call_at": "2026-11-23T04:29:07.823Z",
       "last_model": "deepseek-v4.1-flash",
       "provider": "opencode-go"
     }
   },
-  "produced_at": "2026-11-23T04:25:12.980Z"
+  "produced_at": "2026-11-23T04:30:12.917Z"
 }
