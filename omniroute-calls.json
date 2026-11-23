@@ -2,7 +2,7 @@
   "combos": {
     "maat-main": {
       "calls_15m": 0,
-      "calls_24h": 206,
+      "calls_24h": 199,
       "calls_60m": 0,
       "errors_60m": 0,
       "last_call_at": "2026-11-23T07:04:02.818Z",
@@ -12,7 +12,7 @@
     "thoth-main": {
       "calls_15m": 0,
       "calls_24h": 231,
-      "calls_60m": 14,
+      "calls_60m": 0,
       "errors_60m": 0,
       "last_call_at": "2026-11-23T08:04:21.077Z",
       "last_model": "deepseek-v4.1-flash",
@@ -28,5 +28,5 @@
       "provider": "kilo-gateway"
     }
   },
-  "produced_at": "2026-11-23T09:05:12.882Z"
+  "produced_at": "2026-11-23T09:05:17.131Z"
 }
