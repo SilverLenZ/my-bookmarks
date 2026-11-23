@@ -12,7 +12,7 @@
     "thoth-main": {
       "calls_15m": 0,
       "calls_24h": 254,
-      "calls_60m": 25,
+      "calls_60m": 7,
       "errors_60m": 0,
       "last_call_at": "2026-11-23T16:58:22.293Z",
       "last_model": "deepseek-v4.1-flash",
@@ -28,5 +28,5 @@
       "provider": "kilo-gateway"
     }
   },
-  "produced_at": "2026-11-23T17:55:13.008Z"
+  "produced_at": "2026-11-23T17:55:20.819Z"
 }
