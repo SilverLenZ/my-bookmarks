@@ -1,7 +1,7 @@
 {
   "combos": {
     "maat-main": {
-      "calls_15m": 33,
+      "calls_15m": 0,
       "calls_24h": 244,
       "calls_60m": 33,
       "errors_60m": 0,
@@ -10,7 +10,7 @@
       "provider": "opencode-go"
     },
     "thoth-main": {
-      "calls_15m": 7,
+      "calls_15m": 0,
       "calls_24h": 238,
       "calls_60m": 7,
       "errors_60m": 0,
@@ -28,5 +28,5 @@
       "provider": "kilo-gateway"
     }
   },
-  "produced_at": "2026-11-23T14:30:15.193Z"
+  "produced_at": "2026-11-23T14:35:04.834Z"
 }
