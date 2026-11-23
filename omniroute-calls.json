@@ -19,14 +19,14 @@
       "provider": "ollama-cloud"
     },
     "zumbrel-main": {
-      "calls_15m": 9,
-      "calls_24h": 84,
-      "calls_60m": 29,
+      "calls_15m": 7,
+      "calls_24h": 85,
+      "calls_60m": 30,
       "errors_60m": 18,
-      "last_call_at": "2026-11-23T04:44:43.531Z",
-      "last_model": "deepseek-v4.1-flash",
-      "provider": "opencode-go"
+      "last_call_at": "2026-11-23T04:49:51.340Z",
+      "last_model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+      "provider": "kilo-gateway"
     }
   },
-  "produced_at": "2026-11-23T04:50:02.037Z"
+  "produced_at": "2026-11-23T04:50:14.032Z"
 }
