@@ -10,7 +10,7 @@
       "provider": "opencode-go"
     },
     "thoth-main": {
-      "calls_15m": 25,
+      "calls_15m": 0,
       "calls_24h": 154,
       "calls_60m": 112,
       "errors_60m": 0,
@@ -28,5 +28,5 @@
       "provider": "kilo-gateway"
     }
   },
-  "produced_at": "2026-11-23T03:25:04.855Z"
+  "produced_at": "2026-11-23T03:25:17.237Z"
 }
