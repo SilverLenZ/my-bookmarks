@@ -1,16 +1,16 @@
 {
   "combos": {
     "maat-main": {
-      "calls_15m": 0,
-      "calls_24h": 226,
-      "calls_60m": 0,
+      "calls_15m": 30,
+      "calls_24h": 256,
+      "calls_60m": 30,
       "errors_60m": 0,
-      "last_call_at": "2026-11-23T18:34:33.479Z",
+      "last_call_at": "2026-11-23T22:48:01.496Z",
       "last_model": "deepseek-v4.1-flash",
       "provider": "opencode-go"
     },
     "thoth-main": {
-      "calls_15m": 4,
+      "calls_15m": 0,
       "calls_24h": 285,
       "calls_60m": 4,
       "errors_60m": 0,
@@ -28,5 +28,5 @@
       "provider": "kilo-gateway"
     }
   },
-  "produced_at": "2026-11-23T22:45:12.955Z"
+  "produced_at": "2026-11-23T22:50:11.878Z"
 }
