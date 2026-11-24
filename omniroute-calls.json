@@ -1,20 +1,20 @@
 {
   "combos": {
     "maat-main": {
-      "calls_15m": 26,
-      "calls_24h": 366,
-      "calls_60m": 56,
+      "calls_15m": 40,
+      "calls_24h": 406,
+      "calls_60m": 89,
       "errors_60m": 0,
-      "last_call_at": "2026-11-24T05:18:36.114Z",
+      "last_call_at": "2026-11-24T05:35:03.621Z",
       "last_model": "gpt-6-luna",
       "provider": "codex"
     },
     "thoth-main": {
-      "calls_15m": 7,
-      "calls_24h": 187,
-      "calls_60m": 33,
+      "calls_15m": 12,
+      "calls_24h": 199,
+      "calls_60m": 30,
       "errors_60m": 0,
-      "last_call_at": "2026-11-24T05:15:59.910Z",
+      "last_call_at": "2026-11-24T05:31:41.758Z",
       "last_model": "deepseek-v4.1-flash",
       "provider": "ollama-cloud"
     },
@@ -28,5 +28,5 @@
       "provider": "kilo-gateway"
     }
   },
-  "produced_at": "2026-11-24T05:30:12.955Z"
+  "produced_at": "2026-11-24T05:35:08.527Z"
 }
