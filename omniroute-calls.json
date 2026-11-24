@@ -1,11 +1,11 @@
 {
   "combos": {
     "maat-main": {
-      "calls_15m": 102,
-      "calls_24h": 751,
-      "calls_60m": 131,
+      "calls_15m": 124,
+      "calls_24h": 790,
+      "calls_60m": 170,
       "errors_60m": 0,
-      "last_call_at": "2026-11-24T16:35:11.375Z",
+      "last_call_at": "2026-11-24T16:40:18.758Z",
       "last_model": "gpt-6-luna",
       "provider": "codex"
     },
@@ -28,5 +28,5 @@
       "provider": "kilo-gateway"
     }
   },
-  "produced_at": "2026-11-24T16:40:12.915Z"
+  "produced_at": "2026-11-24T16:40:21.876Z"
 }
