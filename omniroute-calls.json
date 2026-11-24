@@ -19,14 +19,14 @@
       "provider": "ollama-cloud"
     },
     "zumbrel-main": {
-      "calls_15m": 21,
-      "calls_24h": 154,
-      "calls_60m": 21,
+      "calls_15m": 20,
+      "calls_24h": 174,
+      "calls_60m": 41,
       "errors_60m": 0,
-      "last_call_at": "2026-11-24T01:03:10.803Z",
+      "last_call_at": "2026-11-24T01:17:56.128Z",
       "last_model": "nvidia/nemotron-3-ultra-550b-a55b:free",
       "provider": "kilo-gateway"
     }
   },
-  "produced_at": "2026-11-24T01:20:09.389Z"
+  "produced_at": "2026-11-24T01:20:12.978Z"
 }
