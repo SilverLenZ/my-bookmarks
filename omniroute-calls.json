@@ -10,11 +10,11 @@
       "provider": "codex"
     },
     "thoth-main": {
-      "calls_15m": 12,
-      "calls_24h": 524,
+      "calls_15m": 2,
+      "calls_24h": 526,
       "calls_60m": 24,
       "errors_60m": 0,
-      "last_call_at": "2026-11-24T21:01:04.877Z",
+      "last_call_at": "2026-11-24T21:15:25.317Z",
       "last_model": "deepseek-v4.1-flash",
       "provider": "ollama-cloud"
     },
@@ -28,5 +28,5 @@
       "provider": "kilo-gateway"
     }
   },
-  "produced_at": "2026-11-24T21:20:12.961Z"
+  "produced_at": "2026-11-24T21:20:21.878Z"
 }
