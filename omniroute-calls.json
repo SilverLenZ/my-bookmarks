@@ -1,11 +1,11 @@
 {
   "combos": {
     "maat-main": {
-      "calls_15m": 0,
-      "calls_24h": 273,
-      "calls_60m": 0,
+      "calls_15m": 27,
+      "calls_24h": 300,
+      "calls_60m": 27,
       "errors_60m": 0,
-      "last_call_at": "2026-11-23T23:01:29.961Z",
+      "last_call_at": "2026-11-24T00:46:58.215Z",
       "last_model": "deepseek-v4.1-flash",
       "provider": "opencode-go"
     },
@@ -28,5 +28,5 @@
       "provider": "kilo-gateway"
     }
   },
-  "produced_at": "2026-11-24T00:45:14.010Z"
+  "produced_at": "2026-11-24T00:50:06.687Z"
 }
