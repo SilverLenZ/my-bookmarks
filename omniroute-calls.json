@@ -10,11 +10,11 @@
       "provider": "opencode-go"
     },
     "thoth-main": {
-      "calls_15m": 0,
-      "calls_24h": 220,
-      "calls_60m": 0,
+      "calls_15m": 4,
+      "calls_24h": 224,
+      "calls_60m": 4,
       "errors_60m": 0,
-      "last_call_at": "2026-11-24T01:43:19.298Z",
+      "last_call_at": "2026-11-24T02:45:35.658Z",
       "last_model": "deepseek-v4.1-flash",
       "provider": "ollama-cloud"
     },
@@ -28,5 +28,5 @@
       "provider": "kilo-gateway"
     }
   },
-  "produced_at": "2026-11-24T02:50:13.045Z"
+  "produced_at": "2026-11-24T02:50:18.047Z"
 }
