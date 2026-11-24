@@ -27,14 +27,14 @@
     "metrics": [
       {
         "label": "5-hour limit",
-        "used_pct": 17
+        "used_pct": 19
       },
       {
         "label": "Weekly limit",
         "used_pct": 13
       }
     ],
-    "checked_at": "2026-11-24T21:56:31Z",
+    "checked_at": "2026-11-24T22:57:39Z",
     "status": "ok",
     "scope": "Codex, Work, agents & Excel - not chats"
   },
@@ -67,7 +67,7 @@
         "used_pct": 54
       }
     ],
-    "checked_at": "2026-11-24T20:00:51.232374Z",
+    "checked_at": "2026-11-24T23:03:24.713484Z",
     "status": "ok",
     "scope": "Go plan - one pool across all clients"
   }
