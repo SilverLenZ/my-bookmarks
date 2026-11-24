@@ -31,10 +31,10 @@
       },
       {
         "label": "Weekly limit",
-        "used_pct": 9
+        "used_pct": 11
       }
     ],
-    "checked_at": "2026-11-24T16:51:10Z",
+    "checked_at": "2026-11-24T18:53:04Z",
     "status": "ok",
     "scope": "Codex, Work, agents & Excel - not chats"
   },
