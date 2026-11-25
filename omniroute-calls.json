@@ -11,7 +11,7 @@
     },
     "thoth-main": {
       "calls_15m": 4,
-      "calls_24h": 840,
+      "calls_24h": 839,
       "calls_60m": 23,
       "errors_60m": 0,
       "last_call_at": "2026-11-25T04:30:39.820Z",
@@ -28,5 +28,5 @@
       "provider": "opencode-go"
     }
   },
-  "produced_at": "2026-11-25T04:35:15.812Z"
+  "produced_at": "2026-11-25T04:40:11.929Z"
 }
