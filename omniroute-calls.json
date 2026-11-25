@@ -1,11 +1,11 @@
 {
   "combos": {
     "maat-main": {
-      "calls_15m": 20,
-      "calls_24h": 844,
-      "calls_60m": 118,
+      "calls_15m": 117,
+      "calls_24h": 941,
+      "calls_60m": 215,
       "errors_60m": 0,
-      "last_call_at": "2026-11-25T01:50:18.844Z",
+      "last_call_at": "2026-11-25T01:55:07.638Z",
       "last_model": "gpt-6-luna",
       "provider": "codex"
     },
@@ -28,5 +28,5 @@
       "provider": "opencode-go"
     }
   },
-  "produced_at": "2026-11-25T01:50:20.800Z"
+  "produced_at": "2026-11-25T01:55:11.876Z"
 }
