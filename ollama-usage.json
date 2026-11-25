@@ -67,10 +67,8 @@
         "used_pct": 54
       }
     ],
-    "checked_at": "2026-11-24T23:03:24.713484Z",
-    "status": "error",
-    "scope": "Go plan - one pool across all clients",
-    "error_code": "HTTP 403",
-    "message": "HTTP 403. Last good Nov 24, 16:03 MST: session 0%, weekly 0%, monthly 54%."
+    "checked_at": "2026-11-25T01:52:31.490420Z",
+    "status": "ok",
+    "scope": "Go plan - one pool across all clients"
   }
 }
