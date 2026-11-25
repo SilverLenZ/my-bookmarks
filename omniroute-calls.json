@@ -11,10 +11,10 @@
     },
     "thoth-main": {
       "calls_15m": 2,
-      "calls_24h": 836,
+      "calls_24h": 835,
       "calls_60m": 8,
       "errors_60m": 0,
-      "last_call_at": "2026-11-25T12:00:25.858Z",
+      "last_call_at": "2026-11-25T12:15:24.587Z",
       "last_model": "deepseek-v4.1-flash",
       "provider": "ollama-cloud"
     },
@@ -28,5 +28,5 @@
       "provider": "opencode-go"
     }
   },
-  "produced_at": "2026-11-25T12:20:13.013Z"
+  "produced_at": "2026-11-25T12:20:21.877Z"
 }
