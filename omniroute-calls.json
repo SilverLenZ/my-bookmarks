@@ -12,7 +12,7 @@
     "thoth-main": {
       "calls_15m": 14,
       "calls_24h": 846,
-      "calls_60m": 124,
+      "calls_60m": 78,
       "errors_60m": 0,
       "last_call_at": "2026-11-25T03:01:30.714Z",
       "last_model": "deepseek-v4.1-flash",
@@ -28,5 +28,5 @@
       "provider": "opencode-go"
     }
   },
-  "produced_at": "2026-11-25T03:10:13.052Z"
+  "produced_at": "2026-11-25T03:15:10.315Z"
 }
