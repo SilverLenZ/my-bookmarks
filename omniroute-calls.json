@@ -10,9 +10,9 @@
       "provider": "codex"
     },
     "thoth-main": {
-      "calls_15m": 28,
-      "calls_24h": 881,
-      "calls_60m": 52,
+      "calls_15m": 17,
+      "calls_24h": 879,
+      "calls_60m": 42,
       "errors_60m": 0,
       "last_call_at": "2026-11-25T20:06:52.630Z",
       "last_model": "deepseek-v4.1-flash",
@@ -28,5 +28,5 @@
       "provider": "opencode-go"
     }
   },
-  "produced_at": "2026-11-25T20:20:12.960Z"
+  "produced_at": "2026-11-25T20:20:21.879Z"
 }
