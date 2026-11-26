@@ -2,7 +2,7 @@
   "combos": {
     "maat-main": {
       "calls_15m": 0,
-      "calls_24h": 242,
+      "calls_24h": 221,
       "calls_60m": 25,
       "errors_60m": 0,
       "last_call_at": "2026-11-26T17:33:25.334Z",
@@ -11,7 +11,7 @@
     },
     "thoth-main": {
       "calls_15m": 0,
-      "calls_24h": 288,
+      "calls_24h": 283,
       "calls_60m": 16,
       "errors_60m": 0,
       "last_call_at": "2026-11-26T17:42:52.019Z",
@@ -28,5 +28,5 @@
       "provider": "opencode-go"
     }
   },
-  "produced_at": "2026-11-26T18:15:15.239Z"
+  "produced_at": "2026-11-26T18:20:06.375Z"
 }
