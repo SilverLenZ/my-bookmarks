@@ -3,7 +3,7 @@
     "maat-main": {
       "calls_15m": 0,
       "calls_24h": 261,
-      "calls_60m": 7,
+      "calls_60m": 0,
       "errors_60m": 0,
       "last_call_at": "2026-11-26T18:50:00.107Z",
       "last_model": "gpt-6-luna",
@@ -11,7 +11,7 @@
     },
     "thoth-main": {
       "calls_15m": 0,
-      "calls_24h": 236,
+      "calls_24h": 222,
       "calls_60m": 0,
       "errors_60m": 0,
       "last_call_at": "2026-11-26T17:42:52.019Z",
@@ -28,5 +28,5 @@
       "provider": "opencode-go"
     }
   },
-  "produced_at": "2026-11-26T19:45:21.891Z"
+  "produced_at": "2026-11-26T19:50:08.070Z"
 }
