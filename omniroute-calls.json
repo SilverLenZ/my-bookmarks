@@ -1,7 +1,7 @@
 {
   "combos": {
     "maat-main": {
-      "calls_15m": 26,
+      "calls_15m": 7,
       "calls_24h": 217,
       "calls_60m": 75,
       "errors_60m": 0,
@@ -12,7 +12,7 @@
     "thoth-main": {
       "calls_15m": 0,
       "calls_24h": 423,
-      "calls_60m": 26,
+      "calls_60m": 11,
       "errors_60m": 0,
       "last_call_at": "2026-11-26T15:01:01.301Z",
       "last_model": "deepseek-v4.1-flash",
@@ -28,5 +28,5 @@
       "provider": "opencode-go"
     }
   },
-  "produced_at": "2026-11-26T15:50:15.050Z"
+  "produced_at": "2026-11-26T15:55:11.880Z"
 }
