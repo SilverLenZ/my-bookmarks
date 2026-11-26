@@ -27,14 +27,14 @@
     "metrics": [
       {
         "label": "5-hour limit",
-        "used_pct": 8
+        "used_pct": 1
       },
       {
         "label": "Weekly limit",
         "used_pct": 18
       }
     ],
-    "checked_at": "2026-11-26T19:31:26Z",
+    "checked_at": "2026-11-26T20:31:36Z",
     "status": "ok",
     "scope": "Codex, Work, agents & Excel - not chats"
   },
