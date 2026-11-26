@@ -1,17 +1,17 @@
 {
   "combos": {
     "maat-main": {
-      "calls_15m": 33,
-      "calls_24h": 254,
-      "calls_60m": 33,
+      "calls_15m": 7,
+      "calls_24h": 261,
+      "calls_60m": 40,
       "errors_60m": 0,
-      "last_call_at": "2026-11-26T18:35:00.822Z",
+      "last_call_at": "2026-11-26T18:50:00.107Z",
       "last_model": "gpt-6-luna",
       "provider": "codex"
     },
     "thoth-main": {
       "calls_15m": 0,
-      "calls_24h": 268,
+      "calls_24h": 258,
       "calls_60m": 0,
       "errors_60m": 0,
       "last_call_at": "2026-11-26T17:42:52.019Z",
@@ -28,5 +28,5 @@
       "provider": "opencode-go"
     }
   },
-  "produced_at": "2026-11-26T18:50:12.959Z"
+  "produced_at": "2026-11-26T18:50:21.907Z"
 }
