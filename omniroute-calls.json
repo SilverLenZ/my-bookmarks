@@ -10,7 +10,7 @@
       "provider": "codex"
     },
     "thoth-main": {
-      "calls_15m": 4,
+      "calls_15m": 0,
       "calls_24h": 212,
       "calls_60m": 4,
       "errors_60m": 0,
@@ -28,5 +28,5 @@
       "provider": "opencode-go"
     }
   },
-  "produced_at": "2026-11-27T02:20:13.122Z"
+  "produced_at": "2026-11-27T02:20:21.336Z"
 }
