@@ -3,18 +3,18 @@
     "maat-main": {
       "calls_15m": 1,
       "calls_24h": 119,
-      "calls_60m": 10,
+      "calls_60m": 5,
       "errors_60m": 1,
       "last_call_at": "2026-11-27T22:06:50.823Z",
       "last_model": "gpt-6-luna",
       "provider": "codex"
     },
     "thoth-main": {
-      "calls_15m": 0,
-      "calls_24h": 82,
-      "calls_60m": 18,
+      "calls_15m": 7,
+      "calls_24h": 89,
+      "calls_60m": 25,
       "errors_60m": 0,
-      "last_call_at": "2026-11-27T21:56:10.322Z",
+      "last_call_at": "2026-11-27T22:18:18.836Z",
       "last_model": "deepseek-v4.1-flash",
       "provider": "ollama-cloud"
     },
@@ -28,5 +28,5 @@
       "provider": "opencode-go"
     }
   },
-  "produced_at": "2026-11-27T22:15:13.088Z"
+  "produced_at": "2026-11-27T22:20:11.899Z"
 }
