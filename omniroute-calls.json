@@ -1,7 +1,7 @@
 {
   "combos": {
     "maat-main": {
-      "calls_15m": 6,
+      "calls_15m": 0,
       "calls_24h": 409,
       "calls_60m": 16,
       "errors_60m": 0,
@@ -28,5 +28,5 @@
       "provider": "opencode-go"
     }
   },
-  "produced_at": "2026-11-27T04:50:12.841Z"
+  "produced_at": "2026-11-27T04:50:21.885Z"
 }
