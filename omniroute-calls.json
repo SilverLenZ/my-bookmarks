@@ -1,7 +1,7 @@
 {
   "combos": {
     "maat-main": {
-      "calls_15m": 25,
+      "calls_15m": 0,
       "calls_24h": 420,
       "calls_60m": 25,
       "errors_60m": 0,
@@ -10,7 +10,7 @@
       "provider": "codex"
     },
     "thoth-main": {
-      "calls_15m": 6,
+      "calls_15m": 0,
       "calls_24h": 202,
       "calls_60m": 6,
       "errors_60m": 0,
@@ -28,5 +28,5 @@
       "provider": "opencode-go"
     }
   },
-  "produced_at": "2026-11-27T09:15:21.897Z"
+  "produced_at": "2026-11-27T09:20:04.315Z"
 }
