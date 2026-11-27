@@ -1,18 +1,18 @@
 {
   "combos": {
     "maat-main": {
-      "calls_15m": 2,
-      "calls_24h": 122,
-      "calls_60m": 6,
+      "calls_15m": 3,
+      "calls_24h": 125,
+      "calls_60m": 8,
       "errors_60m": 1,
-      "last_call_at": "2026-11-27T22:25:53.682Z",
+      "last_call_at": "2026-11-27T22:44:55.601Z",
       "last_model": "gpt-6-luna",
       "provider": "codex"
     },
     "thoth-main": {
       "calls_15m": 0,
       "calls_24h": 89,
-      "calls_60m": 13,
+      "calls_60m": 8,
       "errors_60m": 0,
       "last_call_at": "2026-11-27T22:18:18.836Z",
       "last_model": "deepseek-v4.1-flash",
@@ -28,5 +28,5 @@
       "provider": "opencode-go"
     }
   },
-  "produced_at": "2026-11-27T22:45:12.893Z"
+  "produced_at": "2026-11-27T22:45:18.863Z"
 }
